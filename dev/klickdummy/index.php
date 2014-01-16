@@ -1,5 +1,5 @@
 <?php
-    
+    $pagetitle= "test";
 	
 	$contentleftincludes = array(
 	   '',
@@ -14,5 +14,5 @@
 	   ''
 	);
 
-	include 'inc/tempaltes/template-2-1.inc';
+	include 'inc/templates/template-2-1.inc';
 ?>       
