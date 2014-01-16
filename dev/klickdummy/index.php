@@ -5,7 +5,7 @@
 	   'contentwidget1.inc'
 	);
 	$contentrightincludes = array(
-
+	   'contentwidget2.inc'
 	);
 	$sideincludes = array(
 
