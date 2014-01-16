@@ -104,7 +104,6 @@ Da das einzige Unterscheidungskriterium also der Inhaltsbereich ist, habe ich di
 - Contentbereich: 760px
 - Contentbereich - breitere Spalte: 505px (~66%)
 - Contentbereich - schmalere Spalte: 245px (~33%)
-- Formularbreite: 570px (75%)
 
 - Größe der Lightbox mit Bildergalerie: 800x500
 - Größe der Lightbox mit Text: 800x320
