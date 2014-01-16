@@ -38,3 +38,8 @@
   width: 175px; /* column width */
   margin: 0 -175px 0 0;
 }
+
+footer {
+	overflow: hidden;
+}
+
