@@ -2,7 +2,7 @@
     $pagetitle= "test";
 	
 	$contentleftincludes = array(
-	   '',
+	   'sponsoren-liste.inc',
 	   ''
 	);
 	$contentrightincludes = array(
