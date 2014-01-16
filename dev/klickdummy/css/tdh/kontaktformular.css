@@ -1,0 +1,36 @@
+﻿
+#kontakt {
+width: 570px;
+}
+
+#request{
+	width: 45%;
+	 -webkit-appearance: none;  /*Removes default chrome and safari style*/
+     -moz-appearance: none;
+	 appearance: none;
+}
+#message{
+	resize:none;
+}
+
+#name{
+	width: 45%;
+}
+#email{
+	width: 45%;
+}
+#submit {
+padding:3 25 3 15px;
+}
+#submit ul{
+display: inline;
+margin:0;
+}
+
+.ym-fbox label{
+	font-weight:bold;
+}
+.ym-fbox label p{
+	font-weight:normal;
+	font-size:0.8em;
+}
