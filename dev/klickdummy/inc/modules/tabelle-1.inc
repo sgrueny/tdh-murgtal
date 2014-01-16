@@ -1,19 +1,56 @@
 <!--TODO: Muss später entfert werden-->
 <link rel="stylesheet" type="text/css" href="../../css/tdh/tabelle-1.css"/> 
-<table>
+<table class="sponsoren-tab-1">
 	<caption>
 		<fieldset>
 			<legend>Was wollen Sie sehen?</legend>
 			<div>
-				<!--TODO: selects-->
+				<label for="companyname">Firmenname:</label>
+				<select id="companyname">
+					<option value="" checked>---</option>
+					<option value="A">A</option>
+					<option value="B">B</option>
+					<option value="C">C</option>
+					<option value="D">D</option>
+					<option value="E">E</option>
+					<option value="F">F</option>
+					<option value="G">G</option>
+					<option value="H">H</option>
+					<option value="I">I</option>
+					<option value="J">J</option>
+					<option value="K">K</option>
+					<option value="L">L</option>
+					<option value="M">M</option>
+					<option value="N">N</option>
+					<option value="O">O</option>
+					<option value="P">P</option>
+					<option value="Q">Q</option>
+					<option value="R">R</option>
+					<option value="S">S</option>
+					<option value="T">T</option>
+					<option value="U">U</option>
+					<option value="V">V</option>
+					<option value="W">W</option>
+					<option value="X">X</option>
+					<option value="Y">Y</option>
+					<option value="Z">Z</option>
+				</select>
+				<label for="companylocation">Ort:</label>
+				<select id="companylocation">
+					<option value="" checked>---</option>
+					<!--TODO: auslesen der orte und einfügen-->
+					<option value="A">A</option>
+				</select>
+				
 				<span>Auswahl treffen und dann</span>
 				<a href="">&bull; Inhalt sotieren</a>
 			</div>
 		</fieldset>
 	</caption>
 	<tr>
-		<th><!--TODO: bild einbauen-->
-		Abacus Nachhilfeinstitut
+		<th>
+			<img src="../../images/einzelnachhilfe.gif"/>
+			Abacus Nachhilfeinstitut
 		</th>
 		<td>Gernsbach-Scheuern</td>
 	</tr>
@@ -30,14 +67,17 @@
 		<td>Karlsruhe</td>
 	</tr>
 	<tr>
-		<th><!--TODO: bild einbauen-->
-		Adler Apotheke
+		<th>
+			<img src="../../images/adler-apotheke.gif"/>
+			Adler Apotheke
 		</th>
 		<td>Kuppenheim</td>
 	</tr>
+	<!--Kopie des erten Teils-->
 	<tr>
-		<th><!--TODO: bild einbauen-->
-		Abacus Nachhilfeinstitut
+		<th>
+			<img src="../../images/einzelnachhilfe.gif"/>
+			Abacus Nachhilfeinstitut
 		</th>
 		<td>Gernsbach-Scheuern</td>
 	</tr>
@@ -54,8 +94,9 @@
 		<td>Karlsruhe</td>
 	</tr>
 	<tr>
-		<th><!--TODO: bild einbauen-->
-		Adler Apotheke
+		<th>
+			<img src="../../images/adler-apotheke.gif"/>
+			Adler Apotheke
 		</th>
 		<td>Kuppenheim</td>
 	</tr>

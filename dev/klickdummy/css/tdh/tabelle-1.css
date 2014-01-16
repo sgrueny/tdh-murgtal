@@ -1,1 +1,34 @@
-body{background-color: black}
+.sponsoren-tab-1 
+{
+width: 760px;
+border-collapse: collapse;
+}
+
+.sponsoren-tab-1 caption
+{
+border-top: solid  #B1B3B3 2px;
+border-bottom: solid  #B1B3B3 2px;
+}
+
+.sponsoren-tab-1 fieldset
+{
+border: 0px;
+}
+
+.sponsoren-tab-1 td, th
+{
+height: 69px;
+border-bottom: solid #B1B3B3 1px;
+}
+
+.sponsoren-tab-1 img
+{
+vertical-align: middle;
+margin: 5px;
+}
+
+.sponsoren-tab-1 th
+{
+color: #AD1921;
+text-align: left;
+}
