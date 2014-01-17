@@ -9,7 +9,7 @@
 	<p>Hier erklären wir Ihnen, welche Möglichkeiten
 	Sponsoring bei terre des hommes Murgtal bestehen.
 	</p>
-	<a href="#">&bull; PDF Download</a>
+	<div class="link">&bull; <a href="#">PDF Download</a</div>
 	</article>
 	</section>
 </div>

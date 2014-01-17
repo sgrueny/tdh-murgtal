@@ -4,6 +4,9 @@ img{
 .contentpadded{
 	padding:15px;
 }
+.link{
+	color:#AD1921;
+}
 small{
 	color:#6f6f6f;
 	display:block;
@@ -20,3 +23,9 @@ a{
 	color:#AD1921;
 	text-decoration:none;
 }
+a:hover{
+	text-decoration: underline;
+	color:#AD1921;
+	background:#FFFFFF;
+}
+

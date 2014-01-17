@@ -12,7 +12,7 @@
 	indem er Jung und Alt eindrucksvoll demonstrierte, wie man ohne
 	technische Hilfsmittel Feuer entzünden kann.
 	</p>
-	<a href="#">&bull; Mehr in den Meldungen</a>
+	<div class="link">&bull; <a href="#">Mehr in den Meldungen</a></div>
 	</article>
 	</section>
 </div>

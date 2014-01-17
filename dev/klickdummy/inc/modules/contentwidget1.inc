@@ -7,7 +7,7 @@
 	<h3>Staubige Kindheit</h3>
 	</header>
 	<article>
-	<a href="#">&bull; mehr darüber bei terre des hommes Deutschland</a>
+	<div class="link">&bull; <a href="#">mehr darüber bei terre des hommes Deutschland</a></div>
 	</article>
 	</section>
 </div>
