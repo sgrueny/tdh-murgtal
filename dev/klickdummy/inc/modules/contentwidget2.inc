@@ -1,4 +1,4 @@
-
+<!--  siehe meine Kommentare in contentwidget1.inc -->
 <div class="contentpadded">
 	<section>
 	<header>
