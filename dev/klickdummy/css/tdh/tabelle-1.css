@@ -1,9 +1,11 @@
+/*------Module: Table 1------------------------------------------------*/
 .sponsoren-tab-1 
 {
 width: 760px;
 border-collapse: collapse;
 }
 
+/*---caption-----*/
 .sponsoren-tab-1 caption
 {
 border-top: solid  #B1B3B3 2px;
@@ -15,6 +17,19 @@ border-bottom: solid  #B1B3B3 2px;
 border: 0px;
 }
 
+.sponsoren-tab-1 label
+{
+margin: 6px;
+margin-right: 2px;
+}
+
+.sponsoren-tab-1  select
+{
+margin: 6px 8px;
+margin-left: 0px;
+}
+
+/*---table-----*/
 .sponsoren-tab-1 td, th
 {
 height: 69px;
