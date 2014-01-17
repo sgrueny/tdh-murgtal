@@ -2,7 +2,7 @@
     $pagetitle= "test";
 	
 	$contentleftincludes = array(
-	   'sponsoren-liste.inc',
+	   '',
 	   ''
 	);
 	$contentrightincludes = array(
@@ -13,6 +13,8 @@
 	   '',
 	   ''
 	);
+
+    $widecontent = "sponsoren-liste.inc";
 
 	include 'inc/templates/template-2-1.inc';
 ?>       
