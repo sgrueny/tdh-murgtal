@@ -2,7 +2,7 @@
     $pagetitle= "test";
 	
 	$contentleftincludes = array(
-
+		'kontaktformular.inc',
 	   'tabelle-1.inc',
 	   'contentwidget1.inc'
 	);
