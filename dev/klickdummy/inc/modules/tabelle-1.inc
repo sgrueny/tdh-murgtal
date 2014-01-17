@@ -38,7 +38,11 @@
 				<select id="sponsorlocation">
 					<option value="" checked>---</option>
 					<!--TODO: auslesen der orte und einfügen -->
-					<option value="A">A</option>
+					<option value="Bischweiler">Bischweiler</option>
+					<option value="Gernsbach-Scheuern">Gernsbach-Scheuern</option>
+					<option value="Karlsruhe">Karlsruhe</option>
+					<option value="Kuppenheim">Kuppenheim</option>
+					<option value="Gaggenau">Gaggenau</option>
 				</select>
 				
 				<span>Auswahl treffen und dann</span>
@@ -71,6 +75,10 @@
 		</th>
 		<td>Kuppenheim</td>
 	</tr>
+	<tr>
+		<th>Barmer, Krankenkasse</th>
+		<td>Gaggenau</td>
+	</tr>
 	<!-- Kopie des erten Teils -->
 	<tr>
 		<th>
@@ -97,6 +105,10 @@
 			Adler Apotheke
 		</th>
 		<td>Kuppenheim</td>
+	</tr>
+	<tr>
+		<th>Barmer, Krankenkasse</th>
+		<td>Gaggenau</td>
 	</tr>
 </table>
 	

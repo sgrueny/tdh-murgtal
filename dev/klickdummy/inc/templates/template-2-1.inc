@@ -26,9 +26,11 @@
         <!-- /.ym-grid  -->
         <?php
             if (isset($widecontent)) {
-                echo '<div class="wide-cnt">';
-                include 'inc/modules/'.$widecontent;
-                echo '</div>';
+                foreach($widecontent as $content) {
+                    echo '<div class="wide-cnt">';
+                    include 'inc/modules/'.$content;
+                    echo '</div>';
+                }
             }
         ?>
     </main>
