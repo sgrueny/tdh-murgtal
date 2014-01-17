@@ -1,12 +1,21 @@
 <!--TODO: Muss später entfert werden-->
 <!-- <link rel="stylesheet" type="text/css" href="../../css/tdh/tabelle-1.css"/>  -->
-<table class="sponsoren-tab-1">
+<script src="js/jquery.js"></script>
+<script src="js/tdh.js"></script>
+<script type="text/javascript">
+	
+	$(function(){
+		$('.sponsoren-tab-1').ddTableFilter();
+	});
+</script>
+<!-- <script>$('.sponsoren-tab-1').ddTableFilter();</script> -->
+<table name="sponsoren-tab-1" class="sponsoren-tab-1">
 	<caption>
 			<h3>Was wollen Sie sehen?</h3>
-			<div>
+		<!-- 	<div>
 				<label for="sponsorname">Firmenname:</label>
 				<select id="sponsorname">
-					<option value="" checked>---</option>
+					<option value="" checked>-</option>
 					<option value="A">A</option>
 					<option value="B">B</option>
 					<option value="C">C</option>
@@ -36,8 +45,7 @@
 				</select>
 				<label for="sponsorlocation">Ort:</label>
 				<select id="sponsorlocation">
-					<option value="" checked>---</option>
-					<!--TODO: auslesen der orte und einfügen -->
+					<option value="" checked>-</option>
 					<option value="Bischweiler">Bischweiler</option>
 					<option value="Gernsbach-Scheuern">Gernsbach-Scheuern</option>
 					<option value="Karlsruhe">Karlsruhe</option>
@@ -46,68 +54,74 @@
 				</select>
 				
 				<span>Auswahl treffen und dann</span>
-				<a href="">&bull; Inhalt sotieren</a>
-			</div>
+				<a onclick="$('.sponsoren-tab-1').ddTableFilter();">&bull; Inhalt sotieren</a>
+			</div> -->
 		</caption>
+<thead>
 	<tr>
-		<th>
+		<th>Firmenname</th>
+		<th>Ort</th>
+	</tr>
+</thead>
+	<tr>
+		<td>
 			<img src="images/einzelnachhilfe.gif"/>
 			Abacus Nachhilfeinstitut
-		</th>
+		</td>
 		<td>Gernsbach-Scheuern</td>
 	</tr>
 	<tr>
-		<th>ABAKUS Computer</th>
+		<td>ABAKUS Computer</td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<th>Adam Versicherungen</th>
+		<td>Adam Versicherungen</td>
 		<td>Bischweiler</td>
 	</tr>
 	<tr>
-		<th>Adolph Versicherungen</th>
+		<td>Adolph Versicherungen</td>
 		<td>Karlsruhe</td>
 	</tr>
 	<tr>
-		<th>
+		<td>
 			<img src="images/adler-apotheke.gif"/>
 			Adler Apotheke
-		</th>
+		</td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<th>Barmer, Krankenkasse</th>
+		<td>Barmer, Krankenkasse</td>
 		<td>Gaggenau</td>
 	</tr>
 	<!-- Kopie des erten Teils -->
 	<tr>
-		<th>
+		<td>
 			<img src="images/einzelnachhilfe.gif"/>
 			Abacus Nachhilfeinstitut
-		</th>
+		</td>
 		<td>Gernsbach-Scheuern</td>
 	</tr>
 	<tr>
-		<th>ABAKUS Computer</th>
+		<td>ABAKUS Computer</td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<th>Adam Versicherungen</th>
+		<td>Adam Versicherungen</td>
 		<td>Bischweiler</td>
 	</tr>
 	<tr>
-		<th>Adolph Versicherungen</th>
+		<td>Adolph Versicherungen</td>
 		<td>Karlsruhe</td>
 	</tr>
 	<tr>
-		<th>
+		<td>
 			<img src="images/adler-apotheke.gif"/>
 			Adler Apotheke
-		</th>
+		</td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<th>Barmer, Krankenkasse</th>
+		<td>Barmer, Krankenkasse</td>
 		<td>Gaggenau</td>
 	</tr>
 </table>
