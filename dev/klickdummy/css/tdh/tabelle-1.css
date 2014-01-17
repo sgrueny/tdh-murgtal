@@ -10,6 +10,20 @@ border-collapse: collapse;
 {
 border-top: solid  #B1B3B3 2px;
 border-bottom: solid  #B1B3B3 2px;
+font-variant: normal;
+font-weight: bold;
+padding: 20px 0px;
+}
+
+.sponsoren-tab-1 caption a{
+font-weight: normal;
+}
+
+.sponsoren-tab-1 caption h3{
+	text-align: left;
+	font-size: 100%;
+	font-weight: inherit;
+	margin-bottom: 20px;
 }
 
 .sponsoren-tab-1 fieldset
@@ -19,13 +33,13 @@ border: 0px;
 
 .sponsoren-tab-1 label
 {
-margin: 6px;
+margin: 0px 6px;
 margin-right: 2px;
 }
 
 .sponsoren-tab-1  select
 {
-margin: 6px 8px;
+margin: 0px 8px;
 margin-left: 0px;
 }
 

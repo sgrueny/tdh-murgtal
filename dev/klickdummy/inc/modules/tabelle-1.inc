@@ -1,12 +1,11 @@
 <!--TODO: Muss später entfert werden-->
-<link rel="stylesheet" type="text/css" href="../../css/tdh/tabelle-1.css"/> 
+<!-- <link rel="stylesheet" type="text/css" href="../../css/tdh/tabelle-1.css"/>  -->
 <table class="sponsoren-tab-1">
 	<caption>
-		<fieldset>
-			<legend>Was wollen Sie sehen?</legend>
+			<h3>Was wollen Sie sehen?</h3>
 			<div>
-				<label for="companyname">Firmenname:</label>
-				<select id="companyname">
+				<label for="sponsorname">Firmenname:</label>
+				<select id="sponsorname">
 					<option value="" checked>---</option>
 					<option value="A">A</option>
 					<option value="B">B</option>
@@ -35,21 +34,20 @@
 					<option value="Y">Y</option>
 					<option value="Z">Z</option>
 				</select>
-				<label for="companylocation">Ort:</label>
-				<select id="companylocation">
+				<label for="sponsorlocation">Ort:</label>
+				<select id="sponsorlocation">
 					<option value="" checked>---</option>
-					<!--TODO: auslesen der orte und einfügen-->
+					<!--TODO: auslesen der orte und einfügen -->
 					<option value="A">A</option>
 				</select>
 				
 				<span>Auswahl treffen und dann</span>
 				<a href="">&bull; Inhalt sotieren</a>
 			</div>
-		</fieldset>
-	</caption>
+		</caption>
 	<tr>
 		<th>
-			<img src="../../images/einzelnachhilfe.gif"/>
+			<img src="images/einzelnachhilfe.gif"/>
 			Abacus Nachhilfeinstitut
 		</th>
 		<td>Gernsbach-Scheuern</td>
@@ -68,15 +66,15 @@
 	</tr>
 	<tr>
 		<th>
-			<img src="../../images/adler-apotheke.gif"/>
+			<img src="images/adler-apotheke.gif"/>
 			Adler Apotheke
 		</th>
 		<td>Kuppenheim</td>
 	</tr>
-	<!--Kopie des erten Teils-->
+	<!-- Kopie des erten Teils -->
 	<tr>
 		<th>
-			<img src="../../images/einzelnachhilfe.gif"/>
+			<img src="images/einzelnachhilfe.gif"/>
 			Abacus Nachhilfeinstitut
 		</th>
 		<td>Gernsbach-Scheuern</td>
@@ -95,7 +93,7 @@
 	</tr>
 	<tr>
 		<th>
-			<img src="../../images/adler-apotheke.gif"/>
+			<img src="images/adler-apotheke.gif"/>
 			Adler Apotheke
 		</th>
 		<td>Kuppenheim</td>
