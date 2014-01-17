@@ -1,0 +1,22 @@
+img{
+	padding-bottom:10px;
+}
+.contentpadded{
+	padding:20px;
+}
+small{
+	color:#6f6f6f;
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+}
+h3 {
+	color:#AD1921;
+	font-size:14px;
+	font-weight:bold;
+}
+
+a{
+	color:#AD1921;
+	text-decoration:none;
+}
