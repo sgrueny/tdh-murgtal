@@ -10,8 +10,7 @@
         'contentwidget3.inc'
 	);
 	$sideincludes = array(
-		'',
-		''
+		'leer.inc'
 	);
 
 	include 'inc/templates/template-2-1.inc';

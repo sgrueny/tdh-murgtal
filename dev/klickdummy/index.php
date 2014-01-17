@@ -9,8 +9,7 @@
         'blindtext.inc'
 	);
 	$sideincludes = array(
-		'',
-		''
+		'leer.inc'
 	);
 
     $widecontent = array(
