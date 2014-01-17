@@ -22,6 +22,12 @@
 	color:white;
 	border:0;
 	font-weight:bold;
+	margin-top:10px;
+}
+.ym-form button.ym-success:hover{
+	background-color:#B1B3B3;
+	color:#AD1921;
+	cursor:pointer;
 }
 
 .ym-form input,
