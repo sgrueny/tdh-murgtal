@@ -1,0 +1,27 @@
+
+.zusatzwidget-content-4 li,ul{
+  list-style-type:none;
+  text-decoration:underline;
+  padding: 0 0 0 0;
+}
+
+.zusatzwidget-content-4 h2{
+	font-size:12px;
+	font-weight: bold;
+	color: #000;
+}
+
+
+.zusatzwidget-content-4{
+  background-color: #C9E9F7;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size:12px;
+  width: 33%;
+  margin: 10px;
+}
+.zusatzwidget-content-4 a {
+	color: #000;
+	text-decoration:underline;
+  
+}
