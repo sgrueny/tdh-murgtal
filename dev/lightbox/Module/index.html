@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8">
+		<title>Modulübersicht</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="../awesomebox.js"></script>
+		<script type="text/javascript">
+		    jQuery(
+		        function()
+		        {
+		            awesomebox('img');
+                }
+            );
+		</script>
+		<style>
+		/* styling basics */
+            html {padding: 20px 0; background-color: #efefef;}
+            body {width: 80%; padding: 40px; margin: 0 auto; background: #fff; box-shadow: 1px 1px 5px rgba(0,0,0,0.5); font-family: Verdana, Arial, sans-serif; font-size: 14px;}
+            
+        /* clearfix */
+            .clearfix:after { clear:both; content:"."; display:block; font-size:0; height:0; visibility:hidden; }
+            .clearfix { display:block; } /* extra for Safari */
+            .clearfix { *height:1%; }  /* trigger hasLayout for IE6 + 7 */
+
+            h2 { color: #34495e; padding: 20px 0;margin-top: 20px;border-top: 2px solid #34495e; border-bottom: 2px dotted #34495e;}
+        
+            img {width: auto;height: auto;max-width: 100%}
+        
+        /**
+         * @section Grid Module
+         */
+         .ym-grid {
+           display: table;
+           table-layout: fixed;
+           width: 100%;
+           list-style-type: none;
+           padding-left: 0;
+           padding-right: 0;
+           margin-left: 0;
+           margin-right: 0;
+         }
+
+           .ym-gl{float:left;margin:0;}
+           .ym-gr{float:right;margin:0 0 0 -5px;}
+           .ym-g20{width:20%;}
+           .ym-g40{width:40%;}
+           .ym-g60{width:60%;}
+           .ym-g80{width:80%;}
+           .ym-g25{width:25%;}
+           .ym-g33{width:33.333%;}
+           .ym-g50{width:50%;}
+           .ym-g66{width:66.666%;}
+           .ym-g75{width:75%;}
+           .ym-g38{width:38.2%;}
+           .ym-g62{width:61.8%;}
+           .ym-gbox{padding:0 10px;}
+           .ym-gbox-left{padding:0 10px 0 0;}
+           .ym-gbox-right{padding:0 0 0 10px;}
+
+		</style>
+	</head>
+	<body>
+        <h1>Die Module des tdh-Relaunches</h1>
+        
+        <h2>Akkordeon</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Akkordeon.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        
+        <h2>Ansprechpartner-Link</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Ansprechpartner-Link.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Ansprechpartner</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Ansprechpartner.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+
+        <h2>Footer</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Footer.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"><p>Im Layout ist der Footer auf zwei Spalten verteilt. Wir setzen ihn so um, dass er im Contentbereich allein verortet ist. Die Anschauung wird dann entscheiden, ob er rechts oder links ausgerichtet sein wird.</p></div>
+            </div>
+        </div>
+        <h2></h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Kontaktformular</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Kontaktformular.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2></h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Navigation</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Navigation.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Spendenbutton</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Spendenbutton.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Sponsorendank</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Sponsorendank.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Sponsorenliste</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Sponsorenliste.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Tabelle 1</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Tabelle-1.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Twitter Widget</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Twitter-Widget.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Zusatzwidget Content</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Zusatzwidget-content.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Zusatzwidget Content 2</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Zusatzwidget-Content-2.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Zusatzwidget Content 3</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Zusatzwidget-Content-3.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Zusatzwidget Content 4</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Zusatzwidget-Content-4.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        <h2>Zusatzwidget Content 5</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Zusatzwidget-Content-5.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>        
+        
+        <h2>Zusatzwidget Content 6</h2>
+        <div class="ym-grid">
+            <div class="ym-g50 ym-gl">
+                <div class="ym-gbox-left"><img src="Zusatzwidget-Content-6.png" alt=""></div>
+            </div>
+            <div class="ym-g50 ym-gr">
+                <div class="ym-gbox-right"></div>
+            </div>
+        </div>
+        
+	</body>
+</html>
