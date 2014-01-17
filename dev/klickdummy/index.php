@@ -2,7 +2,7 @@
     $pagetitle= "test";
 	
 	$contentleftincludes = array(
-	   'tabelle-1.inc',
+	   '',
 	   ''
 	);
 	$contentrightincludes = array(
@@ -13,6 +13,8 @@
 	   '',
 	   ''
 	);
+
+	$widecontent = 'tabelle-1.inc';
 
 	include 'inc/templates/template-2-1.inc';
 ?>       
