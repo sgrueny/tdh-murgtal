@@ -6,3 +6,6 @@
 
 /* Vorschlag für die Typographie - aus YAML - -- wird überarbeitet */
 @import url("tdh/typography.css");
+
+/* Tabellenstyle */
+@import url("tdh/tabelle-1.css");

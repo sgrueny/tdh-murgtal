@@ -2,7 +2,7 @@
     $pagetitle= "test";
 	
 	$contentleftincludes = array(
-	   '',
+	   'tabelle-1.inc',
 	   ''
 	);
 	$contentrightincludes = array(
