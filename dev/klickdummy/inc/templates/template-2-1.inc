@@ -12,6 +12,7 @@
                          include 'inc/modules/'.$contentleft;                       
                     }
                 ?>
+                
             </div>
             <div class="ym-g33 ym-gr">
                 <?php 
@@ -19,9 +20,17 @@
                          include 'inc/modules/'.$contentright;                       
                     }
                 ?>
+                
             </div>
         </div>
         <!-- /.ym-grid  -->
+        <?php
+            if (isset($widecontent)) {
+                echo '<div class="wide-cnt">';
+                include 'inc/modules/'.$widecontent;
+                echo '</div>';
+            }
+        ?>
     </main>
     <!-- /.ym-col1 -->
     <!-- Die Seitenspalte -->
