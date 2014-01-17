@@ -41,6 +41,13 @@
 
 footer {
 	overflow: hidden;
+	margin-top: 20px;
+	text-align: right;
+}
+
+footer a {
+	margin-left: 80px;
+	margin-right: 200px;
 }
 
 .logo {
