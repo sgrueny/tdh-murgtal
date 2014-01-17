@@ -34,6 +34,5 @@
         ?>            
     </div>
     <!-- /.ym-col3 -->
-</div>
-<!-- /.ym-column -->
+<!--  .column wird in footer.inc geschlossen -->
 <?php include "inc/templates/template-parts/footer.inc"; ?>
