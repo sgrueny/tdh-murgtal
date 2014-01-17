@@ -44,7 +44,7 @@
     <!-- /.ym-col1 -->
     <!-- Die Seitenspalte -->
     <div class="ym-col3">
-        <h2 class="ym-hideme" id="sidecnt">Die Seitenspalte</h2>
+        <h1 class="ym-hideme" id="sidecnt">Die Seitenspalte</h1>
         <?php 
             foreach($sideincludes as $side) {
 		         include 'inc/modules/'.$side;						
