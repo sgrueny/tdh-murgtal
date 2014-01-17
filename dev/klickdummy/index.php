@@ -3,7 +3,8 @@
 	
 	$contentleftincludes = array(
 	   'contentwidget1.inc',
-	   ''
+		'kontaktformular.inc',
+	   'contentwidget1.inc'
 	);
 	$contentrightincludes = array(
 	   'contentwidget2.inc',
