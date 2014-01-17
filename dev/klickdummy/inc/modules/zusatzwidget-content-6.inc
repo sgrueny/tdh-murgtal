@@ -1,11 +1,11 @@
-<div class="ym-grid zusatzwidget-content">
+<div class="ym-grid zusatzwidget-content-6">
   <h2>Unsere Spendenkonten</h2>
   <div class="ym-g50 ym-gl">
     
     <div class="ym-gbox-left"><img src="#" alt="">
     <h3>Sparkasse</h3>
-      Baden-Baden/ Gaggenau
-      <table class="zusatzwidget-content-6">
+		<caption style="caption-side:bottom">Baden-Baden/ Gaggenau</caption>
+	<table>
         <tr>
           <th>Konto-Nr.</th>
           <td>120 790</td> </tr>
@@ -19,8 +19,8 @@
   <div class="ym-g50 ym-gr">
     <div class="ym-gbox-right">
         <h3>Volksbank</h3>
-      Osnabrück
-      <table class="zusatzwidget-content-6">
+      <caption style="caption-side:bottom">Osnabr&uuml;ck</caption>
+      <table>
         <tr>
           <th>Konto-Nr.</th>
           <td>700 800 700</td> </tr>
