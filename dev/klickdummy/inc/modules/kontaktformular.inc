@@ -3,7 +3,7 @@
 	<p>Schreiben Sie uns eine Nachricht - wir melden uns so schnell wie möglich bei Ihnen</p>
 	<form class="ym-form ym-columnar">
 		<div class="ym-fbox margin-select">
-			<label for="request"  class = "ym-clearfix">Was ist Ihr Anliegen? <p>Wählen Sie bitte aus, worum es Ihnen geht - so finden wir schneller den richtigen Ansprechpartner</p></label>
+			<label for="request">Was ist Ihr Anliegen? <p>Wählen Sie bitte aus, worum es Ihnen geht - so finden wir schneller den richtigen Ansprechpartner</p></label>
 			<select name="request" id="request" class = "contact-request">
 				<option selected>Allgemeines</option>
 			</select>
