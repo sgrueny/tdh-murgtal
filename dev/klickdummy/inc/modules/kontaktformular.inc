@@ -14,7 +14,7 @@
 		</div>
 		<div class = "ym-fbox isrequired">
 			<label for="email">Ihre E-Mail Adresse<sup class="ym-required">*</sup></label>
-			<input type="text" name="email" id="email" placeholder="Ihre E-Mail Adresse"/>
+			<input type="email" name="email" id="email" placeholder="Ihre E-Mail Adresse"/>
 		</div>
 		<div class = "ym-fbox isrequired margin-textarea">
 			<label for="message">Ihre Nachricht<sup class="ym-required">*</sup><p>Hinterlassen Sie hier auch Ihre Adresse oder Telefonnummer, wenn Sie möchten, dass wir telephonisch oder schriftlich mit Ihnen im Kontakt treten.</p></label>
