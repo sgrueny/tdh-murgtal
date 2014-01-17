@@ -83,31 +83,31 @@
 	<tr>
 		<th>
 			<img src="images/einzelnachhilfe.gif"/>
-			Abacus Nachhilfeinstitut
+			Abacus Nachhilfeinstitut 2
 		</th>
 		<td>Gernsbach-Scheuern</td>
 	</tr>
 	<tr>
-		<th>ABAKUS Computer</th>
+		<th>ABAKUS Computer 2</th>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<th>Adam Versicherungen</th>
+		<th>Adam Versicherungen 2</th>
 		<td>Bischweiler</td>
 	</tr>
 	<tr>
-		<th>Adolph Versicherungen</th>
+		<th>Adolph Versicherungen 2</th>
 		<td>Karlsruhe</td>
 	</tr>
 	<tr>
 		<th>
 			<img src="images/adler-apotheke.gif"/>
-			Adler Apotheke
+			Adler Apotheke 2
 		</th>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<th>Barmer, Krankenkasse</th>
+		<th>Barmer, Krankenkasse 2</th>
 		<td>Gaggenau</td>
 	</tr>
 </table>
