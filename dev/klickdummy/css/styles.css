@@ -7,5 +7,8 @@
 /* Vorschlag für die Typographie - aus YAML - -- wird überarbeitet */
 @import url("tdh/typography.css");
 
+/* Tabellenstyle */
+@import url("tdh/tabelle-1.css");
+
 /* contentwidget1*/
 @import url("tdh/widgets.css");
