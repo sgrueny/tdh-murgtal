@@ -7,5 +7,13 @@
 /* Vorschlag für die Typographie - aus YAML - -- wird überarbeitet */
 @import url("tdh/typography.css");
 
+@import url("tdh/sponsoren-liste.css");
+
 /* Tabellenstyle */
 @import url("tdh/tabelle-1.css");
+
+/* contentwidget1*/
+@import url("tdh/widgets.css");
+
+/*kontaktformular*/
+@import url("tdh/kontaktformular.css");

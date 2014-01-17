@@ -1,0 +1,60 @@
+﻿
+h2{
+	color:#AD1921;
+}
+p {
+	font-size:14px;
+}
+.ym-form{
+	margin-top:40px;
+}
+.ym-fbox{
+	margin-bottom:10px;
+}
+.ym-fbox-select{
+	margin-bottom:30px;
+}
+
+.ym-form textarea {
+	resize:none;
+	font-family:arial;
+	font-size:13px;
+}
+
+.ym-form button.ym-success{
+	padding:5px 25px 5px 25px;
+	float:right;
+	background-color:#AD1921;
+	color:white;
+	border:0;
+	font-weight:bold;
+}
+
+.ym-form input,
+.ym-form select {
+    width: 45%;
+}
+
+.ym-fbox label{
+	font-weight:bold;
+	padding-right:10px;
+	font-size:14px;
+}
+.ym-fbox label p{
+	font-weight:normal;
+	font-size:0.9em;
+}
+
+.isrequired input{
+	position:relative;
+	top:5px;
+}
+
+.margin-select{
+	margin-bottom:20px;
+}
+
+.margin-textarea{
+	margin-top:30px;
+	margin-bottom:0px;
+}
