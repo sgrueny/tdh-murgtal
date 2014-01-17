@@ -3,7 +3,14 @@
 <div class="ym-column">
     <!-- Die Inhaltsspalte -->
     <main class="ym-col1">
-        <h2 class="ym-hideme" id="maincnt">Der Inhaltsbereich</h2>
+        <h1 class="ym-hideme" id="maincnt">Der Inhaltsbereich</h1>
+
+        <div class="logo"><img src="images/logo-tdh-murgtal.gif" alt="Logo von Terre des Hommes Murgtal/Mittelbaden"><span class="ym-hideme">terre des hommes Murgtal/Mittelbaden</span></div>
+
+        <?php if (isset($pageheadline)) {
+                echo '<h2>'.$pageheadline.'</h2>';
+                }; 
+        ?>
 
         <div class="ym-grid">
             <div class="ym-g66 ym-gl">
