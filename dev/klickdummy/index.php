@@ -14,7 +14,7 @@
 		''
 	);
 
-	$widecontent = 'tabelle-1.inc';
-	
+    $widecontent = "sponsoren-liste.inc";
+
 	include 'inc/templates/template-2-1.inc';
-?>       
+?>
