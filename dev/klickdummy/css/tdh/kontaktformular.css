@@ -1,36 +1,60 @@
 ﻿
-#kontakt {
-width: 570px;
+h2{
+	color:#AD1921;
+	padding-bottom:8px;
+}
+p {
+	font-size:14px;
+}
+.ym-form{
+	margin-top:40px;
+}
+.ym-fbox{
+	margin-bottom:10px;
+}
+.ym-fbox-select{
+	margin-bottom:30px;
 }
 
-#request{
-	width: 45%;
-	 -webkit-appearance: none;  /*Removes default chrome and safari style*/
-     -moz-appearance: none;
-	 appearance: none;
-}
-#message{
+.ym-form textarea {
 	resize:none;
+	font-family:arial;
+	font-size:13px;
 }
 
-#name{
-	width: 45%;
+.ym-form button.ym-success{
+	padding:5 25 5 25px;
+	float:right;
+	background-color:#AD1921;
+	color:white;
+	border:0;
+	font-weight:bold;
 }
-#email{
-	width: 45%;
-}
-#submit {
-padding:3 25 3 15px;
-}
-#submit ul{
-display: inline;
-margin:0;
+
+.ym-form input,
+.ym-form select {
+    width: 45%;
 }
 
 .ym-fbox label{
 	font-weight:bold;
+	padding-right:10px;
+	font-size:14px;
 }
 .ym-fbox label p{
 	font-weight:normal;
-	font-size:0.8em;
+	font-size:0.9em;
+}
+
+.isrequired input{
+	position:relative;
+	top:5px;
+}
+
+.margin-select{
+	margin-bottom:20px;
+}
+
+.margin-textarea{
+	margin-top:30px;
 }
