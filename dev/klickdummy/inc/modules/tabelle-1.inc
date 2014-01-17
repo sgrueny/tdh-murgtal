@@ -1,14 +1,25 @@
 <!--TODO: Muss später entfert werden-->
 <!-- <link rel="stylesheet" type="text/css" href="../../css/tdh/tabelle-1.css"/>  -->
+
+<!-- Beide JS-Dateien werden im Footer schon geladen. -->
+<!-- 
 <script src="js/jquery.js"></script>
 <script src="js/tdh.js"></script>
+-->
+
+<!--  Der nun folgende Aufruf muss in der tdh.js stehen. 
+      Dort sollte abgefragt werden, ob der angestrebte Selektor existiert und dann 
+      erst die Aktion losgelassen werden und vorher das notwendige JS geladen werden. -->
+
+<!--  So, wie das Skript hier eingebunden ist, können wir es leider nicht gebrauchen.
+      Es sollen Buchstaben selektiert werden, nicht die Firmen selber. -->
 <script type="text/javascript">
 	
 	$(function(){
 		$('.sponsoren-tab-1').ddTableFilter();
 	});
 </script>
-<!-- <script>$('.sponsoren-tab-1').ddTableFilter();</script> -->
+
 <table name="sponsoren-tab-1" class="sponsoren-tab-1">
 	<caption>
 			<h3>Was wollen Sie sehen?</h3>
