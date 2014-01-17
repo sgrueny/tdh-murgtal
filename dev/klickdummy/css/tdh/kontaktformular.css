@@ -1,7 +1,6 @@
 ﻿
 h2{
 	color:#AD1921;
-	padding-bottom:8px;
 }
 p {
 	font-size:14px;
@@ -23,7 +22,7 @@ p {
 }
 
 .ym-form button.ym-success{
-	padding:5 25 5 25px;
+	padding:5px 25px 5px 25px;
 	float:right;
 	background-color:#AD1921;
 	color:white;
