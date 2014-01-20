@@ -1,0 +1,49 @@
+.navigation {
+  font-family: Arial;
+  font-weight: bold;
+  color: #19171B;
+}
+
+.navigation nav > ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.navigation  nav ul li a {
+  text-decoration: none;
+}
+
+.navigation  nav > ul > li > a {
+  font-size: 14px;
+  color: #6F6F6F;
+}
+
+.navigation  nav .submenu {
+  position: absolute;
+
+  visibility: hidden;
+}
+
+.navigation  nav .submenu ul {
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-top: 5px;
+}
+
+.navigation  nav .submenu > ul > li > a {
+    font-size: 13px;
+    color: black;
+}
+
+
+.navigation  nav > ul > li > a.active {
+  color: #AD1921;
+}
+
+.navigation  nav .submenu > ul > li > a.active {
+    color: #AD1921;
+}
+
+.navigation  nav > ul > li > a.active + .submenu {
+  visibility: visible;
+}
