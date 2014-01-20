@@ -41,5 +41,20 @@
 
 footer {
 	overflow: hidden;
+<<<<<<< HEAD
 }
 
+=======
+	margin-top: 20px;
+	text-align: right;
+}
+
+footer a {
+	margin-left: 80px;
+	margin-right: 200px;
+}
+
+.logo {
+	margin: 50px 0 30px 0;
+}
+>>>>>>> 12fe57fdc2212e3e35a0aeb0f820d32ab7c544c7

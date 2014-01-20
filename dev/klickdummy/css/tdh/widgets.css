@@ -1,0 +1,31 @@
+img{
+	padding-bottom:10px;
+}
+.contentpadded{
+	padding:15px;
+}
+.link{
+	color:#AD1921;
+}
+small{
+	color:#6f6f6f;
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+}
+h3 {
+	color:#AD1921;
+	font-size:14px;
+	font-weight:bold;
+}
+
+a{
+	color:#AD1921;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+	color:#AD1921;
+	background:#FFFFFF;
+}
+

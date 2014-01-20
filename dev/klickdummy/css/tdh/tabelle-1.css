@@ -1,0 +1,74 @@
+/*------Module: Table 1------------------------------------------------*/
+.sponsoren-tab-1 
+{
+width: 97%;
+border-collapse: collapse;
+border-top: 0;
+}
+
+/*---caption-----*/
+.sponsoren-tab-1 caption
+{
+border-top: solid  #B1B3B3 2px;
+/*border-bottom: solid  #B1B3B3 2px;*/
+font-variant: normal;
+font-weight: bold;
+padding-top: 20px;
+padding-bottom: 1px;
+}
+
+.sponsoren-tab-1 th{
+	border-bottom: solid  #B1B3B3 2px;
+	padding-bottom: 20px;
+}
+
+.sponsoren-tab-1 caption a{
+font-weight: normal;
+}
+
+.sponsoren-tab-1 caption h3{
+	text-align: left;
+	font-size: 100%;
+	font-weight: inherit;
+	/*margin-bottom: 10px;*/
+	margin-left: 10px;
+}
+
+.sponsoren-tab-1 fieldset
+{
+border: 0px;
+}
+
+.sponsoren-tab-1 label
+{
+margin: 0px 6px;
+margin-right: 2px;
+}
+
+.sponsoren-tab-1  select
+{
+margin: 0px 8px;
+margin-left: 0px;
+}
+
+/*---table-----*/
+.sponsoren-tab-1 td
+{
+height: 69px;
+border-bottom: solid #B1B3B3 1px;
+vertical-align: middle;
+}
+
+.sponsoren-tab-1 img
+{
+vertical-align: middle;
+margin: 5px;
+padding-bottom: 0;
+}
+
+.sponsoren-tab-1 td:first-child
+{
+color: #AD1921;
+text-align: left;
+font-weight: bold;
+}

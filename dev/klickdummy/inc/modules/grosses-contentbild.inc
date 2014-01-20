@@ -1,0 +1,1 @@
+<img src="images/grosses-contentbild.jpg" alt="Zwei grinsende Männer auf einem Beispielbild" class="flexible">
