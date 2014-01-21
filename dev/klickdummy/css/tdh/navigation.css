@@ -1,41 +1,52 @@
+/* Modul: Navigation */
+
+/* Schriftart für den enthaltenen Text und Standardfarbe */
 .navigation {
   font-family: Arial;
   font-weight: bold;
   color: #19171B;
 }
 
+/* 	Jedes li-Element einer ul-Liste wird horizontal dargestellt, die einzelnen Listeneinträge
+	haben ein Padding von 10px 																	*/
 .navigation nav > ul li {
   display: inline;
   padding: 10px;
 }
 
+/*	Jedes a-Element eines jeden Listeneintrages soll ohne Unterstreichung im Text dargestellt werden */
 .navigation  nav ul li a {
   text-decoration: none;
 }
 
+/* a-Elemente der ersten Navigationsebene. */
 .navigation  nav > ul > li > a {
   font-size: 14px;
   color: #6F6F6F;
 }
 
+/*  Untermenü wird unter der ersten Navigationsebene positioniert, jeweils jedes Untermenü muss
+	an sich der gleichen Position befinden															*/
 .navigation  nav .submenu {
   position: absolute;
-
   visibility: hidden;
 }
 
+/*  Keine Einrückungen der ul-Liste, welche die zweite Navigationsebene darstellt. Beide Ebenen sollen auf
+	der linken Seite an gleicher Stelle beginnen		^													*/
 .navigation  nav .submenu ul {
   margin-left: 0px;
   padding-left: 0px;
-  padding-top: 5px;
+  padding-top: 5px; /* Ein wenig Abstand nach oben */
 }
 
+/* a-Elemente der zweiten Navigationsebene */
 .navigation  nav .submenu > ul > li > a {
     font-size: 13px;
     color: black;
 }
 
-
+/* Ausgewählter Menüeintrag, Selektoren müssen der Spezifität genügen um zuvor gesetzte Eigenschaft zu überschreiben*/
 .navigation  nav > ul > li > a.active {
   color: #AD1921;
 }
@@ -44,6 +55,7 @@
     color: #AD1921;
 }
 
+/* Untermenü sichtbar machen, falls entsprechender Menüeintrag der ersten Navigationsebene gewählt wurde */
 .navigation  nav > ul > li > a.active + .submenu {
   visibility: visible;
 }
