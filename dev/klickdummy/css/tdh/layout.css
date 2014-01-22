@@ -1,9 +1,9 @@
 /*  Das moderne Boxmodell. Damit können wir uns eine Containerebene für das Layout sparen. */
 /*  box sizing */
 *, *:before, *:after { 
-	-webkit-box-sizing: border-box; 
-	-moz-box-sizing: border-box;
-	box-sizing: border-box; 
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
 }
 
 .ym-wrapper {
@@ -23,7 +23,7 @@
   overflow: hidden;
   padding-right: 175px; /* column width */
   width: auto;
-	background: #fff url("images/spaltenhintergrund-grau.gif") repeat-y right top;
+        background: #fff url("images/spaltenhintergrund-grau.gif") repeat-y right top;
 }
 
 .ym-col1 {  /* content */
@@ -40,16 +40,16 @@
 }
 
 footer {
-	overflow: hidden;
-	margin-top: 20px;
-	text-align: right;
+        overflow: hidden;
+        margin-top: 20px;
+        text-align: right;
 }
 
 footer a {
-	margin-left: 80px;
-	margin-right: 200px;
+        margin-left: 80px;
+        margin-right: 200px;
 }
 
 .logo {
-	margin: 50px 0 30px 0;
+        margin: 50px 0 30px 0;
 }
