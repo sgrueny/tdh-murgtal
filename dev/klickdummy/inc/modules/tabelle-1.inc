@@ -1,5 +1,5 @@
 <!--TODO: Muss später entfert werden-->
-<!-- <link rel="stylesheet" type="text/css" href="../../css/tdh/tabelle-1.css"/>  -->
+ <!-- <link rel="stylesheet" type="text/css" href="../../css/tdh/tabelle-1.css"/>   -->
 
 <!-- Beide JS-Dateien werden im Footer schon geladen. -->
 <!-- 
@@ -15,9 +15,9 @@
       Es sollen Buchstaben selektiert werden, nicht die Firmen selber. -->
 <script type="text/javascript">
 	
-	$(function(){
-		$('.sponsoren-tab-1').ddTableFilter();
-	});
+	// $(function(){
+	// 	$('.sponsoren-tab-1').ddTableFilter();
+	// });
 </script>
 
 <table name="sponsoren-tab-1" class="sponsoren-tab-1">
@@ -70,70 +70,92 @@
 		</caption>
 <thead>
 	<tr>
-		<th>Firmenname</th>
+		<th colspan="2">Firmenname</th>
 		<th>Ort</th>
 	</tr>
 </thead>
+<tbody>
 	<tr>
 		<td>
-			<img src="images/einzelnachhilfe.gif"/>
-			Abacus Nachhilfeinstitut
+			<div>
+				<img class="sponsor-img-small" alt="Katze" src="http://placekitten.com/300/200"/>
+				<img class="sponsor-img-big" alt="Katze" src="http://placekitten.com/300/200"/>
+			</div>
 		</td>
+		<td><a href="#">Abacus Nachhilfeinstitut</a></td>
 		<td>Gernsbach-Scheuern</td>
 	</tr>
 	<tr>
-		<td>ABAKUS Computer</td>
+		<td></td>
+		<td><a href="#">ABAKUS Computer</a></td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<td>Adam Versicherungen</td>
+		<td></td>
+		<td><a href="#">Adam Versicherungen</a></td>
 		<td>Bischweiler</td>
 	</tr>
 	<tr>
-		<td>Adolph Versicherungen</td>
+		<td></td>
+		<td><a href="#">Adolph Versicherungen</a></td>
 		<td>Karlsruhe</td>
 	</tr>
 	<tr>
 		<td>
-			<img src="images/adler-apotheke.gif"/>
-			Adler Apotheke
+			<div>
+				<img class="sponsor-img-small" alt="Katze" src="http://placekitten.com/301/201"/>
+				<img class="sponsor-img-big" alt="Katze" src="http://placekitten.com/301/201"/>
+			</div>
 		</td>
+		<td><a href="#">Adler Apotheke</a></td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<td>Barmer, Krankenkasse</td>
+		<td></td>
+		<td><a href="#">Barmer, Krankenkasse</a></td>
 		<td>Gaggenau</td>
 	</tr>
-	<!-- Kopie des erten Teils -->
+	<!-- Kopie des ersten Teils -->
 	<tr>
 		<td>
-			<img src="images/einzelnachhilfe.gif"/>
-			Abacus Nachhilfeinstitut 2
+			<div>
+				<img class="sponsor-img-small" alt="Katze" src="images/einzelnachhilfe.gif"/>
+				<img class="sponsor-img-big" alt="Katze" src="images/einzelnachhilfe.gif"/>
+			</div>
 		</td>
+		<td><a href="#">Abacus Nachhilfeinstitut</a></td>
 		<td>Gernsbach-Scheuern</td>
 	</tr>
 	<tr>
-		<td>ABAKUS Computer 2</td>
+		<td></td>
+		<td><a href="#">ABAKUS Computer</a></td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<td>Adam Versicherungen 2</td>
+		<td></td>
+		<td><a href="#">Adam Versicherungen</a></td>
 		<td>Bischweiler</td>
 	</tr>
 	<tr>
-		<td>Adolph Versicherungen 2</td>
+		<td></td>
+		<td><a href="#">Adolph Versicherungen</a></td>
 		<td>Karlsruhe</td>
 	</tr>
 	<tr>
 		<td>
-			<img src="images/adler-apotheke.gif"/>
-			Adler Apotheke 2
+			<div>
+				<img class="sponsor-img-small" alt="Katze" src="images/adler-apotheke.gif"/>
+				<img class="sponsor-img-big" alt="Katze" src="images/adler-apotheke.gif"/>
+			</div>
 		</td>
+		<td><a href="#">Adler Apotheke</a></td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<td>Barmer, Krankenkasse 2</td>
+		<td></td>
+		<td><a href="#">Barmer, Krankenkasse</a></td>
 		<td>Gaggenau</td>
 	</tr>
+</tbody>
 </table>
 	
