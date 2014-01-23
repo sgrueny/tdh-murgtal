@@ -1,70 +1,67 @@
-﻿.menu li{
-  margin: 0;
-  padding-left: 5px;
-  list-style: none;
+﻿.akkordeon .menu li{
+	margin: 0;
+	padding-left: 5px;
+	list-style: none;
 }
-.menu > ul ul {
-			clear: both;
-		}
-.has-subnav > ul {
- display: none;
+.akkordeon .menu > ul ul {
+	clear: both;
 }
-		.menu.active, .js .menu > ul ul.active {
-#max-height: 55em;
-		}
-		.menu li a {
-			display: block;
-color: #AD1921;
-font-weight: bold;
-			padding: 0.8em 0.3em;
-			border-bottom: 1px solid #B1B3B3;
-			position: relative;
-		}
-		.menu li.has-subnav > a:after {
-			content: '►';
-color: #6F6F6F;
-			position: absolute;
-			top: 0;
-			right: 0;
-			display: block;
-			font-size: 1.5em;
-			padding: 0.25em 0.5em;
-		}
-.menu li.has-subnav > a:hover:after, header  {
-  color: #AD1921;
+.akkordeon .has-subnav > ul {
+	display: none;
 }
-		.menu li.has-subnav > a.active:after {
-			content: "▼";
-		}
-		.menu li.has-subnav > a.active {
-			color: black;
-			border-bottom: 0px solid #B1B3B3;
-		}
-ul {
-  margin:0;
+.akkordeon .menu li .topic {
+	display: block;
+	color: #AD1921;
+	font-weight: bold;
+	padding: 0.8em 0.3em;
+	border-bottom: 1px solid #B1B3B3;
+	position: relative;
 }
-.menu ul li ul li {
-  list-style: none;
-  			border-bottom: 2px solid #B1B3B3;
+.akkordeon .menu li.has-subnav > .topic:after {
+	content: '►';
+	color: #6F6F6F;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	font-size: 1.5em;
+	padding: 0.25em 0.5em;
 }
-a:hover {
-  background-color: transparent;
+.akkordeon .menu li.has-subnav > .topic:hover:after, .akkordeon header  {
+	color: #AD1921;
 }
-.description, article {
-  padding-bottom: 20px; 
+.akkordeon .menu li.has-subnav > .topic.active:after {
+	content: "▼";
 }
-time {
-  display: block;
-  font-weight: bold;
-  color: black;
+.akkordeon .menu li.has-subnav > .topic.active {
+	color: black;
+	border-bottom: 0px solid #B1B3B3;
 }
-.menu ul li ul li * a{
-  display: inline;
-  color: #AD1921;
-  font-weight: normal;
-  			border-bottom: 0px;
-  padding: 0;
+.akkordeon ul {
+	margin:0;
 }
-p {
-  margin: 0;
+.akkordeon .menu ul li ul li {
+	list-style: none;
+  	border-bottom: 2px solid #B1B3B3;
+}
+.akkordeon a:hover {
+	background-color: transparent;
+}
+.akkordeon .description, .akkordeon article {
+	padding-bottom: 20px; 
+}
+.akkordeon time {
+	display: block;
+	font-weight: bold;
+	color: black;
+}
+.akkordeon .menu ul li ul li * a{
+	display: inline;
+	color: #AD1921;
+	font-weight: normal;
+	border-bottom: 0px;
+	padding: 0;
+}
+.akkordeon p {
+	margin: 0;
 }
