@@ -1,21 +1,21 @@
 ﻿
-.ym-form{
+.contactformular .ym-form{
 	margin-top:40px;
 }
-.ym-fbox{
+.contactformular .ym-fbox{
 	margin-bottom:10px;
 }
-.ym-fbox-select{
+.contactformular .ym-fbox-select{
 	margin-bottom:30px;
 }
 
-.ym-form textarea {
+.contactformular .ym-form textarea {
 	resize:none;
 	font-family:arial;
 	font-size:13px;
 }
 
-.ym-form button.ym-success{
+.contactformular .ym-form button.ym-success{
 	padding:5px 25px 5px 25px;
 	float:right;
 	background-color:#AD1921;
@@ -24,37 +24,37 @@
 	font-weight:bold;
 	margin-top:10px;
 }
-.ym-form button.ym-success:hover{
+.contactformular .ym-form button.ym-success:hover{
 	background-color:#B1B3B3;
 	color:#AD1921;
 	cursor:pointer;
 }
 
-.ym-form input,
-.ym-form select {
+.contactformular  .ym-form input,
+.contactformular .ym-form select {
     width: 45%;
 }
 
-.ym-fbox label{
+.contactformular  .ym-fbox label{
 	font-weight:bold;
 	padding-right:10px;
 	font-size:14px;
 }
-.ym-fbox label p{
+.contactformular .ym-fbox label p{
 	font-weight:normal;
 	font-size:0.9em;
 }
 
-.isrequired input{
+.contactformular .isrequired input{
 	position:relative;
 	top:5px;
 }
 
-.margin-select{
+.contactformular .margin-select{
 	margin-bottom:20px;
 }
 
-.margin-textarea{
+.contactformular .margin-textarea{
 	margin-top:30px;
 	margin-bottom:0px;
 }
