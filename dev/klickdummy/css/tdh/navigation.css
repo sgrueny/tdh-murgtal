@@ -1,43 +1,48 @@
 /* Modul: Navigation */
 
-/* Schriftart für den enthaltenen Text und Standardfarbe */
+/* Schriftart fÃ¼r den enthaltenen Text und Standardfarbe */
 .navigation {
-  font-family: Arial;
-  font-weight: bold;
-  color: #19171B;
+	font-weight: bold;
+	color: #19171B;
+	margin-bottom: 40px;
 }
 
-/* 	Jedes li-Element einer ul-Liste wird horizontal dargestellt, die einzelnen Listeneinträge
+/* Jede ul-Liste sollte keine Marker fÃ¼r die Items haben (bei inline Items irrelevant) */
+.navigation nav ul {
+	list-style-type: none;
+}
+
+/* 	Jedes li-Element einer ul-Liste wird horizontal dargestellt, die einzelnen ListeneintrÃ¤ge
 	haben ein Padding von 10px 																	*/
 .navigation nav > ul li {
-  display: inline;
-  padding: 10px;
+	display: inline;
+	padding: 8px;
 }
 
 /*	Jedes a-Element eines jeden Listeneintrages soll ohne Unterstreichung im Text dargestellt werden */
 .navigation  nav ul li a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 /* a-Elemente der ersten Navigationsebene. */
 .navigation  nav > ul > li > a {
-  font-size: 14px;
-  color: #6F6F6F;
+	font-size: 14px;
+	color: #6F6F6F;
 }
 
-/*  Untermenü wird unter der ersten Navigationsebene positioniert, jeweils jedes Untermenü muss
+/*  UntermenÃ¼ wird unter der ersten Navigationsebene positioniert, jeweils jedes UntermenÃ¼ muss
 	an sich der gleichen Position befinden															*/
 .navigation  nav .submenu {
-  position: absolute;
-  visibility: hidden;
+	position: absolute;
+	visibility: hidden;
 }
 
-/*  Keine Einrückungen der ul-Liste, welche die zweite Navigationsebene darstellt. Beide Ebenen sollen auf
+/*  Keine EinrÃ¼ckungen der ul-Liste, welche die zweite Navigationsebene darstellt. Beide Ebenen sollen auf
 	der linken Seite an gleicher Stelle beginnen		^													*/
 .navigation  nav .submenu ul {
-  margin-left: 0px;
-  padding-left: 0px;
-  padding-top: 5px; /* Ein wenig Abstand nach oben */
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-top: 5px; /* Ein wenig Abstand nach oben */
 }
 
 /* a-Elemente der zweiten Navigationsebene */
@@ -46,16 +51,16 @@
     color: black;
 }
 
-/* Ausgewählter Menüeintrag, Selektoren müssen der Spezifität genügen um zuvor gesetzte Eigenschaft zu überschreiben*/
+/* AusgewÃ¤hlter MenÃ¼eintrag, Selektoren mÃ¼ssen der SpezifitÃ¤t genÃ¼gen um zuvor gesetzte Eigenschaft zu Ã¼berschreiben*/
 .navigation  nav > ul > li > a.active {
-  color: #AD1921;
+	color: #AD1921;
 }
 
 .navigation  nav .submenu > ul > li > a.active {
     color: #AD1921;
 }
 
-/* Untermenü sichtbar machen, falls entsprechender Menüeintrag der ersten Navigationsebene gewählt wurde */
+/* UntermenÃ¼ sichtbar machen, falls entsprechender MenÃ¼eintrag der ersten Navigationsebene gewÃ¤hlt wurde */
 .navigation  nav > ul > li > a.active + .submenu {
-  visibility: visible;
+	visibility: visible;
 }

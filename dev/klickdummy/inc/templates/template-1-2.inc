@@ -6,7 +6,7 @@
         <h1 class="ym-hideme" id="maincnt">Der Inhaltsbereich</h1>
 
         <div class="logo"><img src="images/logo-tdh-murgtal.gif" alt="Logo von Terre des Hommes Murgtal/Mittelbaden"><span class="ym-hideme">terre des hommes Murgtal/Mittelbaden</span></div>
-
+        <?php include "inc/modules/navigation.inc"; ?>
         <?php if (isset($pageheadline)) {
                 echo '<h2>'.$pageheadline.'</h2>';
                 }; 
