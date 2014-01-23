@@ -6,7 +6,8 @@
         'contentwidget1.inc'
         );
         $contentrightincludes = array(
-        'blindtext.inc'
+        'blindtext.inc',
+		'event.inc'
         );
         $sideincludes = array(
                 'leer.inc'

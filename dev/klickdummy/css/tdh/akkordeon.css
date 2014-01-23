@@ -9,6 +9,11 @@
 .akkordeon .has-subnav > ul {
 	display: none;
 }
+.akkordeon .topic:hover,
+.akkordeon .topic:focus
+{
+	cursor:pointer;
+}
 .akkordeon .menu li .topic {
 	display: block;
 	color: #AD1921;
@@ -27,7 +32,9 @@
 	font-size: 1.5em;
 	padding: 0.25em 0.5em;
 }
-.akkordeon .menu li.has-subnav > .topic:hover:after, .akkordeon header  {
+.akkordeon .menu li.has-subnav > .topic:hover:after,
+.akkordeon .menu li.has-subnav > .topic:focus:after,
+.akkordeon header  {
 	color: #AD1921;
 }
 .akkordeon .menu li.has-subnav > .topic.active:after {
@@ -44,10 +51,12 @@
 	list-style: none;
   	border-bottom: 2px solid #B1B3B3;
 }
-.akkordeon a:hover {
+.akkordeon a:hover,
+.akkordeon a:focus {
 	background-color: transparent;
 }
-.akkordeon .description, .akkordeon article {
+.akkordeon .description, 
+.akkordeon article {
 	padding-bottom: 20px; 
 }
 .akkordeon time {

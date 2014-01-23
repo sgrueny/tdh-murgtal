@@ -3,7 +3,7 @@
   <h2>Das Team</h2>
   <div class="ym-g40 ym-gl">
     <div class="ym-gbox-left">
-		<img src="images/team-beispielbild.jpg" alt="Team Bild">
+		<img src="images/team-beispielbild.jpg"  alt="Team Bild" >
 	</div>
   </div>
   <div class="ym-g60 ym-gr">
