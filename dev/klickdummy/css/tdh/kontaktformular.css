@@ -14,7 +14,10 @@
 	font-family:arial;
 	font-size:13px;
 }
-
+.contactformular h3{
+	color:#ad1921;
+	font-size:1.7em;
+}
 .contactformular .ym-form button.ym-success{
 	padding:5px 25px 5px 25px;
 	float:right;
@@ -39,6 +42,7 @@
 	font-weight:bold;
 	padding-right:10px;
 	font-size:14px;
+	min-width:110px;
 }
 .contactformular .ym-fbox label p{
 	font-weight:normal;

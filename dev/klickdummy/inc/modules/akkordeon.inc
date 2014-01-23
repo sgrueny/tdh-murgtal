@@ -1,9 +1,9 @@
-﻿<div id="pattern" class="pattern">	
+﻿<div class="akkordeon">	
 	<nav id="menu" class="menu" role="akkordeon">
 		<ul class="level-1">
 			  <!--Parent #1-->
 			  <li class="has-subnav">
-				    <a href="#">Radbörse</a>
+				    <div class='topic'>Radbörse</div>
 				    <ul class="level-2">
     					<li><div class='description'>Sie findet jährlich im Frühjahr im Radhaus Kastner in Kuppenheim statt. Als Tauschbörse rund ums Rad ist sie inzwischen ein fester Bestandteil unserer Aktivitäten in Kuppenheim. Sie wird von der Bevölkerung gerne genutzt, um gut gerüstet und sattelfest die ersten warmen Sonnenstrahlen während eines Radausflugs zu genießen.</div>
 						<article>
@@ -36,7 +36,7 @@
 				</li>
 				<!--Parent #2-->
 				<li class="has-subnav">
-					<a href="#">Konzerte</a>
+					<div class='topic'>Konzerte</div>
 						<ul class="level-2">
 							<li><div class='description'>description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sunt quod inventore non nulla in culpa impedit aut soluta. Ipsam suscipit quibusdam nostrum perferendis obcaecati cum quisquam illum similique sequi.</div>
 							<article>
@@ -69,7 +69,7 @@
 					</li>
 				<!--Parent #3-->
 				<li class="has-subnav">
-					<a href="#">Kinderbasar</a>
+					<div class='topic'>Kinderfest</div>
 						<ul class="level-2">
 							<li><div class='description'>description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sunt quod inventore non nulla in culpa impedit aut soluta. Ipsam suscipit quibusdam nostrum perferendis obcaecati cum quisquam illum similique sequi.</div>
 							<article>
@@ -102,7 +102,7 @@
 					</li>
 				<!--Parent #4-->
 				<li class="has-subnav">
-					<a href="#">Konzerte</a>
+					<div class='topic'>Basar</div>
 						<ul class="level-2">
 							<li><div class='description'>description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sunt quod inventore non nulla in culpa impedit aut soluta. Ipsam suscipit quibusdam nostrum perferendis obcaecati cum quisquam illum similique sequi.</div>
 							<article>

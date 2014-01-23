@@ -3,10 +3,10 @@
     <h2>Die Macher</h2>
     <div class="ym-gbox-left"><img src="#" alt=""></div>
 	<ul >
-		<li>Macher Vorname Nachname 1</li>
-		<li>Macher Vorname Nachname 2</li>
-		<li>Macher Vorname Nachname 3</li>
+		<li><a href="">Macher Vorname Nachname 1</a></li>
+		<li><a href="">Macher Vorname Nachname 2</a></li>
+		<li><a href="">Macher Vorname Nachname 3</a></li>
 	</ul>
-	<a  href="#">Alle Macher</a>
+	<a href="#">Alle Macher</a>
   </div>
 </div>
