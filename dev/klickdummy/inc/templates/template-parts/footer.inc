@@ -1,7 +1,7 @@
             </div>
             <!-- /.ym-column -->
             <footer>
-                <span class="float-left">&copy; 2014 terre des hommes Mittelbaden/Murgtal</span> <a class="float-right" href="impressum.php">Impressum</a>
+                &copy; 2014 terre des hommes Mittelbaden/Murgtal  <a href="impressum.php">Impressum</a>
             </footer>
         </div>
         <!-- /.ym-wbox -->

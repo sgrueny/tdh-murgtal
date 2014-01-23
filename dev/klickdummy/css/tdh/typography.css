@@ -68,8 +68,8 @@
   }
 
   h2 {
-    /* font-size: 32px; */
-    font-size: 228.57143%;
+    /* font-size: 24px; */
+    font-size: 171.42857%;
     line-height: 1.3125;
     margin: 0 0 0.65625em 0;
 	color:#ad1921;
@@ -77,8 +77,9 @@
 
   h3 {
     /* font-size: 24px; */
-    font-size: 171.42857%;
+    font-size: 100%;
     line-height: 0.875;
+		font-weight: 700;
     margin: 0 0 0.875em 0;
   }
 

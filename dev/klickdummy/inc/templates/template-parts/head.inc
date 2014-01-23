@@ -28,7 +28,3 @@
 	<!-- end: skip link navigation -->
 	<div class="ym-wrapper">
         <div class="ym-wbox">
-            <?php if (isset($pageheadline)) {
-                    echo '<h2>'.$pageheadline.'</h2>';
-                    }; 
-            ?>

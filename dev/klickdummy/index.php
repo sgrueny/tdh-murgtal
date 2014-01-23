@@ -1,24 +1,20 @@
 <?php
-    $pagetitle= "test";
-	
-	$contentleftincludes = array(
-		'kontaktformular.inc',
-	    'contentwidget1.inc',
-		'akkordeon.inc'
-	);
-	$contentrightincludes = array(
-	    'contentwidget2.inc',
-	    'contentwidget3.inc'
-	);
-	$sideincludes = array(
-		'',
-		''
-	);
+    $pagetitle= "Willkommen bei terre des hommes Murgtal/Mittelbaden";
+        $pageheadline ="TDH Benefizkonzert mit Peter Götzmanns Jazz Hop Rhythm";
+        
+        $contentleftincludes = array(
+        'contentwidget1.inc'
+        );
+        $contentrightincludes = array(
+        'blindtext.inc'
+        );
+        $sideincludes = array(
+                'leer.inc'
+        );
 
     $widecontent = array(
-    	'sponsoren-liste.inc',
-    	'tabelle-1.inc'
+            'sponsoren-liste.inc'
     );
 
-	include 'inc/templates/template-2-1.inc';
+        include 'inc/templates/template-1-2.inc';
 ?>

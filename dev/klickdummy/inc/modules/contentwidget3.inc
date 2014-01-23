@@ -1,4 +1,4 @@
-
+<!--  siehe meine Kommentare in contentwidget1.inc -->
 <div class="contentpadded">
 	<section>
 	<header>
@@ -6,7 +6,7 @@
 	<h3>Franz Bürk - "Der Feuermacher"</h3>
 	</header>
 	<article>
-	<img src=".\css\tdh\images\fackelmann.jpg" />
+	<img src="images/fackelmann.jpg" />
 	<p>Franz Bürk aus Achern - "der Feuermacher" -
 	war eine große Bereicherung für das Kinderfest 2001,
 	indem er Jung und Alt eindrucksvoll demonstrierte, wie man ohne
