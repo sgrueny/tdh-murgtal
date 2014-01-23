@@ -69,7 +69,7 @@
 					</li>
 				<!--Parent #3-->
 				<li class="has-subnav">
-					<div class='topic'>Kinderbasar</div>
+					<div class='topic'>Kinderfest</div>
 						<ul class="level-2">
 							<li><div class='description'>description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sunt quod inventore non nulla in culpa impedit aut soluta. Ipsam suscipit quibusdam nostrum perferendis obcaecati cum quisquam illum similique sequi.</div>
 							<article>
@@ -102,7 +102,7 @@
 					</li>
 				<!--Parent #4-->
 				<li class="has-subnav">
-					<div class='topic'>Konzerte</div>
+					<div class='topic'>Basar</div>
 						<ul class="level-2">
 							<li><div class='description'>description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sunt quod inventore non nulla in culpa impedit aut soluta. Ipsam suscipit quibusdam nostrum perferendis obcaecati cum quisquam illum similique sequi.</div>
 							<article>
