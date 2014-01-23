@@ -1,5 +1,6 @@
 
-.zusatzwidget-content-4 li,ul{
+.zusatzwidget-content-4 li,
+.zusatzwidget-content-4 ul{
   list-style-type:none;
   text-decoration:underline;
   padding: 0 0 0 0;
