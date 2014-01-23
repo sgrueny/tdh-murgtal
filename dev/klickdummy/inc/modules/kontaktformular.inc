@@ -1,4 +1,4 @@
-
+<div class="contactformular">
 	<h2>Kontakt mit terre des hommes Murgtal</h2>
 	<p>Schreiben Sie uns eine Nachricht - wir melden uns so schnell wie möglich bei Ihnen</p>
 	<form class="ym-form ym-columnar">
@@ -25,5 +25,4 @@
 		</div>
 
 	</form>
-
-
+</div>
