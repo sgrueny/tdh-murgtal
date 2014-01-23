@@ -63,19 +63,33 @@ margin-left: 0px;
 height: 69px;
 border-bottom: solid #B1B3B3 1px;
 vertical-align: middle;
+width: 25%;
 }
 
-.sponsoren-tab-1 img
+.sponsoren-tab-1 td:nth-child(3n+2){
+	width: 50%;
+	font-weight: bold;
+}
+
+.sponsoren-tab-1 td div
 {
-
+position: relative;
 }
 
-.sponsoren-tab-1 .img-Abacus-Nachhilfeinstitut:hover .sponsor-img-big{
+.sponsoren-tab-1 .sponsor-img-small:hover+.sponsor-img-big{
 display: block;
+/*visibility: visible;*/
+position: absolute;
+z-index: 5;
+overflow: hidden;
+left: 10px;
+top: -320px;
+height: 300px;
+/*transition: all .3s 1s ease;*/
 }
 
-.sponsoren-tab-1 .img-Abacus-Nachhilfeinstitut:hover .sponsor-img-small{
-display: none;
+.sponsoren-tab-1 .sponsor-img:hover .sponsor-img-small{
+
 }
 
 .sponsoren-tab-1 .sponsor-img-big
@@ -83,8 +97,8 @@ display: none;
 vertical-align: middle;
 margin: 5px;
 padding-bottom: 0;
+/*visibility: hidden;*/
 display: none;
-width: 100%;
 }
 
 .sponsoren-tab-1 .sponsor-img-small
@@ -92,7 +106,7 @@ width: 100%;
 vertical-align: middle;
 margin: 5px;
 padding-bottom: 0;
-width: 30%;
+height: 60px;
 }
 
 .sponsoren-tab-1 td:first-child
