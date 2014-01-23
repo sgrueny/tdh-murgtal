@@ -1,5 +1,5 @@
 <!--TODO: Muss später entfert werden-->
-<!-- <link rel="stylesheet" type="text/css" href="../../css/tdh/tabelle-1.css"/>  -->
+ <link rel="stylesheet" type="text/css" href="../../css/tdh/tabelle-1.css"/>  
 
 <!-- Beide JS-Dateien werden im Footer schon geladen. -->
 <!-- 
@@ -70,70 +70,75 @@
 		</caption>
 <thead>
 	<tr>
-		<th>Firmenname</th>
+		<th colspan="2">Firmenname</th>
 		<th>Ort</th>
 	</tr>
 </thead>
+<tbody>
 	<tr>
-		<td>
-			<img src="images/einzelnachhilfe.gif"/>
-			Abacus Nachhilfeinstitut
+		<td class="img-Abacus-Nachhilfeinstitut">
+			<img src="http://placekitten.com/200/300"/>
+			<div><img src="http://placekitten.com/200/300"/></div>
 		</td>
+		<td>Abacus Nachhilfeinstitut</td>
 		<td>Gernsbach-Scheuern</td>
 	</tr>
 	<tr>
+		<td></td>
 		<td>ABAKUS Computer</td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
+		<td></td>
 		<td>Adam Versicherungen</td>
 		<td>Bischweiler</td>
 	</tr>
 	<tr>
+		<td></td>
 		<td>Adolph Versicherungen</td>
 		<td>Karlsruhe</td>
 	</tr>
 	<tr>
-		<td>
-			<img src="images/adler-apotheke.gif"/>
-			Adler Apotheke
-		</td>
+		<td><img src="images/adler-apotheke.gif"/></td>
+		<td>Adler Apotheke</td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
+		<td></td>
 		<td>Barmer, Krankenkasse</td>
 		<td>Gaggenau</td>
 	</tr>
 	<!-- Kopie des erten Teils -->
 	<tr>
-		<td>
-			<img src="images/einzelnachhilfe.gif"/>
-			Abacus Nachhilfeinstitut 2
-		</td>
+		<td><img src="images/einzelnachhilfe.gif"/></td>
+		<td>Abacus Nachhilfeinstitut</td>
 		<td>Gernsbach-Scheuern</td>
 	</tr>
 	<tr>
-		<td>ABAKUS Computer 2</td>
+		<td></td>
+		<td>ABAKUS Computer</td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<td>Adam Versicherungen 2</td>
+		<td></td>
+		<td>Adam Versicherungen</td>
 		<td>Bischweiler</td>
 	</tr>
 	<tr>
-		<td>Adolph Versicherungen 2</td>
+		<td></td>
+		<td>Adolph Versicherungen</td>
 		<td>Karlsruhe</td>
 	</tr>
 	<tr>
-		<td>
-			<img src="images/adler-apotheke.gif"/>
-			Adler Apotheke 2
-		</td>
+		<td><img src="images/adler-apotheke.gif"/></td>
+		<td>Adler Apotheke</td>
 		<td>Kuppenheim</td>
 	</tr>
 	<tr>
-		<td>Barmer, Krankenkasse 2</td>
+		<td></td>
+		<td>Barmer, Krankenkasse</td>
 		<td>Gaggenau</td>
 	</tr>
+</tbody>
 </table>
 	
