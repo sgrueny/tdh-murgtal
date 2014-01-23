@@ -1,35 +1,26 @@
+/*Sponsors root element*/
+/*emet code: div.sponsors>(span+(ul>li>a>img))*5*/
 .sponsors{
     font-weight: bold;
     font-size: 14px;
     text-align:center;
-  
 }
 
+/*label and link to other sponsors*/
 .sponsors span {
  color:#6F6F6F;
 
 }
-
+/*link to other sponsors*/
 .sponsors span a{
  color: #AD1921;
 }
 
-.sponsors ul{
-
-}
-
+/*sponsors list*/
 .sponsors ul li{
     display:table-cell;
     width: 20%;
-}
-
-.sponsors ul li a{
-    width: 100%;
-}
-
-.sponsors ul li a:hover {
-    color:yellow;
-    text-decoration:none;
+    margin: 0;
 }
 
 .sponsors ul li a img{
@@ -37,23 +28,22 @@
     margin: 0;
 }
 
-/* breakpoints */
+/* breakpoints for rsponsive design */
+/*medium*/
 @media screen and (min-width: 501px) and (max-width:759px){
  
    .sponsors ul li{
         display:inline-block;
         width: 49%;
-        margin: 0;
     }
 
 }
-
+/*small*/
 @media screen and (max-width: 500px){
 
     .sponsors ul li{
         display:block;
         width: 100%;
-        margin: 0;
     }
 
 }

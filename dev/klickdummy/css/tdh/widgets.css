@@ -1,29 +1,29 @@
-img{
+.contentpadded img{
 	padding-bottom:10px;
 }
 .contentpadded{
 	padding:15px;
 }
-.link{
+.contentpadded link{
 	color:#AD1921;
 }
-small{
+.contentpadded small{
 	color:#6f6f6f;
 	display:block;
 	font-size:12px;
 	font-weight:bold;
 }
-h3 {
+.contentpadded h3 {
 	color:#AD1921;
 	font-size:14px;
 	font-weight:bold;
 }
 
-a{
+.contentpadded a{
 	color:#AD1921;
 	text-decoration:none;
 }
-a:hover{
+.contentpadded a:hover{
 	text-decoration: underline;
 	color:#AD1921;
 	background:#FFFFFF;
