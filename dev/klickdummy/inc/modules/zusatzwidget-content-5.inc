@@ -1,6 +1,6 @@
 
 <div class="ym-grid zusatzwidget-content-5">
-  <h2>Das Team</h2>
+  <h3>Das Team</h3>
   <div class="ym-g40 ym-gl">
     <div class="ym-gbox-left">
 		<img src="images/team-beispielbild.jpg"  alt="Team Bild" >
