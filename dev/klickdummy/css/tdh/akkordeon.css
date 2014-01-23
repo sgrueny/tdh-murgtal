@@ -9,6 +9,11 @@
 .akkordeon .has-subnav > ul {
 	display: none;
 }
+.akkordeon .topic:hover,
+.akkordeon .topic:focus
+{
+	cursor:pointer;
+}
 .akkordeon .menu li .topic {
 	display: block;
 	color: #AD1921;
