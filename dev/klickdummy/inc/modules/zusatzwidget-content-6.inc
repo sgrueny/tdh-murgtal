@@ -1,9 +1,9 @@
 <div class="ym-grid zusatzwidget-content-6">
-  <h2>Unsere Spendenkonten</h2>
+  <h3>Unsere Spendenkonten</h3>
   <div class="ym-g50 ym-gl">
     
-    <div class="ym-gbox-left"><img src="#" alt="">
-    <h3>Sparkasse</h3>
+    <div class="ym-gbox-left">
+    <h4>Sparkasse</h4>
 		<caption style="caption-side:bottom">Baden-Baden/ Gaggenau</caption>
 	<table>
         <tr>
@@ -18,7 +18,7 @@
   </div>
   <div class="ym-g50 ym-gr">
     <div class="ym-gbox-right">
-        <h3>Volksbank</h3>
+        <h4>Volksbank</h4>
       <caption style="caption-side:bottom">Osnabr&uuml;ck</caption>
       <table>
         <tr>
