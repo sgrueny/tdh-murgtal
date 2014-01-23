@@ -77,8 +77,8 @@
 <tbody>
 	<tr>
 		<td class="img-Abacus-Nachhilfeinstitut">
-			<img src="http://placekitten.com/200/300"/>
-			<div><img src="http://placekitten.com/200/300"/></div>
+			<img class="sponsor-img-small" src="http://placekitten.com/300/200"/>
+			<img class="sponsor-img-big" src="http://placekitten.com/300/200"/></div>
 		</td>
 		<td>Abacus Nachhilfeinstitut</td>
 		<td>Gernsbach-Scheuern</td>
@@ -108,7 +108,7 @@
 		<td>Barmer, Krankenkasse</td>
 		<td>Gaggenau</td>
 	</tr>
-	<!-- Kopie des erten Teils -->
+	<!-- Kopie des ersten Teils -->
 	<tr>
 		<td><img src="images/einzelnachhilfe.gif"/></td>
 		<td>Abacus Nachhilfeinstitut</td>

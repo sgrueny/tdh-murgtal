@@ -67,9 +67,32 @@ vertical-align: middle;
 
 .sponsoren-tab-1 img
 {
+
+}
+
+.sponsoren-tab-1 .img-Abacus-Nachhilfeinstitut:hover .sponsor-img-big{
+display: block;
+}
+
+.sponsoren-tab-1 .img-Abacus-Nachhilfeinstitut:hover .sponsor-img-small{
+display: none;
+}
+
+.sponsoren-tab-1 .sponsor-img-big
+{
 vertical-align: middle;
 margin: 5px;
 padding-bottom: 0;
+display: none;
+width: 100%;
+}
+
+.sponsoren-tab-1 .sponsor-img-small
+{
+vertical-align: middle;
+margin: 5px;
+padding-bottom: 0;
+width: 30%;
 }
 
 .sponsoren-tab-1 td:first-child
