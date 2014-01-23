@@ -2,9 +2,9 @@
 
 /* Schriftart für den enthaltenen Text und Standardfarbe */
 .navigation {
-  font-family: Arial;
   font-weight: bold;
   color: #19171B;
+	margin-bottom: 40px;
 }
 
 /* 	Jedes li-Element einer ul-Liste wird horizontal dargestellt, die einzelnen Listeneinträge
