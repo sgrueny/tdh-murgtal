@@ -4,7 +4,7 @@
 /* Der Aufbau des Layouts */
 @import url("tdh/layout.css");
 
-/* Vorschlag f√ºr die Typographie - aus YAML - -- wird √ºberarbeitet */
+/* Vorschlag für die Typographie - aus YAML - -- wird überarbeitet */
 @import url("tdh/typography.css");
 
 @import url("tdh/navigation.css");
@@ -29,6 +29,9 @@
 @import url("tdh/zusatzwidget-content-5.css");
 @import url("tdh/zusatzwidget-content-6.css");
 
+
+/*eventheader*/
+@import url("tdh/event.css");
 
 /*Text Lightbox*/
 @import url("tdh/text-lb.css");
