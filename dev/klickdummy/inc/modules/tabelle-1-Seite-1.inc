@@ -17,8 +17,8 @@
 	<tr>
 		<td>
 			<div>
-				<img class="sponsor-img-small flexible" alt="Katze" src="http://placekitten.com/300/200"/>
-				<img class="sponsor-img-big flexible" alt="Katze" src="http://placekitten.com/300/200"/>
+				<img class="sponsor-img-small" alt="Katze" src="http://placekitten.com/300/200"/>
+				<img class="sponsor-img-big" alt="Katze" src="http://placekitten.com/300/200"/>
 			</div>
 		</td>
 		<td><a href="#">Abacus Nachhilfeinstitut</a></td>
@@ -42,8 +42,8 @@
 	<tr>
 		<td>
 			<div>
-				<img class="sponsor-img-small flexible" alt="Katze" src="http://placekitten.com/301/201"/>
-				<img class="sponsor-img-big flexible" alt="Katze" src="http://placekitten.com/301/201"/>
+				<img class="sponsor-img-small" alt="Katze" src="http://placekitten.com/301/201"/>
+				<img class="sponsor-img-big" alt="Katze" src="http://placekitten.com/301/201"/>
 			</div>
 		</td>
 		<td><a href="#">Adler Apotheke</a></td>
@@ -56,12 +56,14 @@
 	</tr>
 </tbody>
 </table>
-<ul class="pagination">
-  <li class="disabled"><a href="#">&laquo;</a></li>
-  <li class="active"><a href="#">1</a></li>
-  <li><a href="ueberuns-sponsoren2.php">2</a></li>
-  <li class="disabled"><a href="ueberuns-sponsoren3.php">3</a></li>
-  <li class="disabled"><a href="ueberuns-sponsoren4.php">4</a></li>
-  <li class="disabled"><a href="ueberuns-sponsoren5.php">5</a></li>
-  <li><a href="ueberuns-sponsoren2.php">&raquo;</a></li>
-</ul>
+<div class="pagination">
+	<ul>
+		<li class="disabled"><a href="#">&laquo;</a></li>
+		<li class="active"><a href="#">1</a></li>
+		<li><a href="ueberuns-sponsoren2.php">2</a></li>
+		<li class="disabled"><a href="ueberuns-sponsoren3.php">3</a></li>
+		<li class="disabled"><a href="ueberuns-sponsoren4.php">4</a></li>
+		<li class="disabled"><a href="ueberuns-sponsoren5.php">5</a></li>
+		<li><a href="ueberuns-sponsoren2.php">&raquo;</a></li>
+	</ul>
+</div>
