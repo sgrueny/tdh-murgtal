@@ -12,7 +12,7 @@
 		<a  href="#">Email</a>
 		oder rufen Sie einen
 		<a  href="#">Mitarbeiter</a>
-		an, wir informieren Sie gerne pers&ouml;nlich.
+		an, wir informieren Sie gerne persönlich.
 	</p>
     <a  href="#">
       Hier finden Sie eine Liste all unsere aktiven Mitarbeiter.
