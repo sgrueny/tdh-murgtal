@@ -1,13 +1,5 @@
-
-.event .left{
-	width:50%;
-	float:left;
-	
-}
-
 .event tr, .event td, .event th, .event table{
 	border:none;
-	
 }
 
 
@@ -16,15 +8,7 @@
 	background:transparent;
 }
 
-.event .right{
+.event .ym-gr{
 	padding-right:15px;
-	width:50%;
 	text-align:right;
-	float:right;
 	}
-	
-
-.event .description{
-	clear:both;
-	
-}

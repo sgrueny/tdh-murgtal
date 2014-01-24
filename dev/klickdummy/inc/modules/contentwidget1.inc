@@ -9,7 +9,7 @@
 	            in den CSS-Unterordner, sondern in den Haupt-Bilderordner.
 	            Die Slashes gingen in die falsche Richtung. 
 	            Es fehlt ein Alt-Attribut. -->
-	<img src="images/topbild.jpg" alt="Super tolles Inhaltsbild mit toll bedeutungsschwangerem Alternativtext">
+	<img src="images/topbild.jpg" alt="Super tolles Inhaltsbild mit toll bedeutungsschwangerem Alternativtext" class="flexible">
 	<header>	
 	    <small>Der Erlös geht an</small>
 	    <h3>Staubige Kindheit</h3>
