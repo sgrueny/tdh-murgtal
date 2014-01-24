@@ -1,3 +1,4 @@
+<div class="ansprechpartner">
 <h3>Verantwortlich für den Inhalt</h3>
 
 <ul>
@@ -8,6 +9,7 @@
     <li>Tel. 07225 / 755 43</li>
     <li><a href="mailto:info@tdh-murgtal.de">info@tdh-murgtal.de</a></li>
 </ul>
+</div>
 
 
 
