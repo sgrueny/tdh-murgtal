@@ -1,5 +1,4 @@
-﻿$('.menu').on('click', '.has-subnav .topic', function(e) {
-		//e.preventDefault();
+﻿$('.akkordeon').on('click', '.has-subnav .topic', function(e) {
 		if ($(this).next('ul').is(':visible')) {
 			$(this).next('ul').slideUp('fast');
 			$(this).removeClass('active');
