@@ -1,5 +1,5 @@
 <!--  siehe meine Kommentare in contentwidget1.inc -->
-<div class="contentpadded">
+<div class="contentwidget">
 	<section>
 	<header>
 	<small>Werden Sie Sponsor</small>

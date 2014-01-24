@@ -11,7 +11,7 @@
 	</div>
 	
 	<div class="ym-g50 ym-gr">
-	<img src="images/printer.gif" class="flexible"/> <a href="#">drucken</a>
+	<img src="images/printer.gif"/> <a href="#">drucken</a>
 	</div>
 	</div>
 	
