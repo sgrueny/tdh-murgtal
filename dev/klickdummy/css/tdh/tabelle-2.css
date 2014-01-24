@@ -16,6 +16,10 @@
 	cursor: pointer;
 }
 
+.tabelle-2 .tablesorter thead tr .header:after {
+	content: url("images/bg.gif");
+}
+
 .tabelle-2 .tablesorter thead tr .headerSortUp,
 .tabelle-2  .tablesorter thead tr .headerSortDown {
 	color: #000;
