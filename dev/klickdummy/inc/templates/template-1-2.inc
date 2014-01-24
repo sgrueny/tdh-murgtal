@@ -38,6 +38,7 @@
             }
         ?>
         
+    <?php include "inc/templates/template-parts/footer.inc"; ?>       
     </main>
     <!-- /.ym-col1 -->
     <!-- Die Seitenspalte -->
@@ -51,4 +52,4 @@
     </div>
     <!-- /.ym-col3 -->
 <!--  .column wird in footer.inc geschlossen -->
-<?php include "inc/templates/template-parts/footer.inc"; ?>
+<?php include "inc/templates/template-parts/foot.inc"; ?>
