@@ -59,11 +59,4 @@
 			</tbody>
 		</table>
 	</div>
-	
-	<script>
-		$(document).ready(function()
-			{
-				$("#tabelle-2").tablesorter({sortList: [[0,0]],headers: {1: {sorter:false}}});
-			}
-		);
-	</script>
+
