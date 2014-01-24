@@ -3,58 +3,78 @@
 
 <table name="sponsoren-tab-1" class="sponsoren-tab-1">
 	<caption>
-			<h3>Sponsorenliste</h3>
+		<h3>Sponsorenliste</h3>
 
-		</caption>
-<thead>
-	<tr>
-		<th>Firmenlogo</th>
-		<th>Name</th>
-		<th>Ort</th>	
-	</tr>
-</thead>
-<tbody>
-	<tr>
-		<td>
-			<div>
-				<img class="sponsor-img-small" alt="Katze" src="http://placekitten.com/300/200"/>
-				<img class="sponsor-img-big" alt="Katze" src="http://placekitten.com/300/200"/>
-			</div>
-		</td>
-		<td><a href="#">Abacus Nachhilfeinstitut</a></td>
-		<td>Gernsbach-Scheuern</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td><a href="#">ABAKUS Computer</a></td>
-		<td>Kuppenheim</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td><a href="#">Adam Versicherungen</a></td>
-		<td>Bischweiler</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td><a href="#">Adolph Versicherungen</a></td>
-		<td>Karlsruhe</td>
-	</tr>
-	<tr>
-		<td>
-			<div>
-				<img class="sponsor-img-small" alt="Katze" src="http://placekitten.com/301/201"/>
-				<img class="sponsor-img-big" alt="Katze" src="http://placekitten.com/301/201"/>
-			</div>
-		</td>
-		<td><a href="#">Adler Apotheke</a></td>
-		<td>Kuppenheim</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td><a href="#">Barmer, Krankenkasse</a></td>
-		<td>Gaggenau</td>
-	</tr>
-</tbody>
+	</caption>
+	<thead>
+		<tr>
+			<th>Firmenlogo</th>
+			<th>Name</th>
+			<th>Ort</th>	
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<div>
+					<img class="sponsor-img-small" alt="Katze" src="http://baconmockup.com/300/200"/>
+					<img class="sponsor-img-big" alt="Katze" src="http://baconmockup.com/300/200"/>
+				</div>
+			</td>
+			<td><a href="#">Abacus Nachhilfeinstitut</a></td>
+			<td>Gernsbach-Scheuern</td>
+		</tr>
+		<tr>
+			<td>
+				<div>
+					<img class="sponsor-img-small" alt="Katze" src="http://baconmockup.com/301/200"/>
+					<img class="sponsor-img-big" alt="Katze" src="http://baconmockup.com/301/200"/>
+				</div>
+			</td>
+			<td><a href="#">ABAKUS Computer</a></td>
+			<td>Kuppenheim</td>
+		</tr>
+		<tr>
+			<td>
+				<div>
+					<img class="sponsor-img-small" alt="Katze" src="http://baconmockup.com/302/200"/>
+					<img class="sponsor-img-big" alt="Katze" src="http://baconmockup.com/302/200"/>
+				</div>
+			</td>
+			<td><a href="#">Adam Versicherungen</a></td>
+			<td>Bischweiler</td>
+		</tr>
+		<tr>
+			<td>
+				<div>
+					<img class="sponsor-img-small" alt="Katze" src="http://baconmockup.com/300/201"/>
+					<img class="sponsor-img-big" alt="Katze" src="http://baconmockup.com/300/201"/>
+				</div>
+			</td>
+			<td><a href="#">Adolph Versicherungen</a></td>
+			<td>Karlsruhe</td>
+		</tr>
+		<tr>
+			<td>
+				<div>
+					<img class="sponsor-img-small" alt="Katze" src="http://baconmockup.com/301/202"/>
+					<img class="sponsor-img-big" alt="Katze" src="http://baconmockup.com/301/202"/>
+				</div>
+			</td>
+			<td><a href="#">Adler Apotheke</a></td>
+			<td>Kuppenheim</td>
+		</tr>
+		<tr>
+			<td>
+				<div>
+					<img class="sponsor-img-small" alt="Katze" src="http://baconmockup.com/300/203"/>
+					<img class="sponsor-img-big" alt="Katze" src="http://baconmockup.com/300/203"/>
+				</div>
+			</td>
+			<td><a href="#">Barmer, Krankenkasse</a></td>
+			<td>Gaggenau</td>
+		</tr>
+	</tbody>
 </table>
 <div class="pagination">
 	<ul>
