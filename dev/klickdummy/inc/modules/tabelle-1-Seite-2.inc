@@ -70,7 +70,8 @@
 		</caption>
 <thead>
 	<tr>
-		<th colspan="2">Firmenname</th>
+		<th>Firmenlogo</th>
+		<th>Name</th>
 		<th>Ort</th>
 	</tr>
 </thead>
@@ -116,14 +117,14 @@
 		<td>Gaggenau</td>
 	</tr>
 </tbody>
-<ul class="pagination">
-  <li><a href="#">&laquo;</a></li>
-  <li><a href="#">1</a></li>
-  <li><a href="#">2</a></li>
-  <li><a href="#">3</a></li>
-  <li><a href="#">4</a></li>
-  <li><a href="#">5</a></li>
-  <li><a href="#">&raquo;</a></li>
-</ul>
 </table>
+<ul class="sponsoren-tab-1-pagination">
+  <li><a href="ueberuns-sponsoren.php">&laquo;</a></li>
+  <li><a href="ueberuns-sponsoren.php">1</a></li>
+  <li class="active"><a href="#">2</a></li>
+  <li class="disabled"><a href="ueberuns-sponsoren3.php">3</a></li>
+  <li class="disabled"><a href="ueberuns-sponsoren4.php">4</a></li>
+  <li class="disabled" ><a href="ueberuns-sponsoren5.php">5</a></li>
+  <li class="disabled"><a href="ueberuns-sponsoren3.php">&raquo;</a></li>
+</ul>
 	

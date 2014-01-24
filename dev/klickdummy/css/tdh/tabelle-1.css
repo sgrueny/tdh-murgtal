@@ -11,17 +11,41 @@ border-top: 0;
 background-color: #B1B3B3;
 }
 
-.sponsoren-tab-1 .pagination
+.sponsoren-tab-1-pagination
 {
 display: inline-block;
-padding-left: 0px;
-margin: 20px 0px;
-border-radius: 4px;
+/*padding: 10px;*/
+margin: 0px;
+margin-left: 25%;
+/*border-radius: 4px;*/
+list-style-type: none;
+overflow: hidden;
 }
 
-.sponsoren-tab-1 .pagination li
+.sponsoren-tab-1-pagination li
 {
 display: inline;
+float: left;
+padding: 10px 20px;
+margin: 0px;
+border: 2px solid #6F6F6F;
+}
+
+.sponsoren-tab-1-pagination .disabled{
+	background-color: #ddd;
+}
+
+.sponsoren-tab-1-pagination .active{
+	background-color: #AD1921;
+}
+
+.sponsoren-tab-1-pagination .active a{
+	color: #FFFFFF;
+}
+
+.sponsoren-tab-1-pagination .disabled a{
+	color: #6F6F6F;
+	cursor: default;
 }
 
 /*---caption-----*/
