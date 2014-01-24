@@ -32,10 +32,10 @@
 	cursor:pointer;
 }
 
-.contactformular  .ym-form input,
+/*.contactformular  .ym-form input,
 .contactformular .ym-form select {
     width: 45%;
-}
+}*/
 
 .contactformular  .ym-fbox label{
 	font-weight:bold;
