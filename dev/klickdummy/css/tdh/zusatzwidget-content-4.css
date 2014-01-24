@@ -9,7 +9,7 @@
 }
 
 
-.zusatzwidget-content-4 h2{
+.zusatzwidget-content-4 h3{
 	font-size:14px;
 	font-weight: bold;
 	color: #000;
@@ -22,7 +22,7 @@
   padding-bottom: 10px;
   padding-left: 10px;
   font-size:14px;
-  width: 245px;
+   margin-bottom: 10px;
 
 }
 .zusatzwidget-content-4 a {
