@@ -1,5 +1,5 @@
 <!--sponsors list module-->
-<!--emet code: div.sponsors>(span+(ul>li>a>img))*5-->
+<!--emet code: div.sponsors>((span>a)+ul>(li>a>img.flexible)*5)-->
 <div class="sponsors">
     <!--label and link to other sponsors-->
     <p>Eine Auswahl unserer langjährigen Sponsoren. Die vollständige Liste der Sponsoren finden <a href="#">Sie hier</a></p>
