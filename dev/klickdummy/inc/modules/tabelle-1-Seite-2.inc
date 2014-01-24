@@ -16,8 +16,8 @@
 	<tr>
 		<td>
 			<div>
-				<img class="sponsor-img-small flexible" alt="Katze" src="images/einzelnachhilfe.gif"/>
-				<img class="sponsor-img-big flexible" alt="Katze" src="images/einzelnachhilfe.gif"/>
+				<img class="sponsor-img-small" alt="Katze" src="images/einzelnachhilfe.gif"/>
+				<img class="sponsor-img-big" alt="Katze" src="images/einzelnachhilfe.gif"/>
 			</div>
 		</td>
 		<td><a href="#">Abacus Nachhilfeinstitut</a></td>
@@ -41,8 +41,8 @@
 	<tr>
 		<td>
 			<div>
-				<img class="sponsor-img-small flexible" alt="Katze" src="images/adler-apotheke.gif"/>
-				<img class="sponsor-img-big flexible" alt="Katze" src="images/adler-apotheke.gif"/>
+				<img class="sponsor-img-small" alt="Katze" src="images/adler-apotheke.gif"/>
+				<img class="sponsor-img-big" alt="Katze" src="images/adler-apotheke.gif"/>
 			</div>
 		</td>
 		<td><a href="#">Adler Apotheke</a></td>
