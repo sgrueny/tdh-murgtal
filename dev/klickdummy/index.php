@@ -3,7 +3,8 @@
         $pageheadline ="TDH Benefizkonzert mit Peter Götzmanns Jazz Hop Rhythm";
         
         $contentleftincludes = array(
-        'contentwidget1.inc'
+        'contentwidget1.inc',
+        'sponsorendank.inc'
         );
         $contentrightincludes = array(
 		'event.inc',

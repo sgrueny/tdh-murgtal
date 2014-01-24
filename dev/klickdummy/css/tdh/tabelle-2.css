@@ -1,0 +1,30 @@
+﻿
+.tabelle-2 table thead tr th{
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	font-weight: bold;
+	color: #6f6f6f;
+	border-top: 2px solid #6f6f6f;
+	border-bottom: 2px solid #6f6f6f;
+}
+
+.tabelle-2 table tbody tr td:first-child{
+	font-weight: bold;
+}
+
+.tabelle-2 .tablesorter thead tr .header {
+	cursor: pointer;
+}
+
+.tabelle-2 .tablesorter thead tr .headerSortUp,
+.tabelle-2  .tablesorter thead tr .headerSortDown {
+	color: #000;
+}
+
+.tabelle-2 .tablesorter thead tr .headerSortUp:after {
+	content: url("images/asc.gif");
+}
+
+.tabelle-2  .tablesorter thead tr .headerSortDown:after {
+	content: url("images/desc.gif");
+}
