@@ -19,7 +19,7 @@
 	<article> 
 	    <!-- Links sind generell rot und müssen nicht extra in ein DIV gepackt werden. -->
 	    <!-- Den Punkt schreiben Sie am Besten mit der display-Eigenschaft: http://codepen.io/jensgro/pen/bgcqu -->
-	    <div class="link">&bull; <a href="#">mehr darüber bei terre des hommes Deutschland</a></div>
+	    <a href="#" class="dottedlink" >mehr darüber bei terre des hommes Deutschland</a>
 	</article>
 	<!-- </section> -->
 </div>

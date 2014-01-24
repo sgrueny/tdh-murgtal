@@ -53,3 +53,12 @@ footer a {
 .logo {
         margin: 50px 0 30px 0;
 }
+
+/* Wir haben immer nur zwei Grid-Spalten nebeneinander. So geht das Folgende einfach. */
+
+.ym-gl {
+	padding: 0 10px 0 0;
+}
+.ym-gr {
+	padding: 0 0 0 10px;
+}
