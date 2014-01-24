@@ -47,11 +47,19 @@
  
 }
 
-.left-content-6{
+@media only screen and (max-width: 720px) {
+  .right-content-6 {
+    float: none;
+    width: auto;
+    
+  }
+  
+   .left-content-6 {
+    float: none;
+    width: auto;
+    
+  }
 
-}
-
-.right-content-6{
-
+  
 }
 

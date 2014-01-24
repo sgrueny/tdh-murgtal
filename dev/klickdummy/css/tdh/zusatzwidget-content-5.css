@@ -26,4 +26,19 @@
 	
 }
 
+@media only screen and (max-width: 720px) {
+  .right-content-5 {
+    float: none;
+    width: auto;
+    
+  }
+  
+   .left-content-5 {
+    float: none;
+    width: auto;
+    
+  }
+
+  
+}
 
