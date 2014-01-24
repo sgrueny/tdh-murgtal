@@ -1,26 +1,29 @@
-.contentpadded img{
-	padding-bottom:10px;
+.contentwidget img{
+	margin-bottom:10px;
 }
-.contentpadded{
-	padding:15px;
+.contentwidget{
+	margin-top:10px;
+	border-radius: 1px;
+	border-bottom:2px #b1b3b3 solid;
+	padding:10px;
 }
-.contentpadded link{
+.contentwidget link{
 	color:#AD1921;
 }
-.contentpadded small{
+.contentwidget small{
 	color:#6f6f6f;
 	display:block;
 	font-size:12px;
 	font-weight:bold;
 }
-.contentpadded h3 {
+.contentwidget h3 {
 	color:#AD1921;
 	font-size:14px;
 	font-weight:bold;
 }
 
 
-.contentpadded .dottedlink{
+.contentwidget .dottedlink{
 	list-style-type: disc;
 	display: list-item;
 	margin: 0 0 0  15px;
