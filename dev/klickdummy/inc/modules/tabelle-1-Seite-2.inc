@@ -55,13 +55,14 @@
 	</tr>
 </tbody>
 </table>
-<ul class="pagination">
-  <li><a href="ueberuns-sponsoren.php">&laquo;</a></li>
-  <li><a href="ueberuns-sponsoren.php">1</a></li>
-  <li class="active"><a href="#">2</a></li>
-  <li class="disabled"><a href="ueberuns-sponsoren3.php">3</a></li>
-  <li class="disabled"><a href="ueberuns-sponsoren4.php">4</a></li>
-  <li class="disabled" ><a href="ueberuns-sponsoren5.php">5</a></li>
-  <li class="disabled"><a href="ueberuns-sponsoren3.php">&raquo;</a></li>
-</ul>
-	
+<div class="pagination">
+	<ul>
+		<li><a href="ueberuns-sponsoren.php">&laquo;</a></li>
+		<li><a href="ueberuns-sponsoren.php">1</a></li>
+		<li class="active"><a href="#">2</a></li>
+		<li class="disabled"><a href="ueberuns-sponsoren3.php">3</a></li>
+		<li class="disabled"><a href="ueberuns-sponsoren4.php">4</a></li>
+		<li class="disabled" ><a href="ueberuns-sponsoren5.php">5</a></li>
+		<li class="disabled"><a href="ueberuns-sponsoren3.php">&raquo;</a></li>
+	</ul>
+</div>

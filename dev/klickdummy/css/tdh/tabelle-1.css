@@ -127,9 +127,9 @@
 }
 
 .pagination > ul > li > a:hover,
-.pagination > ul > li > a:focus,
+.pagination > ul > li > a:focus
 {
-	background-color: #eeeeee;
+	background-color: #EEE;
 }
 
 .pagination > ul > .active > a,
