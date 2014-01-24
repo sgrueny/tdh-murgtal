@@ -2,9 +2,9 @@
   <h3>Unsere Spendenkonten</h3>
   <div class="ym-g50 ym-gl">
     
-    <div class="ym-gbox-left">
+    <div class="ym-gbox-left left-content-6">
     <h4>Sparkasse</h4>
-		<caption style="caption-side:bottom">Baden-Baden/ Gaggenau</caption>
+		<caption >Baden-Baden/ Gaggenau</caption>
 	<table>
         <tr>
           <th>Konto-Nr.</th>
@@ -17,9 +17,9 @@
        </div>
   </div>
   <div class="ym-g50 ym-gr">
-    <div class="ym-gbox-right">
+    <div class="ym-gbox-right right-content-6">
         <h4>Volksbank</h4>
-      <caption style="caption-side:bottom">Osnabr&uuml;ck</caption>
+      <caption>Osnabr&uuml;ck</caption>
       <table>
         <tr>
           <th>Konto-Nr.</th>
