@@ -1,62 +1,23 @@
 /*------Module: Table 1------------------------------------------------*/
 .sponsoren-tab-1 
 {
-width: 97%;
 border-collapse: collapse;
 border-top: 0;
 }
 
 .sponsoren-tab-1 tbody tr:nth-child(even)
 {
-background-color: #B1B3B3;
-}
-
-.sponsoren-tab-1-pagination
-{
-display: inline-block;
-/*padding: 10px;*/
-margin: 0px;
-margin-left: 25%;
-/*border-radius: 4px;*/
-list-style-type: none;
-overflow: hidden;
-}
-
-.sponsoren-tab-1-pagination li
-{
-display: inline;
-float: left;
-padding: 10px 20px;
-margin: 0px;
-border: 2px solid #6F6F6F;
-}
-
-.sponsoren-tab-1-pagination .disabled{
-	background-color: #ddd;
-}
-
-.sponsoren-tab-1-pagination .active{
-	background-color: #AD1921;
-}
-
-.sponsoren-tab-1-pagination .active a{
-	color: #FFFFFF;
-}
-
-.sponsoren-tab-1-pagination .disabled a{
-	color: #6F6F6F;
-	cursor: default;
+background-color: #E1E1E1;
 }
 
 /*---caption-----*/
 .sponsoren-tab-1 caption
 {
-border-top: solid  #B1B3B3 2px;
-/*border-bottom: solid  #B1B3B3 2px;*/
-font-variant: normal;
-font-weight: bold;
-padding-top: 20px;
-padding-bottom: 1px;
+	border-top: solid  #B1B3B3 2px;
+	font-variant: normal;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 1px;
 }
 
 .sponsoren-tab-1 th{
@@ -65,89 +26,163 @@ padding-bottom: 1px;
 }
 
 .sponsoren-tab-1 caption a{
-font-weight: normal;
+	font-weight: normal;
 }
 
 .sponsoren-tab-1 caption h3{
 	text-align: left;
 	font-size: 100%;
 	font-weight: inherit;
-	/*margin-bottom: 10px;*/
 	margin-left: 10px;
 }
 
 .sponsoren-tab-1 fieldset
 {
-border: 0px;
+	border: 0px;
 }
 
 .sponsoren-tab-1 label
 {
-margin: 0px 6px;
-margin-right: 2px;
+	margin: 0px 6px;
+	margin-right: 2px;
 }
 
 .sponsoren-tab-1  select
 {
-margin: 0px 8px;
-margin-left: 0px;
+	margin: 0px 8px;
+	margin-left: 0px;
 }
 
 /*---table-----*/
 .sponsoren-tab-1 td
 {
-height: 69px;
-border-bottom: solid #B1B3B3 1px;
-vertical-align: middle;
-width: 25%;
+	height: 69px;
+	border-bottom: solid #B1B3B3 1px;
+	vertical-align: middle;
+	width: 25%;
 }
 
-.sponsoren-tab-1 td:nth-child(3n+2){
+.sponsoren-tab-1 td:nth-child(3n+2)
+{
 	width: 50%;
 	font-weight: bold;
 }
 
 .sponsoren-tab-1 td div
 {
-position: relative;
-}
-
-.sponsoren-tab-1 .sponsor-img-small:hover+.sponsor-img-big{
-display: block;
-/*visibility: visible;*/
-position: absolute;
-z-index: 5;
-overflow: hidden;
-left: 10px;
-top: -320px;
-height: 300px;
-/*transition: all .3s 1s ease;*/
-}
-
-.sponsoren-tab-1 .sponsor-img:hover .sponsor-img-small{
-
-}
-
-.sponsoren-tab-1 .sponsor-img-big
-{
-vertical-align: middle;
-margin: 5px;
-padding-bottom: 0;
-/*visibility: hidden;*/
-display: none;
-}
-
-.sponsoren-tab-1 .sponsor-img-small
-{
-vertical-align: middle;
-margin: 5px;
-padding-bottom: 0;
-height: 60px;
+	position: relative;
 }
 
 .sponsoren-tab-1 td:first-child
 {
-color: #AD1921;
-text-align: left;
-font-weight: bold;
+	color: #AD1921;
+	text-align: left;
+	font-weight: bold;
+}
+
+/*---Sponsorenlogo-----*/
+.sponsoren-tab-1 .sponsor-img-small:hover+.sponsor-img-big
+{
+	display: block;
+	position: absolute;
+	z-index: 5;
+	overflow: hidden;
+	left: 10px;
+	top: -320px;
+	height: 300px;
+}
+
+.sponsoren-tab-1 .sponsor-img-big
+{
+	vertical-align: middle;
+	margin: 5px;
+	padding-bottom: 0;
+	display: none;
+}
+
+.sponsoren-tab-1 .sponsor-img-small
+{
+	vertical-align: middle;
+	margin: 5px;
+	padding-bottom: 0;
+	height: 60px;
+}
+
+/*----Pagination-----*/
+.pagination 
+{
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+.pagination > li 
+{
+  display: inline;
+}
+
+.pagination > li > a,
+.pagination > li > span 
+{
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.428571429;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > span 
+{
+  margin-left: 0;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus 
+{
+  background-color: #eeeeee;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus 
+{
+  z-index: 2;
+  color: #ffffff;
+  cursor: default;
+  background-color: #AD1921;
+  border-color: #AD1921;
+}
+
+.pagination > .disabled > span,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus 
+{
+  color: #999999;
+  cursor: not-allowed;
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+
+.pagination-lg > li > a,
+.pagination-lg > li > span 
+{
+  padding: 10px 16px;
+  font-size: 18px;
+}
+
+.pagination-sm > li > a,
+.pagination-sm > li > span 
+{
+  padding: 5px 10px;
+  font-size: 12px;
 }

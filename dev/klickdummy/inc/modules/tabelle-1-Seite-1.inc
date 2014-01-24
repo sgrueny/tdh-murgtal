@@ -1,9 +1,9 @@
 <!--TODO: Muss später entfert werden-->
-<!-- <link rel="stylesheet" type="text/css" href="../../css/tdh/tabelle-1.css"/>   -->
+<link rel="stylesheet" type="text/css" href="../../css/tdh/tabelle-1.css"/>   
 
 <table name="sponsoren-tab-1" class="sponsoren-tab-1">
 	<caption>
-			<h3>Was wollen Sie sehen?</h3>
+			<h3>Sponsorenliste</h3>
 
 		</caption>
 <thead>
@@ -56,7 +56,7 @@
 	</tr>
 </tbody>
 </table>
-<ul class="sponsoren-tab-1-pagination">
+<ul class="pagination">
   <li class="disabled"><a href="#">&laquo;</a></li>
   <li class="active"><a href="#">1</a></li>
   <li><a href="ueberuns-sponsoren2.php">2</a></li>
