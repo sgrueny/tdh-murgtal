@@ -1,5 +1,5 @@
 
-<div class="contentpadded">
+<div class="contentwidget">
     <!--  Wenn, dann müsste das ganze Modul eine Section sein.
           Allerdings ist die Bedingung, dass das Modul so auch auf einer anderen
           Seite platziert sein könnte, es also inhaltlich abgeschlossen ist.
