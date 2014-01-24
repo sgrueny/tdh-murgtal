@@ -12,7 +12,7 @@
 		'leer.inc'
 	);
     $widecontent = array(
-    	'tabelle-1-Seite-1.inc'
+    	'tabelle-1-Seite-2.inc'
     );
 	include 'inc/templates/template-2-1.inc';
 ?>
