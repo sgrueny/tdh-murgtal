@@ -3,7 +3,7 @@
 	
 	
 	$contentleftincludes = array(
-        'leer.inc'
+        'team-regionen.inc'
 	);
 	$contentrightincludes = array(
         'tabelle-2.inc'

@@ -5,7 +5,8 @@
 
 
   .cleantable tbody tr:hover th,
-  .cleantable tbody tr:hover td{
+  .cleantable tbody tr:hover td,
+  .cleantable tbody tr:nth-child(even){
 	background:transparent;
 	
 }

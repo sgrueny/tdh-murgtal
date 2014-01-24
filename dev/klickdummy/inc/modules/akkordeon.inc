@@ -1,4 +1,5 @@
-﻿<div class="akkordeon" id="akkordeon" role="akkordeon">	
+﻿<!-- emmet code: div.akkordeon#akkordeon[role=akkordeon]>ul.level-1>(li.has-subnav>(div.topic+ul.level-2>li>div.description+(article>(header>time+a[href=#])+p>(a[href=#]))+(article>(header>time+a[href=#]))*5))*4 -->
+<div class="akkordeon" id="akkordeon" role="akkordeon">	
 	<ul class="level-1">
 		<!--Parent #1-->
 		<li class="has-subnav">
@@ -10,7 +11,7 @@
 						<time>2013</time>
 						<a href="#">Auch die 23. Radbörse war ein Riesenerfolg - rund 17.000 Besucher</a>
 					</header>
-					<p>Die Radbörse der terre des hommes Arbeitsgruppe Murgtal/Mittelbaden, die mittlerweile zu einer der größten Radbörsen im mittelbadischen Raum gehört, lockte am vergangenen Samstag rund 17.000 Besucher nach Kuppenheim. In weniger als drei Stunden wehselten dabei 231 gebrauchte Fahrräder (55%) ihre Besitzer. <a href="#">mehr...</a></p>
+					<p>Die Radbörse der terre des hommes Arbeitsgruppe Murgtal/Mittelbaden, die mittlerweile zu einer der größten Radbörsen im mittelbadischen Raum gehört, lockte am vergangenen Samstag rund 17.000 Besucher nach Kuppenheim. In weniger als drei Stunden wechselten dabei 231 gebrauchte Fahrräder (55%) ihre Besitzer. <a href="#">mehr...</a></p>
 				</article>
 				<article>
 					<header>
