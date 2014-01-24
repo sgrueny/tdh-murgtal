@@ -1,153 +1,166 @@
 /*------Module: Table 1------------------------------------------------*/
-.sponsoren-tab-1 
-{
-width: 97%;
-border-collapse: collapse;
-border-top: 0;
-}
-
-.sponsoren-tab-1 tbody tr:nth-child(even)
-{
-background-color: #B1B3B3;
-}
-
-.sponsoren-tab-1-pagination
-{
-display: inline-block;
-/*padding: 10px;*/
-margin: 0px;
-margin-left: 25%;
-/*border-radius: 4px;*/
-list-style-type: none;
-overflow: hidden;
-}
-
-.sponsoren-tab-1-pagination li
-{
-display: inline;
-float: left;
-padding: 10px 20px;
-margin: 0px;
-border: 2px solid #6F6F6F;
-}
-
-.sponsoren-tab-1-pagination .disabled{
-	background-color: #ddd;
-}
-
-.sponsoren-tab-1-pagination .active{
-	background-color: #AD1921;
-}
-
-.sponsoren-tab-1-pagination .active a{
-	color: #FFFFFF;
-}
-
-.sponsoren-tab-1-pagination .disabled a{
-	color: #6F6F6F;
-	cursor: default;
-}
-
 /*---caption-----*/
 .sponsoren-tab-1 caption
 {
-border-top: solid  #B1B3B3 2px;
-/*border-bottom: solid  #B1B3B3 2px;*/
-font-variant: normal;
-font-weight: bold;
-padding-top: 20px;
-padding-bottom: 1px;
+		border-top: solid  #B1B3B3 2px;
+		font-variant: normal;
+		font-weight: bold;
+		padding-top: 20px;
+		padding-bottom: 1px;
 }
 
 .sponsoren-tab-1 th{
-	border-bottom: solid  #B1B3B3 2px;
-	padding-bottom: 20px;
+		border-bottom: solid  #B1B3B3 2px;
+		padding-bottom: 20px;
 }
 
 .sponsoren-tab-1 caption a{
-font-weight: normal;
+		font-weight: normal;
 }
 
 .sponsoren-tab-1 caption h3{
-	text-align: left;
-	font-size: 100%;
-	font-weight: inherit;
-	/*margin-bottom: 10px;*/
-	margin-left: 10px;
+		text-align: left;
+		font-size: 100%;
+		font-weight: inherit;
+		margin-left: 7px;
 }
 
 .sponsoren-tab-1 fieldset
 {
-border: 0px;
+		border: 0px;
 }
 
 .sponsoren-tab-1 label
 {
-margin: 0px 6px;
-margin-right: 2px;
+		margin: 0px 6px;
+		margin-right: 2px;
 }
 
 .sponsoren-tab-1  select
 {
-margin: 0px 8px;
-margin-left: 0px;
+		margin: 0px 8px;
+		margin-left: 0px;
 }
 
 /*---table-----*/
 .sponsoren-tab-1 td
 {
-height: 69px;
-border-bottom: solid #B1B3B3 1px;
-vertical-align: middle;
-width: 25%;
+		height: 69px;
+		border-bottom: solid #B1B3B3 1px;
+		vertical-align: middle;
+		width: 25%;
 }
 
-.sponsoren-tab-1 td:nth-child(3n+2){
-	width: 50%;
-	font-weight: bold;
+.sponsoren-tab-1 td:nth-child(3n+2)
+{
+		width: 50%;
+		font-weight: bold;
 }
 
 .sponsoren-tab-1 td div
 {
-position: relative;
+		position: relative;
 }
 
-.sponsoren-tab-1 .sponsor-img-small:hover+.sponsor-img-big{
-display: block;
-/*visibility: visible;*/
-position: absolute;
-z-index: 5;
-overflow: hidden;
-left: 10px;
-top: -320px;
-height: 300px;
-/*transition: all .3s 1s ease;*/
-}
 
-.sponsoren-tab-1 .sponsor-img:hover .sponsor-img-small{
-
+/*---Sponsorenlogo-----*/
+.sponsoren-tab-1 .sponsor-img-small:hover+.sponsor-img-big
+{
+		display: block;
+		position: absolute;
+		z-index: 5;
+		overflow: hidden;
+		left: 10px;
+		top: -320px;
+		height: 300px;
 }
 
 .sponsoren-tab-1 .sponsor-img-big
 {
-vertical-align: middle;
-margin: 5px;
-padding-bottom: 0;
-/*visibility: hidden;*/
-display: none;
+		vertical-align: middle;
+		margin: 5px;
+		padding-bottom: 0;
+		display: none;
 }
 
 .sponsoren-tab-1 .sponsor-img-small
 {
-vertical-align: middle;
-margin: 5px;
-padding-bottom: 0;
-height: 60px;
+		vertical-align: middle;
+		margin: 5px;
+		padding-bottom: 0;
+		height: 60px;
 }
 
-.sponsoren-tab-1 td:first-child
+/*----Pagination-----*/
+.pagination 
 {
-color: #AD1921;
-text-align: left;
-font-weight: bold;
+	position: relative;
+	padding-left: 0;
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+
+.pagination > ul{
+	text-align: center;
+}
+
+.pagination > ul > li 
+{
+	display: inline-block;
+	margin-left: 0;
+}
+
+.pagination > ul > li > a
+{
+	position: relative;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.428571429;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+.pagination > ul > li:first-child > a
+{
+	margin-left: 0;
+}
+
+.pagination > ul > li > a:hover,
+.pagination > ul > li > a:focus,
+{
+	background-color: #eeeeee;
+}
+
+.pagination > ul > .active > a,
+.pagination > ul > .active > a:hover,
+.pagination > ul > .active > a:focus
+{
+	z-index: 2;
+	color: #ffffff;
+	cursor: default;
+	background-color: #AD1921;
+	border-color: #AD1921;
+}
+
+.pagination > ul > .disabled > a,
+.pagination > ul > .disabled > a:hover,
+.pagination > ul > .disabled > a:focus 
+{
+	color: #999999;
+	cursor: not-allowed;
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+
+.pagination-lg > ul > li > a
+{
+	padding: 10px 16px;
+	font-size: 18px;
+}
+
+.pagination-sm > ul > li > a
+{
+	padding: 5px 10px;
+	font-size: 12px;
 }
