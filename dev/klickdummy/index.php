@@ -7,6 +7,7 @@
         );
         $contentrightincludes = array(
 		'event.inc',
+        'blindtext2.inc',
         'blindtext.inc'
         );
         $sideincludes = array(
