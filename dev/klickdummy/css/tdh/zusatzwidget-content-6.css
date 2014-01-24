@@ -26,7 +26,7 @@
   text-align: left;
   table-layout: auto;
   border-style: none;
-  width: 100%; 
+  width: 150px; 
 	border-collapse: collapse;
   
 }
@@ -37,8 +37,7 @@
 	border:none;
 	padding: 0;
 	color: #000;
-	
-	
+
 }
 
 .zusatzwidget-content-6 tr:hover th,
@@ -47,19 +46,19 @@
  
 }
 
-@media only screen and (max-width: 720px) {
-  .right-content-6 {
-    float: none;
-    width: auto;
-    
-  }
-  
-   .left-content-6 {
-    float: none;
-    width: auto;
-    
-  }
+.right-content-6 {
+padding:0;
+margin:0;
+}
 
+@media only screen and (max-width: 720px) {
+  .g50-content-6 {
+    float: none;
+    width: auto;
+	padding: 0;
+	margin:0;
+  
+  }
   
 }
 
