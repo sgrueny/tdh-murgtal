@@ -11,8 +11,11 @@
 
 @import url("tdh/sponsoren-liste.css");
 
-/* Tabellenstyle */	
+/* Tabellenstyle 1*/	
 @import url("tdh/tabelle-1.css");
+
+/* Tabellenstyle 2*/
+@import url("tdh/tabelle-2.css");
 
 /* contentwidget1*/
 @import url("tdh/widgets.css");
