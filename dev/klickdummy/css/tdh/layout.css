@@ -30,6 +30,7 @@
   position: relative;
   float: left;
   width: 100%;
+	padding-right: 20px;
 }
 
 .ym-col3 { /* sidebar */
@@ -47,9 +48,17 @@ footer {
 
 footer a {
         margin-left: 80px;
-        margin-right: 200px;
 }
 
 .logo {
         margin: 50px 0 30px 0;
+}
+
+/* Wir haben immer nur zwei Grid-Spalten nebeneinander. So geht das Folgende einfach. */
+
+.ym-gl {
+	padding: 0 10px 0 0;
+}
+.ym-gr {
+	padding: 0 0 0 10px;
 }

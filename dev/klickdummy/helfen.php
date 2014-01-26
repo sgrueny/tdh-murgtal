@@ -6,7 +6,8 @@
 	    'grosses-contentbild.inc',
         'blindtext.inc',
         'blindtext.inc',
-        'zusatzwidget-content-5.inc'
+        'zusatzwidget-content-5.inc',
+        'zusatzwidget-content-6.inc'
 	);
 	$contentrightincludes = array(
         'contentwidget3.inc'

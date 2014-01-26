@@ -1,26 +1,36 @@
 /*Sponsors root element*/
-/*emet code: div.sponsors>(span+(ul>li>a>img))*5*/
+/*emet code: div.sponsors>((span>a)+ul>(li>a>img.flexible)*5)*/
 .sponsors{
-    font-weight: bold;
-    font-size: 14px;
-    text-align:center;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    border-top: 2px solid #B1B3B3;
+    border-bottom: 2px solid #B1B3B3;
 }
 
 /*label and link to other sponsors*/
-.sponsors span {
- color:#6F6F6F;
-
+.sponsors p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #6F6F6F;
 }
+
 /*link to other sponsors*/
-.sponsors span a{
- color: #AD1921;
+.sponsors p a{
+    color: #AD1921;
+}
+.sponsors ul{
+    text-align: center;
 }
 
-/*sponsors list*/
 .sponsors ul li{
-    display:table-cell;
+    display: table-cell;
     width: 20%;
     margin: 0;
+}
+
+/*interactive links*/
+.sponsors ul li a:hover,.sponsors ul li a:focus{
+    border-bottom: 3px solid #AD1921;
 }
 
 .sponsors ul li a img{
@@ -28,21 +38,21 @@
     margin: 0;
 }
 
-/* breakpoints for rsponsive design */
+/*breakpoints for rsponsive design*/
 /*medium*/
-@media screen and (min-width: 501px) and (max-width:759px){
+@media screen and (min-width: 551px) and (max-width: 800px){
  
    .sponsors ul li{
-        display:inline-block;
+        display: inline-block;
         width: 49%;
     }
 
 }
 /*small*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
 
     .sponsors ul li{
-        display:block;
+        display: block;
         width: 100%;
     }
 

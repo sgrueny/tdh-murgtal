@@ -1,5 +1,5 @@
 <!--  siehe meine Kommentare in contentwidget1.inc -->
-<div class="contentpadded">
+<div class="contentwidget">
 	<section>
 	<header>
 	<small>Werden Sie Sponsor</small>
@@ -9,7 +9,7 @@
 	<p>Hier erklären wir Ihnen, welche Möglichkeiten
 	Sponsoring bei terre des hommes Murgtal bestehen.
 	</p>
-	<div class="link">&bull; <a href="#">PDF Download</a></div>
+	<a href="#" class="dottelink" >PDF Download</a>
 	</article>
 	</section>
 </div>
