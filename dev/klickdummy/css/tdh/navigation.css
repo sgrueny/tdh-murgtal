@@ -1,130 +1,107 @@
 /* Modul: Navigation */
 
 /* Schriftart für den enthaltenen Text und Standardfarbe */
-.navigation {
+nav.navigation{
 	font-weight: bold;
 	color: #19171B;
 	margin-bottom: 40px;
 }
 
 /* Jede ul-Liste sollte keine Marker für die Items haben (bei inline Items irrelevant) */
-.navigation nav ul {
+nav.navigation ul {
 	list-style-type: none;
 }
 
 /* 	Jedes li-Element einer ul-Liste wird horizontal dargestellt, die einzelnen Listeneinträge
 	haben ein Padding von 10px. 															*/
-.navigation nav > ul li {
+nav.navigation > ul li {
 	display: inline;
 	padding: 8px;
 }
 
 /* Listeneinträge sollen nicht umgebrochen werden */
-.navigation nav > ul li a {
+nav.navigation > ul li a {
 	white-space: nowrap;
 }
 
 /*	Jedes a-Element eines jeden Listeneintrages soll ohne Unterstreichung im Text dargestellt werden */
-.navigation  nav ul li a {
+nav.navigation ul li a {
 	text-decoration: none;
 }
 
 /* a-Elemente der ersten Navigationsebene. */
-.navigation  nav > ul > li > a {
+nav.navigation > ul > li > a {
 	font-size: 14px;
 	color: #6F6F6F;
 }
 
 /*  Untermenü wird unter der ersten Navigationsebene positioniert, jeweils jedes Untermenü muss
 	an sich der gleichen Position befinden															*/
-.navigation  nav .submenu {
+nav.navigation .submenu {
 	position: absolute;
 	visibility: hidden;
 }
 
 /*  Keine Einrückungen der ul-Liste, welche die zweite Navigationsebene darstellt. Beide Ebenen sollen auf
 	der linken Seite an gleicher Stelle beginnen		^													*/
-.navigation  nav .submenu ul {
+nav.navigation .submenu ul {
 	margin-left: 0px;
 	padding-left: 0px;
 	padding-top: 5px; /* Ein wenig Abstand nach oben */
 }
 
 /* a-Elemente der zweiten Navigationsebene */
-.navigation  nav .submenu > ul > li > a {
+nav.navigation .submenu > ul > li > a {
     font-size: 12px;
     color: black;
 }
 
-/* Ausgewählter Menüeintrag, Selektoren müssen der Spezifität genügen um zuvor gesetzte Eigenschaft zu überschreiben*/
-.navigation  nav > ul > li > a.active {
+/* Ausgewählter Menüeintrag sowie Feedback bei hover und focus, Selektoren müssen der Spezifität genügen um zuvor gesetzte Eigenschaft zu überschreiben*/
+nav.navigation > ul > li > a.active {
+	color: #AD1921;
+}
+nav.navigation > ul > li > a:hover {
+	color: #AD1921;
+}
+nav.navigation > ul > li > a:focus {
 	color: #AD1921;
 }
 
-.navigation  nav .submenu > ul > li > a.active {
+nav.navigation .submenu > ul > li > a.active {
+    color: #AD1921;
+}
+nav.navigation .submenu > ul > li > a:hover {
+    color: #AD1921;
+}
+nav.navigation .submenu > ul > li > a:focus {
     color: #AD1921;
 }
 
 /* Untermenü sichtbar machen, falls entsprechender Menüeintrag der ersten Navigationsebene gewählt wurde */
-.navigation  nav > ul > li > a.active + .submenu {
+nav.navigation > ul > li > a.active + .submenu {
 	visibility: visible;
 }
 
 /* Responsive Design */
-@media screen and (max-width: 984px) {
-	.navigation nav .submenu {
-		margin-top: 20px;
+@media screen and (max-width: 1024px) {
+	nav.navigation {
+		max-width: 480px;
+		margin-bottom: 80px;
 	}
-}
-
-@media screen and (max-width: 611px) {
-	.navigation {
-		margin-bottom: 60px;
-	}
-	
-	.navigation nav .submenu {
+	nav.navigation .submenu {
+		max-width: 480px;
 		margin-top: 40px;
 	}
 }
 
-@media screen and (max-width: 835px) {
-	.navigation {
-		margin-bottom: 80px;
-	}
+@media screen and (max-width: 480px) {
+	nav.navigation{
+		margin-bottom: 140px;
 }
-
-@media screen and (max-width: 434px) {
-	.navigation {
-		margin-bottom: 100px;
+	nav.navigation > ul > li {
+		display: block;
 	}
-}
-
-@media screen and (max-width: 431px) {
-	.navigation {
-		margin-bottom: 120px;
-	}
-}
-
-@media screen and (max-width: 389px) {
-	.navigation nav .submenu {
-		margin-top: 60px;
-	}
-}
-
-@media screen and (max-width: 367px) {
-	.navigation nav .submenu {
-		margin-top: 80px;
-	}
-}
-
-@media screen and (max-width: 339px) {
-	.navigation nav .submenu {
-		margin-top: 100px;
-	}
-}
-
-@media screen and (max-width: 272px) {
-	.navigation nav .submenu {
-		margin-top: 120px;
+	nav.navigation .submenu {
+		margin-top: 200px;
 	}
 }
