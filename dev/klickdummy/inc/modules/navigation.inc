@@ -1,7 +1,6 @@
 <!-- Modul: Navigation -->
 
-<div class="navigation">
-<nav role='navigation' class="ym-hlist">
+<nav role='navigation' class="navigation">
 	<!--Liste als Navigation, enthält pro Navigationselement einen Link mit anschliessender Liste
 		des entsprechenden Untermenäs. Das Untermenü enthält eine Liste der entsprechenden Links.
 	-->
@@ -33,4 +32,3 @@
     </li>
   </ul>
 </nav>  
-</div> 
