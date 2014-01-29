@@ -3,7 +3,7 @@
 	$pageheadline ="Unsere Aktivitäten";
 	
 	$contentleftincludes = array(
-        'blindtext.inc',
+        'blindtext3.inc',
         'akkordeon.inc'
 	);
 	$contentrightincludes = array(
