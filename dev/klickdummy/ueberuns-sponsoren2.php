@@ -3,7 +3,8 @@
 	$pageheadline ="Sponsoren";
 	
 	$contentleftincludes = array(
-        'blindtext.inc'
+        'blindtext.inc',
+        'blindtext2.inc'
 	);
 	$contentrightincludes = array(
         'contentwidget2.inc'
