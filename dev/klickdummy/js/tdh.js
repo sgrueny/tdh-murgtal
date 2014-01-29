@@ -9,4 +9,19 @@ var firstAvailCol;if(typeof(matrix[rowIndex])=="undefined"){matrix[rowIndex]=[];
 
 $(document).ready(function() {
 		$(".tablesorter").tablesorter({sortList: [[0,0]],headers: {1: {sorter:false}}});
+
+		(function() {
+			var $nav_active;
+			$('nav.navigation > ul > li.has-submenu').hover(function() {
+				nav_active = $('nav.navigation > ul > li.active');
+				nav_active.removeClass('active');
+				$(this).addClass('hover');
+			}, function() {
+				$(this).removeClass('hover');
+				nav_active.addClass('active');
+			});
+		})($);
+
+		
+
 });
