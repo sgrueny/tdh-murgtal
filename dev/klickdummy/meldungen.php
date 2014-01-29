@@ -1,24 +1,19 @@
 <?php
     $pagetitle= "Willkommen bei terre des hommes Murgtal/Mittelbaden";
         $pageheadline ="TDH Benefizkonzert mit Peter Götzmanns Jazz Hop Rhythm";
-        
+
         $contentleftincludes = array(
+        'artikel1.inc',    
+        'artikel2.inc'
+        );
+
+        $contentrightincludes = array(
         'contentwidget1.inc',
         'sponsorendank.inc'
-        );
-        $contentrightincludes = array(
-		'event.inc',
-        'blindtext2.inc',
-        'blindtext.inc',
-        'blindtext3.inc'
         );
         $sideincludes = array(
                 'leer.inc'
         );
 
-    $widecontent = array(
-            'sponsoren-liste.inc'
-    );
-
-        include 'inc/templates/template-1-2.inc';
+    include 'inc/templates/template-2-1.inc';
 ?>

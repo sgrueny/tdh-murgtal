@@ -1,0 +1,1 @@
+<img src="http://placekitten.com/800/400" alt="Tolles Beispielbild" class="flexible">

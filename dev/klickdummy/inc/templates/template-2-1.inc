@@ -11,7 +11,15 @@
                 echo '<h2>'.$pageheadline.'</h2>';
                 }; 
         ?>
-
+        <?php
+            if (isset($topcontent)) {
+                foreach($topcontent as $top) {
+                    echo '<div class="wide-cnt">';
+                    include 'inc/modules/'.$top;
+                    echo '</div>';
+                }
+            }
+        ?>
         <div class="ym-grid">
             <div class="ym-g66 ym-gl">
                 <?php 
