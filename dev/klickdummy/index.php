@@ -9,7 +9,8 @@
         $contentrightincludes = array(
 		'event.inc',
         'blindtext2.inc',
-        'blindtext.inc'
+        'blindtext.inc',
+        'blindtext3.inc'
         );
         $sideincludes = array(
                 'leer.inc'
