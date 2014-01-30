@@ -1,4 +1,4 @@
-<table name="sponsoren-tab-1" class="sponsoren-tab-1">
+<table name="sponsoren-tab-1" class="sponsoren-tab-1 responsive">
 	<!--Tabellenkopf mit der Ansicht der Sortierung-->
 	<caption>
 		<h3>Sponsorenliste</h3>
@@ -113,7 +113,7 @@
 <div class="pagination">
 	<ul>
 		<li><a href="ueberuns-sponsoren2.php">&laquo;</a></li>
-		<li><a href="ueberuns-sponsoren1.php">1</a></li>
+		<li><a href="ueberuns-sponsoren.php">1</a></li>
 		<li><a href="ueberuns-sponsoren2.php">2</a></li>
 		<li class="active"><a href="#">3</a></li>
 		<li class="disabled"><a href="ueberuns-sponsoren4.php">4</a></li>

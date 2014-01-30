@@ -32,7 +32,6 @@
 .sponsoren-tab-1 label
 {
 	margin: 0px 6px;
-	margin-right: 2px;
 }
 
 .sponsoren-tab-1  select
@@ -52,6 +51,23 @@
 	padding: 2px 6px;
 	margin-left: 10px;
 	cursor: pointer;
+}
+
+.sponsoren-tab-1 input[type="radio"] 
+{
+	margin-left: 15px;
+}
+
+.sponsoren-tab-1 input[type="radio"]+label
+{
+	margin: 0px;
+}
+
+.sponsoren-tab-1 input[type="submit"]:active
+{
+	position: relative;
+	top: 1px;
+	left: 1px;
 }
 
 /*---table-----*/
@@ -213,8 +229,15 @@
   }
   table.responsive tbody td:nth-child(1):before {
     content: "Firma:";
+	font-weight: bold;
+	color: black;
+	display: block;
   }
   table.responsive tbody td:nth-child(3):before {
     content: "Ort: ";
+		font-weight: bold;
+	color: black;
+	display: block;
+
   }
 }
