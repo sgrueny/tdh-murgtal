@@ -153,6 +153,7 @@
 {
 	display: inline-block;
 	margin-left: 0;
+	margin-bottom: 12px;
 }
 
 .pagination a
@@ -199,45 +200,48 @@
 }
 /*-------------Responsive-----------------*/
 @media only screen and (max-width: 620px) {
-  table.responsive {
-    border: none;
-  }
-  table.responsive thead {
-    display: none;
-  }
-  table.responsive tr, table.responsive td, table.responsive th {
-    border: none;
-  }
-  table.responsive tr {
-    display: block;
-    width: 100%;
-    border-bottom: 1px solid #333;
-    margin-bottom: 0.5em;
-    padding-bottom: 0.5em;
-  }
-  table.responsive tbody td, table.responsive tbody th {
-    display: table-row;
-    text-align: left;
-  }
-  table.responsive tbody td:before, table.responsive tbody th:before {
-    text-align: left;
-    padding-right: 5px;
-    font-weight: 500;
-  }
-  table.responsive tbody th:before {
-    content: "Firmen: ";
-  }
-  table.responsive tbody td:nth-child(1):before {
-    content: "Firma:";
-	font-weight: bold;
-	color: black;
-	display: block;
-  }
-  table.responsive tbody td:nth-child(3):before {
-    content: "Ort: ";
+	table.responsive {
+		border: none;
+	}
+	table.responsive thead {
+		display: none;
+	}
+	table.responsive tr, table.responsive td, table.responsive th {
+		border: none;
+	}
+	table.responsive tr {
+		display: block;
+		width: 100%;
+		border-bottom: 1px solid #333;
+		margin-bottom: 0.5em;
+		padding-bottom: 0.5em;
+	}
+	table.responsive tbody td, table.responsive tbody th {
+		display: table-row;
+		text-align: left;
+	}
+	table.responsive tbody td:before, table.responsive tbody th:before {
+		text-align: left;
+		padding-right: 5px;
+		font-weight: 500;
+	}
+	table.responsive tbody th:before {
+		content: "Firmen: ";
+	}
+	table.responsive tbody td:nth-child(1):before {
+		content: "Firma:";
 		font-weight: bold;
-	color: black;
-	display: block;
-
-  }
+		color: black;
+		display: block;
+	}
+	table.responsive tbody td:nth-child(3):before {
+		content: "Ort: ";
+		font-weight: bold;
+		color: black;
+		display: block;
+	}
+	table.responsive caption span:nth-child(4),
+	table.responsive caption span:nth-child(5){
+		display:block;
+	}
 }

@@ -11,6 +11,15 @@
 	
 }
 
+
+@media only screen and (max-width: 620px) {
+  .cleantable th {
+    display:none;
+	visibility:hidden;
+}
+}
+
+
 .event .ym-gr{
 	padding-right:15px;
 	text-align:right;
