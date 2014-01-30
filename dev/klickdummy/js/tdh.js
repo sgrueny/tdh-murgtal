@@ -25,7 +25,7 @@ $(document).ready(function() {
 		})($);
 
 		// Akkordeon
-		$('.akkordeon').on('click', '.has-subnav .topic', function(e) {
+		$('.akkordeon').on('click', '.akkordeon-inner .topic', function(e) {
 				if ($(this).next('ul').is(':visible')) {
 					$(this).next('ul').slideUp('fast');
 					$(this).removeClass('active');
