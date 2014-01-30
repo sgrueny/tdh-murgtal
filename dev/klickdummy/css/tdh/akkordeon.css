@@ -1,3 +1,13 @@
+.akkordeon h3,
+.akkordeon h4
+{
+	font-size: 14px;
+	color: #AD1921;
+	margin: 0.4375em 0em;
+}
+.akkordeon .active h3{
+	color: black;
+}
 .akkordeon li{
 	margin: 0;
 	padding-left: 5px;
@@ -6,7 +16,7 @@
 .akkordeon > ul ul {
 	clear: both;
 }
-.akkordeon .has-subnav > ul {
+.akkordeon .akkordeon-inner > ul {
 	display: none;
 }
 .akkordeon .topic:hover,
@@ -22,7 +32,7 @@
 	border-bottom: 1px solid #B1B3B3;
 	position: relative;
 }
-.akkordeon li.has-subnav > .topic:after {
+.akkordeon li.akkordeon-inner > .topic:after {
 	content: '►';
 	color: #6F6F6F;
 	position: absolute;
@@ -32,15 +42,15 @@
 	font-size: 1.5em;
 	padding: 0.25em 0.5em;
 }
-.akkordeon li.has-subnav > .topic:hover:after,
-.akkordeon li.has-subnav > .topic:focus:after,
+.akkordeon li.akkordeon-inner > .topic:hover:after,
+.akkordeon li.akkordeon-inner > .topic:focus:after,
 .akkordeon header  {
     color: #AD1921;
 }
-.akkordeon li.has-subnav > .topic.active:after {
+.akkordeon li.akkordeon-inner > .topic.active:after {
     content: "▼";
 }
-.akkordeon li.has-subnav > .topic.active {
+.akkordeon li.akkordeon-inner > .topic.active {
     color: black;
     border-bottom: 0px solid #B1B3B3;
 }
