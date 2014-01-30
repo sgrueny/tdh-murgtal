@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bilderstapel</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+  		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  		<script type="text/javascript" src="jquery.mobile.custom.min.js"></script>
+		<script type="text/javascript" src="awesomebox.js"></script>
+</head>
+
+<body>
+<div>
+  <ul class="stapel">
+	<li><img src="images/affe-400.jpg" alt=""></li>
+	<li><img src="images/animals-400.jpg" alt=""></li>
+	<li><img src="images/cats-400.jpg" alt=""></li>
+	<li><img src="images/city-400.jpg" alt=""></li>
+	<li><img src="images/food-400.jpg" alt=""></li>
+	<li><img src="images/hunde-400.jpg" alt=""></li>
+	<li><img src="images/katze-300.jpg" alt=""></li>
+	<li><img src="images/nightlife-400.jpg" alt=""></li>
+	<li><img src="images/schlange-400.jpg" alt=""></li>
+	<li><img src="images/transport-400.jpg" alt=""></li>
+  </ul>
+  
+</div>
+<div id="awesomeboxframe" class="awesomebox">
+    <div class="innerframe">
+        <header>
+            <a  class="close" href="#">schließen</a>
+            <h2 class="category">content</h2>
+            <h3 class="title">Dummy</h3>
+        </header>
+        <div class="currentitem"></div>
+        <div class="listcontainer">
+            <a href="#" class="scrollleft">    &#10094; </a>
+            <a href="#" class="scrollright">    &#10095; </a>
+            <div class="scrollbox">            
+                <ul class="itemlist">
+                    <li class="listitem"></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript">		    jQuery(
+		        function()
+		        {
+		            window.box1 = new awesomebox('img');
+                }
+            );</script>
+</body>
+</html>
