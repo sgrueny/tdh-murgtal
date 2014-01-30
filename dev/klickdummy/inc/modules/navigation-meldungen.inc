@@ -37,9 +37,6 @@
           <li><a href="#">März</a></li>
           <li><a href="#">Februar</a></li>
           <li><a href="#">Januar</a></li>
-          <li class="special"><a href="#">Überschwemmung Haiti</a></li><!-- special LIs können natürlich zusätzlich eine active-Klasse enthalten -->
-          <li class="special"><a href="#">Flüchtlingsdrama Syrien</a></li>
-          <li class="special"><a href="#">Flutkatastrophe Philippinen</a></li>
           <li class="archive">
             <select name="meldungen-archiv">
               <option>2014</option>
@@ -58,6 +55,10 @@
               <option>2001</option>
             </select>
           </li>
+          <li class="special"><a href="#">Überschwemmung Haiti</a></li><!-- special LIs können natürlich zusätzlich eine active-Klasse enthalten -->
+          <li class="special"><a href="#">Flüchtlingsdrama Syrien</a></li>
+          <li class="special"><a href="#">Flutkatastrophe Philippinen</a></li>
+          
         </ul>
 
         <!--  <li><a href="#">2012</a></li>
