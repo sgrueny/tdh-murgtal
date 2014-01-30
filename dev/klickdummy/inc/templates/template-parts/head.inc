@@ -28,3 +28,25 @@
 	<!-- end: skip link navigation -->
 	<div class="ym-wrapper">
         <div class="ym-wbox">
+
+            <div class="ym-column">
+                <!-- Die Inhaltsspalte -->
+                <main class="ym-col1">
+                    <h1 class="ym-hideme" id="maincnt">Der Inhaltsbereich</h1>
+
+                    <div class="logo"><a href="index.php"><img src="images/logo-tdh-murgtal.gif" alt="Logo von Terre des Hommes Murgtal/Mittelbaden"><span class="ym-hideme">terre des hommes Murgtal/Mittelbaden</span></a></div>
+                    <?php include "inc/modules/navigation.inc"; ?>
+
+                    <?php if (isset($pageheadline)) {
+                            echo '<h2>'.$pageheadline.'</h2>';
+                            }; 
+                    ?>
+                    <?php
+                        if (isset($topcontent)) {
+                            foreach($topcontent as $top) {
+                                echo '<div class="wide-cnt">';
+                                include 'inc/modules/'.$top;
+                                echo '</div>';
+                            }
+                        }
+                    ?>            
