@@ -21,23 +21,14 @@
         </ul>
       </div>
     </li>
-<<<<<<< HEAD
-    <li class="has-submenu active">
-      <a href="#">Meldungen</a>
-=======
     <li class="has-submenu">
       <a href="meldungen.php">Meldungen</a>
->>>>>>> upstream/master
       <div class="submenu">
         <ul>
           <li><a href="#">Dezember</a></li>
           <li><a href="#">November</a></li>
           <li><a href="#">Oktober</a></li>
-<<<<<<< HEAD
-          <li class="active"><a href="#">September</a></li>
-=======
           <li><a href="#">September</a></li>
->>>>>>> upstream/master
           <li><a href="#">August</a></li>
           <li><a href="#">Juli</a></li>
           <li><a href="#">Juni</a></li>
@@ -46,52 +37,30 @@
           <li><a href="#">März</a></li>
           <li><a href="#">Februar</a></li>
           <li><a href="#">Januar</a></li>
-<<<<<<< HEAD
           <li class="special"><a href="#">Überschwemmung Haiti</a></li><!-- special LIs können natürlich zusätzlich eine active-Klasse enthalten -->
           <li class="special"><a href="#">Flüchtlingsdrama Syrien</a></li>
           <li class="special"><a href="#">Flutkatastrophe Philippinen</a></li>
           <li class="archive">
             <select name="meldungen-archiv">
-              <option>2014</option>
-              <option selected="selected">Jahr: 2013</option>
-=======
-          <li class="archive">
-            <select name="meldungen-archiv">
-              <option>2014</option>
-              <option>Jahr: 2013</option>
->>>>>>> upstream/master
-              <option>2012</option>
-              <option>2011</option>
-              <option>2010</option>
-              <option>2009</option>
-              <option>2008</option>
-              <option>2007</option>
-              <option>2006</option>
-              <option>2005</option>
-              <option>2004</option>
-              <option>2003</option>
-              <option>2002</option>
-              <option>2001</option>
+              <option selected>Jahr</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
             </select>
           </li>
         </ul>
-<<<<<<< HEAD
 
-        <!--  <li><a href="#">2012</a></li>
-          <li><a href="#">2011</a></li>
-          <li><a href="#">2010</a></li>
-          <li><a href="#">2009</a></li>
-          <li><a href="#">2008</a></li>
-          <li><a href="#">2007</a></li>
-          <li><a href="#">2006</a></li>
-          <li><a href="#">2005</a></li>
-          <li><a href="#">2004</a></li>
-          <li><a href="#">2003</a></li>
-          <li><a href="#">2002</a></li>
-          <li><a href="#">2001</a></li>
-        -->
-=======
->>>>>>> upstream/master
       </div>
     </li>
     <li><a href="helfen.php">Helfen</a>

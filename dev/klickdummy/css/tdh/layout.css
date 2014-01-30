@@ -62,3 +62,16 @@ footer a {
 .ym-gr {
 	padding: 0 0 0 10px;
 }
+
+@media screen and (max-width: 600px) {
+	.ym-column {padding: 0;background-image: none;}
+	.ym-col1, .ym-col3 {
+		float: none;
+		width: auto;
+		padding: 10px;
+		margin: 0 0 10px 03;
+	}
+	.ym-col3 {
+		background-color: #ededed;
+	}
+}
