@@ -3,7 +3,7 @@
 	<p>Alle eingesetzten Grafiken und Fotos stammen von <a href="http://www.tdh.de/" target="_blank">terre 
 		des hommes Deutschland e.V.</a> bzw. sind von terre des hommes 
 		Murgtal / Mittelbaden selbst erstellt worden.</p>
-	<p><a href="http://www.fotocommunity.de/pc/pc.php4?mypics=1513"><img src="http://www.tdh-murgtal.de/images/depping/motiv8.jpg" class="float-left flexible"></a>Urheber 
+	<p><a href="http://www.fotocommunity.de/pc/pc.php4?mypics=1513"><img src="http://www.tdh-murgtal.de/images/depping/motiv8.jpg" class="float-left flexible" alt="Beispielbild aus der Fotocommunity"></a>Urheber 
 		der Illustrationen oben links auf jeder Seite ist <a href="http://www.andreasdepping.de/" target="_blank">Andreas 
 		Depping</a>, bei dem wir uns herzlich für die Verwendung 
 		bedanken. Die Aufnahmen sind in Äthopien entstanden. Andreas 
