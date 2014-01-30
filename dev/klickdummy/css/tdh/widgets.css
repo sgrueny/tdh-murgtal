@@ -2,10 +2,10 @@
 	margin-bottom:10px;
 }
 .contentwidget{
-	margin-top:10px;
+	margin-bottom:10px;
 	border-radius: 1px;
 	border-bottom:2px #b1b3b3 solid;
-	padding:10px;
+	padding-bottom:10px;
 }
 .contentwidget link{
 	color:#AD1921;
@@ -26,6 +26,8 @@
 .contentwidget .dottedlink{
 	list-style-type: disc;
 	display: list-item;
-	margin: 0 0 0  15px;
+	margin: 0 0 0 15px;
+	margin-left:18px;
+	
 }
 
