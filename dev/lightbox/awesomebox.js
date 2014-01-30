@@ -45,6 +45,7 @@ function awesomebox(selector) {
     self.box = awesomeboxtemplate.clone().removeAttr("id").appendTo("body");
     self.elements = jQuery(selector);
     self.list = self.box.find(".itemlist");
+    self.innerFrame = self.box.find('.innerframe');
     self.litmpl = self.box.find(".listitem").remove();
     self.currentcont = self.box.find(".currentitem");
     self.close = self.box.find(".close");
@@ -100,7 +101,14 @@ function awesomebox(selector) {
                          
             }
         }
+        self.box.on('click',self.hide);
+        self.innerFrame.on('click',function(e){
+            e.stopPropagation();
+        });
     }
+    jQuery(document).keypress(function(e) { 
+        if (e.keyCode == 27) { self.hide(); }  // esc   (does not work)
+    });
     this.hide = function(){
         if(isMobile.any()){
             jQuery('body>*').show();    
