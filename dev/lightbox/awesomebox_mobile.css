@@ -3,6 +3,8 @@
     left: 0;
     position: fixed;
     top: 0;
+    height:auto;
+    width:auto;
 }
 .swipediv .mobilecontrolbar .close{
     font-size:200%;  
