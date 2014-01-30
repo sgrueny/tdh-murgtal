@@ -1,51 +1,48 @@
-<table name="sponsoren-tab-1" class="sponsoren-tab-1 responsive">	
-	<!--Tabellenkopf mit der Ansicht der Sortierung-->
-	<caption>
+<form class="caption" action="">
+	<div>
 		<h3>Sponsorenliste</h3>
-		<form action="">
-			<div>
-				<label for="alphabetic-list">Die Tabelle alphabetisch sortieren</label>
-				<select id="alphabetic-list">
-					<option value="A">A</a></option>
-					<option value="B">B</a></option>
-					<option value="C">C</a></option>
-					<option value="D">D</a></option>
-					<option value="E">E</a></option>
-					<option value="F">F</a></option>
-					<option value="G">G</a></option>
-					<option value="H">H</a></option>
-					<option value="I">I</a></option>
-					<option value="J">J</a></option>
-					<option value="K">K</a></option>
-					<option value="L">L</a></option>
-					<option value="M">M</a></option>
-					<option value="N">N</a></option>
-					<option value="O">O</a></option>
-					<option value="P">P</a></option>
-					<option value="Q">Q</a></option>
-					<option value="R">R</a></option>
-					<option value="S">S</a></option>
-					<option value="T">T</a></option>
-					<option value="U">U</a></option>
-					<option value="V">V</a></option>
-					<option value="W">W</a></option>
-					<option value="X">X</a></option>
-					<option value="Y">Y</a></option>
-					<option value="Z">Z</a></option>
-				</select>
-				<span> nach </span>
-				<span>
-					<input type="radio" name="alphabet" id="firmenname">
-					<label for="firmenname">Firmenname</label>
-				</span>
-				<span>
-					<input type="radio" name="alphabet" id="formenort">
-					<label for="formenort">Ort</label>
-				</span>
-				<input type="submit" value="sortieren lassen">
-			</div>
-		</form>
-	</caption>
+		<label for="alphabetic-list">Tabelle filtern nach Anfangsbuchstabe</label>
+		<select id="alphabetic-list">
+			<option value="A">A</option>
+			<option value="B">B</option>
+			<option value="C">C</option>
+			<option value="D">D</option>
+			<option value="E">E</option>
+			<option value="F">F</option>
+			<option value="G">G</option>
+			<option value="H">H</option>
+			<option value="I">I</option>
+			<option value="J">J</option>
+			<option value="K">K</option>
+			<option value="L">L</option>
+			<option value="M">M</option>
+			<option value="N">N</option>
+			<option value="O">O</option>
+			<option value="P">P</option>
+			<option value="Q">Q</option>
+			<option value="R">R</option>
+			<option value="S">S</option>
+			<option value="T">T</option>
+			<option value="U">U</option>
+			<option value="V">V</option>
+			<option value="W">W</option>
+			<option value="X">X</option>
+			<option value="Y">Y</option>
+			<option value="Z">Z</option>
+		</select>
+		<span> in </span>
+		<span>
+			<input type="radio" name="alphabet" id="firmenname">
+			<label for="firmenname">Firmenname</label>
+		</span>
+		<span>
+			<input type="radio" name="alphabet" id="formenort">
+			<label for="formenort">Ort</label>
+		</span>
+		<input type="submit" value="filtern">
+	</div>
+</form>
+<table summary="not existing" class="sponsoren-tab-1 responsive">	
 	<thead>
 		<tr>
 			<th>Firmenlogo</th>
