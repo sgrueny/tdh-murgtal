@@ -1,5 +1,8 @@
 <?php
     $pagetitle= "Über uns - Sponsoren";
+    
+    $navigation = "sponsoren";
+    
 	$pageheadline ="Sponsoren";
 	
 	$contentleftincludes = array(

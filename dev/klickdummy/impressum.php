@@ -1,5 +1,8 @@
 <?php
-    $pagetitle= "Impressum";
+        $pagetitle= "Impressum";
+        
+        $navigation = "standard";
+        
         $pageheadline = "Impressum";
         
         $contentleftincludes = array(

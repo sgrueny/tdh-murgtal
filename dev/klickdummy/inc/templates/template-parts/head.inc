@@ -35,7 +35,22 @@
                     <h1 class="ym-hideme" id="maincnt">Der Inhaltsbereich</h1>
 
                     <div class="logo"><a href="index.php"><img src="images/logo-tdh-murgtal.gif" alt="Logo von Terre des Hommes Murgtal/Mittelbaden"><span class="ym-hideme">terre des hommes Murgtal/Mittelbaden</span></a></div>
-                    <?php include "inc/modules/navigation.inc"; ?>
+                    <?php 
+                        switch ($navigation){
+                            case "standard":
+                                include "inc/modules/navigation.inc";
+                                break;
+                            case "meldungen":
+                                include "inc/modules/navigation-meldungen.inc";
+                                break;
+                            case "ueberuns":
+                                include "inc/modules/navigation-ueberuns.inc";
+                                break;
+                            case "sponsoren":
+                                include "inc/modules/navigation-ueberuns-sponsoren.inc";
+                                break;
+                        }
+                    ?>
 
                     <?php if (isset($pageheadline)) {
                             echo '<h2>'.$pageheadline.'</h2>';
