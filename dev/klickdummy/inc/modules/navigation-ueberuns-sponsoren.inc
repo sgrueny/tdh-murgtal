@@ -9,7 +9,7 @@
     </li>
     <li><a href="#">Veranstaltungen</a>
     </li>
-    <li class="has-submenu"><!-- Marker, um bereits an dieser Stelle zu wissen, dass noch ein Submenu kommt, wichtig für JS -->
+    <li class="has-submenu active"><!-- Marker, um bereits an dieser Stelle zu wissen, dass noch ein Submenu kommt, wichtig für JS -->
       <a href="#">Über Uns</a>
       <div class="submenu">
         <ul>
@@ -21,7 +21,7 @@
         </ul>
       </div>
     </li>
-    <li class="has-submenu active">
+    <li class="has-submenu">
       <a href="meldungen.php">Meldungen</a>
       <div class="submenu">
         <ul>
