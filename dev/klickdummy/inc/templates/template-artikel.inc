@@ -1,5 +1,6 @@
 <?php include "inc/templates/template-parts/head.inc"; ?>
 
+<<<<<<< HEAD
 <div class="ym-column">
     <!-- Die Inhaltsspalte -->
     <main class="ym-col1">
@@ -11,6 +12,8 @@
                 echo '<h2>'.$pageheadline.'</h2>';
                 }; 
         ?>
+=======
+>>>>>>> upstream/master
         <?php
             if (isset($artikelincludes)) {
                 foreach($artikelincludes as $artikel) {
@@ -20,6 +23,7 @@
         ?>        
         
     <?php include "inc/templates/template-parts/footer.inc"; ?>       
+<<<<<<< HEAD
     </main>
     <!-- /.ym-col1 -->
     <!-- Die Seitenspalte -->
@@ -34,3 +38,5 @@
     <!-- /.ym-col3 -->
 <!--  .column wird in footer.inc geschlossen -->
 <?php include "inc/templates/template-parts/foot.inc"; ?>
+=======
+>>>>>>> upstream/master
