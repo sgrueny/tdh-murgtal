@@ -1,4 +1,4 @@
-.contentwidget-2col{
+.contentwidget-2col-button{
   background-color: #C9E9F7;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -7,7 +7,7 @@
    margin-bottom: 10px;
 }
 
-.contentwidget-2col h3{
+.contentwidget-2col-button h3{
 	font-size:14px;
 	font-weight: bold;
 	color: #000;
@@ -15,14 +15,14 @@
 	margin-top: 10px;
 }
 
-.contentwidget-2col h4{
+.contentwidget-2col-button h4{
 	font-size:14px;
 	font-weight: bold;
 	color: #000;
 	margin-bottom:5px;
 }
 
-.contentwidget-2col table{
+.contentwidget-2col-button table{
   text-align: left;
   table-layout: auto;
   border-style: none;
@@ -31,8 +31,8 @@
   
 }
 
-.contentwidget-2col th,
-.contentwidget-2col td{
+.contentwidget-2col-button th,
+.contentwidget-2col-button td{
 	height: auto;
 	border:none;
 	padding: 0;
@@ -40,8 +40,8 @@
 
 }
 
-.contentwidget-2col tr:hover th,
-.contentwidget-2col tr:hover td{
+.contentwidget-2col-button tr:hover th,
+.contentwidget-2col-button tr:hover td{
   background:transparent;
  
 }
@@ -51,7 +51,7 @@ padding:0;
 margin:0;
 }
 
-.contentwidget-2col tr:nth-child(2n) {
+.contentwidget-2col-button tr:nth-child(2n) {
     background:transparent;
 }
 

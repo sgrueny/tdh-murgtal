@@ -10,8 +10,8 @@
         'blindtext.inc',
         'blindtext.inc',
         'contentwidget-bg.inc',
-        'contentwidget-2col.inc',
-		'contentwidget-2col-button.inc'
+        'contentwidget-2col.inc'
+		
 	);
 	$contentrightincludes = array(
         'contentwidget3.inc'
