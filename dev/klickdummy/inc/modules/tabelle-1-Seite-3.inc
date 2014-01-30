@@ -3,43 +3,47 @@
 	<caption>
 		<h3>Sponsorenliste</h3>
 		<form action="">
-		  <div>
-			<label for="alphabetic-list">Die Tabelle alphabetisch sortieren</label>
-			<select id="alphabetic-list">
-			  <option value="A">A</a></option>
-			  <option value="B">B</a></option>
-			  <option value="C">C</a></option>
-			  <option value="D">D</a></option>
-			  <option value="E">E</a></option>
-			  <option value="F">F</a></option>
-			  <option value="G">G</a></option>
-			  <option value="H">H</a></option>
-			  <option value="I">I</a></option>
-			  <option value="J">J</a></option>
-			  <option value="K">K</a></option>
-			  <option value="L">L</a></option>
-			  <option value="M">M</a></option>
-			  <option value="N">N</a></option>
-			  <option value="O">O</a></option>
-			  <option value="P">P</a></option>
-			  <option value="Q">Q</a></option>
-			  <option value="R">R</a></option>
-			  <option value="S">S</a></option>
-			  <option value="T">T</a></option>
-			  <option value="U">U</a></option>
-			  <option value="V">V</a></option>
-			  <option value="W">W</a></option>
-			  <option value="X">X</a></option>
-			  <option value="Y">Y</a></option>
-			  <option value="Z">Z</a></option>
-			</select>
-			<span> nach </span>
-			<input type="radio" name="alphabet" id="firmenname">
-			<label for="firmenname">Firmenname</label>
-			<input type="radio" name="alphabet" id="formenort">
-			<label for="formenort">Ort</label>
-			<input type="submit" value="sortieren lassen">
-		  </div>
+			<div>
+				<label for="alphabetic-list">Die Tabelle alphabetisch sortieren</label>
+				<select id="alphabetic-list">
+					<option value="A">A</a></option>
+					<option value="B">B</a></option>
+					<option value="C">C</a></option>
+					<option value="D">D</a></option>
+					<option value="E">E</a></option>
+					<option value="F">F</a></option>
+					<option value="G">G</a></option>
+					<option value="H">H</a></option>
+					<option value="I">I</a></option>
+					<option value="J">J</a></option>
+					<option value="K">K</a></option>
+					<option value="L">L</a></option>
+					<option value="M">M</a></option>
+					<option value="N">N</a></option>
+					<option value="O">O</a></option>
+					<option value="P">P</a></option>
+					<option value="Q">Q</a></option>
+					<option value="R">R</a></option>
+					<option value="S">S</a></option>
+					<option value="T">T</a></option>
+					<option value="U">U</a></option>
+					<option value="V">V</a></option>
+					<option value="W">W</a></option>
+					<option value="X">X</a></option>
+					<option value="Y">Y</a></option>
+					<option value="Z">Z</a></option>
+				</select>
+				<span> nach </span>
+				<span>
+					<input type="radio" name="alphabet" id="firmenname">
+					<label for="firmenname">Firmenname</label>
+				</span>
+				<span>
+					<input type="radio" name="alphabet" id="formenort">
+					<label for="formenort">Ort</label>
+				</span>
+				<input type="submit" value="sortieren lassen">
+			</div>
 		</form>
 	</caption>
 	<thead>
