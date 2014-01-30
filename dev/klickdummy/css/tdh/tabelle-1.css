@@ -6,7 +6,7 @@
 }
 
 /*---Caption-----*/
-.sponsoren-tab-1 caption
+.caption
 {
 	border-top: solid  #B1B3B3 2px;
 	font-variant: normal;
@@ -16,12 +16,12 @@
 	text-align: left;
 }
 
-.sponsoren-tab-1 caption a
+.caption a
 {
 	font-weight: normal;
 }
 
-.sponsoren-tab-1 caption h3
+.caption h3
 {
 	text-align: left;
 	font-size: 100%;
@@ -29,21 +29,21 @@
 	margin-left: 7px;
 }
 
-.sponsoren-tab-1 label
+.caption label
 {
 	margin: 0px 6px;
 }
 
-.sponsoren-tab-1  select
+.caption  select
 {
 	margin: 0px 8px;
 	margin-left: 0px;
 }
-.sponsoren-tab-1 form 
+.caption form 
 {
 	margin: 20px 0;
 }
-.sponsoren-tab-1 input[type="submit"] 
+.caption input[type="submit"] 
 {
 	background-color: #AD1921;
 	color: #fff;
@@ -53,17 +53,17 @@
 	cursor: pointer;
 }
 
-.sponsoren-tab-1 input[type="radio"] 
+.caption input[type="radio"] 
 {
 	margin-left: 15px;
 }
 
-.sponsoren-tab-1 input[type="radio"]+label
+.caption input[type="radio"]+label
 {
 	margin: 0px;
 }
 
-.sponsoren-tab-1 input[type="submit"]:active
+.caption input[type="submit"]:active
 {
 	position: relative;
 	top: 1px;
@@ -213,12 +213,13 @@
 		display: block;
 		width: 100%;
 		border-bottom: 1px solid #333;
-		margin-bottom: 0.5em;
 		padding-bottom: 0.5em;
 	}
 	table.responsive tbody td, table.responsive tbody th {
 		display: table-row;
 		text-align: left;
+		height: 40px;
+		width: auto;
 	}
 	table.responsive tbody td:before, table.responsive tbody th:before {
 		text-align: left;
@@ -244,4 +245,8 @@
 	table.responsive caption span:nth-child(5){
 		display:block;
 	}
+	table.responsive tbody tr:hover th,
+  table.responsive tbody tr:hover td {
+    background: transparent;
+  }
 }
