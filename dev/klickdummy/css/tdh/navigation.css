@@ -4,29 +4,34 @@
 nav.navigation{
 	font-weight: bold;
 	color: #19171B;
-	margin-bottom: 40px;
+	margin-bottom: 90px;
 }
 
 /* Jede ul-Liste sollte keine Marker für die Items haben (bei inline Items irrelevant) */
 nav.navigation ul {
 	list-style-type: none;
+	position: relative;
 }
 
-/* 	Jedes li-Element einer ul-Liste wird horizontal dargestellt, die einzelnen Listeneinträge
-	haben ein Padding von 10px. 															*/
+/* Default-Styles für alle Listeneinträge */
 nav.navigation > ul li {
 	display: inline;
-	padding: 8px;
+	margin: 0 0 15px 5px;
+	padding: 5px 0;
+	border-radius: 4px;
+	border: 2px solid transparent;
 }
 
-/* Listeneinträge sollen nicht umgebrochen werden */
+/* Default-Styles für alle Links */
 nav.navigation > ul li a {
+	padding: 15px;
 	white-space: nowrap;
+	text-decoration: none;
 }
 
-/*	Jedes a-Element eines jeden Listeneintrages soll ohne Unterstreichung im Text dargestellt werden */
-nav.navigation ul li a {
-	text-decoration: none;
+/* 1. Element ganz nach links rücken */
+nav.navigation > ul > li:first-child {
+	margin-left: 0;
 }
 
 /* a-Elemente der ersten Navigationsebene. */
@@ -35,11 +40,43 @@ nav.navigation > ul > li > a {
 	color: #6F6F6F;
 }
 
+/* Spezial-Menu bei Meldungen mit Archiv-Select und Sonderthemen */
+nav.navigation > ul > li > .submenu > ul > li.archive {
+	float: right;
+	margin-top: -48px !important;
+}
+
+nav.navigation > ul > li > .submenu > ul > li.archive:hover {
+	border: 2px solid transparent !important;
+}
+
+nav.navigation > ul > li.has-submenu > .submenu > ul > li.special {
+	background: #ededed;
+}
+
+nav.navigation > ul > li.has-submenu > .submenu > ul > li.special a {
+	color: #AD1921;
+}
+
+nav.navigation > ul > li > .submenu > ul > li.archive option[selected] {
+	background: #AD1921;
+	color: #fff;
+}
+
+
+
+
+
+
+
 /*  Untermenü wird unter der ersten Navigationsebene positioniert, jeweils jedes Untermenü muss
 	an sich der gleichen Position befinden															*/
 nav.navigation .submenu {
 	position: absolute;
 	visibility: hidden;
+	width: 100%;
+	top: 20px;
+	left: 0;
 }
 
 /*  Keine Einrückungen der ul-Liste, welche die zweite Navigationsebene darstellt. Beide Ebenen sollen auf
@@ -57,30 +94,59 @@ nav.navigation .submenu > ul > li > a {
 }
 
 /* Ausgewählter Menüeintrag sowie Feedback bei hover und focus, Selektoren müssen der Spezifität genügen um zuvor gesetzte Eigenschaft zu überschreiben*/
-nav.navigation > ul > li > a.active {
+nav.navigation > ul > li.active,
+nav.navigation > ul > li:hover {
+	border-color: #6F6F6F;
+}
+
+nav.navigation > ul > li.active a,
+nav.navigation > ul > li:hover a {
 	color: #AD1921;
 }
-nav.navigation > ul > li > a:hover {
-	color: #AD1921;
-}
+nav.navigation > ul > li > a:hover,
 nav.navigation > ul > li > a:focus {
 	color: #AD1921;
 }
 
-nav.navigation .submenu > ul > li > a.active {
-    color: #AD1921;
-}
-nav.navigation .submenu > ul > li > a:hover {
-    color: #AD1921;
-}
+nav.navigation .submenu > ul > li > a.active,
+nav.navigation .submenu > ul > li > a:hover,
 nav.navigation .submenu > ul > li > a:focus {
     color: #AD1921;
 }
 
 /* Untermenü sichtbar machen, falls entsprechender Menüeintrag der ersten Navigationsebene gewählt wurde */
-nav.navigation > ul > li > a.active + .submenu {
+nav.navigation > ul > li.has-submenu.active > a + .submenu,
+nav.navigation > ul > li.has-submenu:hover > a + .submenu {
 	visibility: visible;
 }
+
+
+nav.navigation > ul > li.has-submenu > .submenu {
+	padding: 0 10px;
+}
+
+nav.navigation > ul > li.has-submenu > .submenu > ul > li {
+	margin: 0 0 15px 0;
+	line-height: 40px;
+}
+
+nav.navigation > ul > li.has-submenu > .submenu > ul > li > a {
+	padding: 5px;
+	color: #6F6F6F;
+}
+
+nav.navigation > ul > li.has-submenu > .submenu > ul > li.active,
+nav.navigation > ul > li.has-submenu > .submenu > ul > li:hover {
+	border: 2px solid #6F6F6F;
+}
+
+nav.navigation > ul > li.has-submenu > .submenu > ul > li.active > a,
+nav.navigation > ul > li.has-submenu > .submenu > ul > li:hover > a {
+	color: #AD1921;
+}
+
+
+
 
 /* Responsive Design */
 @media screen and (max-width: 1024px) {

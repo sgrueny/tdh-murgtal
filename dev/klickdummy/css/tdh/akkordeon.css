@@ -23,7 +23,7 @@
 	position: relative;
 }
 .akkordeon li.has-subnav > .topic:after {
-	content: '?';
+	content: '►';
 	color: #6F6F6F;
 	position: absolute;
 	top: 0;
@@ -38,7 +38,7 @@
     color: #AD1921;
 }
 .akkordeon li.has-subnav > .topic.active:after {
-    content: "?";
+    content: "▼";
 }
 .akkordeon li.has-subnav > .topic.active {
     color: black;

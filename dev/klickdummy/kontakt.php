@@ -1,6 +1,7 @@
 <?php
     $pagetitle= "Kontakt mit terre des hommes Murgtal/Mittelbaden";
-	//$pageheadline ="Kontakt mit terre des hommes Murgtal/Mittelbaden";
+
+    $navigation = "standard";	
 	
 	$contentleftincludes = array(
         'kontaktformular.inc'

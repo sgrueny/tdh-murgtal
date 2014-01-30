@@ -1,9 +1,12 @@
 <?php
     $pagetitle= "Über uns - Unsere Aktivitäten";
+    
+    $navigation = "ueberuns";
+    
 	$pageheadline ="Unsere Aktivitäten";
 	
 	$contentleftincludes = array(
-        'blindtext.inc',
+        'blindtext3.inc',
         'akkordeon.inc'
 	);
 	$contentrightincludes = array(

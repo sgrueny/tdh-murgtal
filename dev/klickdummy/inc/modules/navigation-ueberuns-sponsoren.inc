@@ -21,7 +21,7 @@
         </ul>
       </div>
     </li>
-    <li class="has-submenu">
+    <li class="has-submenu active">
       <a href="meldungen.php">Meldungen</a>
       <div class="submenu">
         <ul>
@@ -40,7 +40,7 @@
           <li class="archive">
             <select name="meldungen-archiv">
               <option>2014</option>
-              <option>Jahr: 2013</option>
+              <option selected="selected">Jahr: 2013</option>
               <option>2012</option>
               <option>2011</option>
               <option>2010</option>
@@ -56,6 +56,20 @@
             </select>
           </li>
         </ul>
+
+        <!--  <li><a href="#">2012</a></li>
+          <li><a href="#">2011</a></li>
+          <li><a href="#">2010</a></li>
+          <li><a href="#">2009</a></li>
+          <li><a href="#">2008</a></li>
+          <li><a href="#">2007</a></li>
+          <li><a href="#">2006</a></li>
+          <li><a href="#">2005</a></li>
+          <li><a href="#">2004</a></li>
+          <li><a href="#">2003</a></li>
+          <li><a href="#">2002</a></li>
+          <li><a href="#">2001</a></li>
+        -->
       </div>
     </li>
     <li><a href="helfen.php">Helfen</a>

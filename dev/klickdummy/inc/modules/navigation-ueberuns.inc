@@ -13,15 +13,15 @@
       <a href="#">Über Uns</a>
       <div class="submenu">
         <ul>
-          <li><a href="ueberuns-dasteam.php">Das Team</a></li>
+          <li><a class="active" href="ueberuns-dasteam.php">Das Team</a></li>
           <li><a href="#">Mitwirkende und Helfer</a></li>
-          <li><a class="active" href="ueberuns-sponsoren.php">Sponsoren</a></li>
+          <li><a href="ueberuns-sponsoren.php">Sponsoren</a></li>
           <li><a href="#">Über terre de hommes</a></li>
           <li><a href="ueberuns-aktivitaeten.php">Unsere Aktivitäten</a></li>
         </ul>
       </div>
     </li>
-    <li class="has-submenu">
+    <li class="has-submenu active">
       <a href="meldungen.php">Meldungen</a>
       <div class="submenu">
         <ul>
@@ -56,6 +56,20 @@
             </select>
           </li>
         </ul>
+
+        <!--  <li><a href="#">2012</a></li>
+          <li><a href="#">2011</a></li>
+          <li><a href="#">2010</a></li>
+          <li><a href="#">2009</a></li>
+          <li><a href="#">2008</a></li>
+          <li><a href="#">2007</a></li>
+          <li><a href="#">2006</a></li>
+          <li><a href="#">2005</a></li>
+          <li><a href="#">2004</a></li>
+          <li><a href="#">2003</a></li>
+          <li><a href="#">2002</a></li>
+          <li><a href="#">2001</a></li>
+        -->
       </div>
     </li>
     <li><a href="helfen.php">Helfen</a>
