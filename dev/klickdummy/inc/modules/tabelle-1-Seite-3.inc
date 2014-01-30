@@ -52,7 +52,7 @@
 	<tbody>
 		<tr>
 			<td>
-				<div class="tooltip" data-tooltip="http://lorempixel.com/300/200" data-alttext="Ein total toller Alternativtext">
+				<div class="tooltip" data-tooltip="http://beerhold.it/300/200" data-alttext="Ein total toller Alternativtext">
 					<img class="sponsor-img-small" alt="Katze" src="http://beerhold.it/300/200"/>
 				</div>
 			</td>
@@ -71,7 +71,7 @@
 		</tr>
 		<tr>
 			<td>
-				<div class="tooltip" data-tooltip="http://lorempixel.com/300/200" data-alttext="Ein total toller Alternativtext">
+				<div class="tooltip" data-tooltip="http://beerhold.it/302/200" data-alttext="Ein total toller Alternativtext">
 					<img class="sponsor-img-small" alt="Katze" src="http://beerhold.it/302/200"/>
 				</div>
 			</td>
@@ -90,7 +90,7 @@
 		</tr>
 		<tr>
 			<td>
-				<div class="tooltip" data-tooltip="http://lorempixel.com/300/200" data-alttext="Ein total toller Alternativtext">
+				<div class="tooltip" data-tooltip="http://beerhold.it/301/202" data-alttext="Ein total toller Alternativtext">
 					<img class="sponsor-img-small" alt="Katze" src="http://beerhold.it/301/202"/>
 				</div>
 			</td>
@@ -113,7 +113,7 @@
 <div class="pagination">
 	<ul>
 		<li><a href="ueberuns-sponsoren2.php">&laquo;</a></li>
-		<li><a href="ueberuns-sponsoren1.php">1</a></li>
+		<li><a href="ueberuns-sponsoren.php">1</a></li>
 		<li><a href="ueberuns-sponsoren2.php">2</a></li>
 		<li class="active"><a href="#">3</a></li>
 		<li class="disabled"><a href="ueberuns-sponsoren4.php">4</a></li>
