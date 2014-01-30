@@ -1,4 +1,4 @@
-<table name="sponsoren-tab-1" class="sponsoren-tab-1">	
+<table name="sponsoren-tab-1" class="sponsoren-tab-1 responsive">	
 	<!--Tabellenkopf mit der Ansicht der Sortierung-->
 	<caption>
 			<h3>Sponsorenliste</h3>
