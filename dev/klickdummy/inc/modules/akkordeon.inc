@@ -147,5 +147,3 @@
 		</li>
 	</ul>
 </div>
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/akkordeon.js"></script>
