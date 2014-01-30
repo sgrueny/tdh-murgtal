@@ -7,7 +7,7 @@ nav.navigation{
 	margin-bottom: 90px;
 }
 
-/* Jede ul-Liste sollte keine Marker für die Items haben (bei inline Items irrelevant) */
+/* Jede ul-Liste sollte keine Item-Marker für die Items haben (bei inline Items irrelevant) */
 nav.navigation ul {
 	list-style-type: none;
 	position: relative;
@@ -15,9 +15,9 @@ nav.navigation ul {
 
 /* Default-Styles für alle Listeneinträge */
 nav.navigation > ul li {
-	display: inline;
+	display: inline-block;
+    line-height: 20px;
 	margin: 0 0 15px 5px;
-	padding: 5px 0;
 	border-radius: 4px;
 	border: 2px solid transparent;
 }
@@ -42,7 +42,6 @@ nav.navigation > ul > li > a {
 
 /* Spezial-Menu bei Meldungen mit Archiv-Select und Sonderthemen */
 nav.navigation > ul > li > .submenu > ul > li.archive {
-	float: right;
 	margin-top: -48px !important;
 }
 
@@ -64,11 +63,6 @@ nav.navigation > ul > li > .submenu > ul > li.archive option[selected] {
 }
 
 
-
-
-
-
-
 /*  Untermenü wird unter der ersten Navigationsebene positioniert, jeweils jedes Untermenü muss
 	an sich der gleichen Position befinden															*/
 nav.navigation .submenu {
@@ -80,8 +74,8 @@ nav.navigation .submenu {
 }
 
 /*  Keine Einrückungen der ul-Liste, welche die zweite Navigationsebene darstellt. Beide Ebenen sollen auf
-	der linken Seite an gleicher Stelle beginnen		^													*/
-nav.navigation .submenu ul {
+	der linken Seite an gleicher Stelle beginnen															*/
+nav.navigation .submenu > ul {
 	margin-left: 0px;
 	padding-left: 0px;
 	padding-top: 5px; /* Ein wenig Abstand nach oben */
@@ -127,7 +121,7 @@ nav.navigation > ul > li.has-submenu > .submenu {
 
 nav.navigation > ul > li.has-submenu > .submenu > ul > li {
 	margin: 0 0 15px 0;
-	line-height: 40px;
+	line-height: 20px;
 }
 
 nav.navigation > ul > li.has-submenu > .submenu > ul > li > a {
@@ -152,22 +146,28 @@ nav.navigation > ul > li.has-submenu > .submenu > ul > li:hover > a {
 @media screen and (max-width: 1024px) {
 	nav.navigation {
 		max-width: 480px;
-		margin-bottom: 80px;
+		margin-bottom: 200px;
 	}
 	nav.navigation .submenu {
 		max-width: 480px;
-		margin-top: 40px;
+		margin-top: 80px;
 	}
 }
 
 @media screen and (max-width: 480px) {
 	nav.navigation{
 		margin-bottom: 140px;
-}
+    }
 	nav.navigation > ul > li {
 		display: block;
 	}
 	nav.navigation .submenu {
-		margin-top: 200px;
+        position: relative;
+        max-height: 0px;
+        margin: 0px;
 	}
+    nav.navigation > ul > li.has-submenu.active > a + .submenu,
+    nav.navigation > ul > li.has-submenu:hover > a + .submenu{
+        max-height: none;
+    }
 }
