@@ -73,9 +73,6 @@
     height:100%;
     text-decoration:none;
 }
-.awesomebox .scrollright:hover,.awesomebox .scrollleft:hover{
-    background-color:red;
-}
 .awesomebox .scrollbox {
     height:100%;
     overflow:hidden;
