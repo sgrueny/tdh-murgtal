@@ -1,94 +1,123 @@
 /*------Module: Table 1------------------------------------------------*/
-/*---caption-----*/
+.sponsoren-tab-1 th
+{
+	border-bottom: solid  #B1B3B3 2px;
+	padding-bottom: 20px;
+}
+
+/*---Caption-----*/
 .sponsoren-tab-1 caption
 {
-		border-top: solid  #B1B3B3 2px;
-		font-variant: normal;
-		font-weight: bold;
-		padding-top: 20px;
-		padding-bottom: 1px;
+	border-top: solid  #B1B3B3 2px;
+	font-variant: normal;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 1px;
+	text-align: left;
 }
 
-.sponsoren-tab-1 th{
-		border-bottom: solid  #B1B3B3 2px;
-		padding-bottom: 20px;
-}
-
-.sponsoren-tab-1 caption a{
-		font-weight: normal;
-}
-
-.sponsoren-tab-1 caption h3{
-		text-align: left;
-		font-size: 100%;
-		font-weight: inherit;
-		margin-left: 7px;
-}
-
-.sponsoren-tab-1 fieldset
+.sponsoren-tab-1 caption a
 {
-		border: 0px;
+	font-weight: normal;
+}
+
+.sponsoren-tab-1 caption h3
+{
+	text-align: left;
+	font-size: 100%;
+	font-weight: inherit;
+	margin-left: 7px;
 }
 
 .sponsoren-tab-1 label
 {
-		margin: 0px 6px;
-		margin-right: 2px;
+	margin: 0px 6px;
+	margin-right: 2px;
 }
 
 .sponsoren-tab-1  select
 {
-		margin: 0px 8px;
-		margin-left: 0px;
+	margin: 0px 8px;
+	margin-left: 0px;
+}
+.sponsoren-tab-1 form 
+{
+	margin: 20px 0;
+}
+.sponsoren-tab-1 input[type="submit"] 
+{
+	background-color: #AD1921;
+	color: #fff;
+	border: none;
+	padding: 2px 6px;
+	margin-left: 10px;
+	cursor: pointer;
 }
 
 /*---table-----*/
 .sponsoren-tab-1 td
 {
-		height: 69px;
-		border-bottom: solid #B1B3B3 1px;
-		vertical-align: middle;
-		width: 25%;
+	height: 69px;
+	border-bottom: solid #B1B3B3 1px;
+	vertical-align: middle;
+	width: 25%;
 }
 
 .sponsoren-tab-1 td:nth-child(3n+2)
 {
-		width: 50%;
-		font-weight: bold;
+	width: 50%;
+	font-weight: bold;
 }
 
 .sponsoren-tab-1 td div
 {
-		position: relative;
+	position: relative;
 }
 
 
-/*---Sponsorenlogo-----*/
+/*---Sponsorenlogo (ohne js)-----*/
+.sponsor-img
+{
+	cursor: pointer;
+}
+
 .sponsoren-tab-1 .sponsor-img-small:hover+.sponsor-img-big
 {
-		display: block;
-		position: absolute;
-		z-index: 5;
-		overflow: hidden;
-		left: 10px;
-		top: -320px;
-		height: 300px;
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: -320px;
+	height: 300px;
+	z-index: 2;
 }
 
 .sponsoren-tab-1 .sponsor-img-big
 {
-		vertical-align: middle;
-		margin: 5px;
-		padding-bottom: 0;
-		display: none;
+	display: none;
 }
 
 .sponsoren-tab-1 .sponsor-img-small
 {
-		vertical-align: middle;
-		margin: 5px;
-		padding-bottom: 0;
-		height: 60px;
+	vertical-align: middle;
+	margin: 5px;
+	padding-bottom: 0;
+	height: 60px;
+}
+
+/*-------Sponsorenlogo (mit js)----------*/
+.tooltip:hover {
+	cursor: pointer;
+}
+
+.tooltipcnt {
+	position: absolute;
+	left: 10px;
+	top: -320px;
+	height: 300px;
+	z-index: 2;
+	background-color: #f0f0f0;
+	border: 1px solid #999;
+	padding: 10px;
 }
 
 /*----Pagination-----*/
@@ -151,4 +180,41 @@
 	cursor: not-allowed;
 	background-color: #ffffff;
 	border-color: #dddddd;
+}
+/*-------------Responsive-----------------*/
+@media only screen and (max-width: 620px) {
+  table.responsive {
+    border: none;
+  }
+  table.responsive thead {
+    display: none;
+  }
+  table.responsive tr, table.responsive td, table.responsive th {
+    border: none;
+  }
+  table.responsive tr {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #333;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  table.responsive tbody td, table.responsive tbody th {
+    display: table-row;
+    text-align: left;
+  }
+  table.responsive tbody td:before, table.responsive tbody th:before {
+    text-align: left;
+    padding-right: 5px;
+    font-weight: 500;
+  }
+  table.responsive tbody th:before {
+    content: "Firmen: ";
+  }
+  table.responsive tbody td:nth-child(1):before {
+    content: "Firma:";
+  }
+  table.responsive tbody td:nth-child(3):before {
+    content: "Ort: ";
+  }
 }

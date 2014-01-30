@@ -38,3 +38,17 @@ $(document).ready(function() {
 		});
 
 });
+/*modul tabelle-1*/
+$(".tooltip").each(function(){
+  var that = $(this);
+  var thisUrl = that.attr("data-tooltip");
+  var altText = that.attr("data-alttext");
+  
+  that.hover(
+    function(){
+      that.append('<img class="tooltipcnt" src="'+thisUrl+'" alt="'+altText+'">');    
+    }, 
+    function(){
+      that.find(".tooltipcnt").detach();
+    });
+});
