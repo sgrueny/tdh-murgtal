@@ -1,23 +1,23 @@
 
-.zusatzwidget-content-4 li,
-.zusatzwidget-content-4 ul{
+.contentwidget-1col li,
+.contentwidget-1col ul{
   list-style-type:none;
   margin:0;
 }
-.zusatzwidget-content-4 ul{
+.contentwidget-1col ul{
   margin-bottom: 25px;
 }
 
 
-.zusatzwidget-content-4 h3{
+.contentwidget-1col h3{
 	font-size:14px;
 	font-weight: bold;
 	color: #000;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 
-.zusatzwidget-content-4{
+.contentwidget-1col{
   background-color: #C9E9F7;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -25,7 +25,7 @@
    margin-bottom: 10px;
 
 }
-.zusatzwidget-content-4 a {
+.contentwidget-1col a {
 	color: #000;
 	text-decoration:underline;  
 	margin-top: 25px;

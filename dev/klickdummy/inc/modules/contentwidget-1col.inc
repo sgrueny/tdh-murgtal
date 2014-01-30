@@ -1,4 +1,4 @@
-<div class="ym-grid zusatzwidget-content-4">
+<div class="ym-grid contentwidget-1col">
   <div class="ym-gl">
     <h3>Die Macher</h3>
     
