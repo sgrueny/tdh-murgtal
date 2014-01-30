@@ -23,14 +23,14 @@
   overflow: hidden;
   padding-right: 175px; /* column width */
   width: auto;
-        background: #fff url("images/spaltenhintergrund-grau.gif") repeat-y right top;
+  background: #fff url("images/spaltenhintergrund-grau.gif") repeat-y right top;
 }
 
 .ym-col1 {  /* content */
   position: relative;
   float: left;
   width: 100%;
-	padding-right: 20px;
+	padding: 0 20px;
 }
 
 .ym-col3 { /* sidebar */
@@ -41,17 +41,17 @@
 }
 
 footer {
-        overflow: hidden;
-        margin-top: 20px;
-        text-align: right;
+  overflow: hidden;
+  margin-top: 20px;
+  text-align: right;
 }
 
 footer a {
-        margin-left: 80px;
+   margin-left: 80px;
 }
 
 .logo {
-        margin: 50px 0 30px 0;
+  margin: 50px 0 30px 0;
 }
 
 /* Wir haben immer nur zwei Grid-Spalten nebeneinander. So geht das Folgende einfach. */
