@@ -5,7 +5,7 @@ loc = loc[loc.length - 1];
 if (loc.indexOf("#") > -1) {
 	loc = loc.substring(0, loc.indexOf("#"));
 }
-$("a").each(function () {
+$(".navigation>a").each(function () {
 		var href = $(this).attr("href");
 		$(this).removeClass("active");
 		
