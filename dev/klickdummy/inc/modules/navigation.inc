@@ -1,6 +1,6 @@
 <!-- Modul: Navigation -->
 
-<nav role='navigation' class="navigation">
+<nav role="navigation" class="navigation">
 	<!--Liste als Navigation, enthält pro Navigationselement einen Link mit anschliessender Liste
 		des entsprechenden Untermenäs. Das Untermenü enthält eine Liste der entsprechenden Links.
 	-->
