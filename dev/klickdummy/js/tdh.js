@@ -12,18 +12,6 @@ $(document).ready(function() {
 		// Tabellen sortieren
 		$(".tablesorter").tablesorter({sortList: [[0,0]],headers: {1: {sorter:false}}});
 
-		(function() {
-			var $nav_active;
-			$('nav.navigation > ul > li.has-submenu').hover(function() {
-				nav_active = $('nav.navigation > ul > li.active');
-				nav_active.removeClass('active');
-				$(this).addClass('hover');
-			}, function() {
-				$(this).removeClass('hover');
-				nav_active.addClass('active');
-			});
-		})($);
-
 		// Akkordeon
 		$('.akkordeon').on('click', '.akkordeon-inner .topic', function(e) {
 				if ($(this).next('ul').is(':visible')) {
@@ -38,6 +26,7 @@ $(document).ready(function() {
 		});
 
 });
+
 /*modul tabelle-1*/
 $(".tooltip").each(function(){
   var that = $(this);
@@ -53,7 +42,6 @@ $(".tooltip").each(function(){
     });
 });
 
-
 /*modul navigation*/
 /* set currently viewed site as active */
 var loc = $(location).attr("href").split("/");
@@ -61,7 +49,6 @@ loc = loc[loc.length - 1];
 if (loc.indexOf("#") > -1) {
 	loc = loc.substring(0, loc.indexOf("#"));
 }
-
 var link = $(".navigation a[href='"+loc+"']"),
 li = link.parent();
 li.parents('.has-submenu').addClass("active");
