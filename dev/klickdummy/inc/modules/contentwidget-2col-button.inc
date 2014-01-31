@@ -3,8 +3,20 @@
   <div class="ym-g60 ym-gl contentwidget-g50">
     
     <div class="contentwidget-left">
-        <p>Hier finden Sie alle wichtigen Meldungen zu dem verheerenden Erdbeben in Haiti Bitte unterstützen Sie uns weiterhin mit Spenden. Ihre Spende - Stichwort: "Erdbeben Haiti". Alle Spenden reichen wir weiter an die Partnerorganisation tdh Lausanne, die vor Ort Hilfe leistet.</p>
+        <p>Hier finden Sie alle wichtigen Meldungen zu dem verheerenden Erdbeben 
+		in Haiti Bitte unterstützen Sie uns weiterhin mit Spenden. Ihre Spende - Stichwort: 
+		"Erdbeben Haiti". Alle Spenden reichen wir weiter an die Partnerorganisation tdh Lausanne, 
+		die vor Ort Hilfe leistet.</p>
+		
+		<div class="content-cta">
+	<a class=" ym-clearfix" href="#">
+		<img src="images/spenden-icon.gif" alt="" />
+		sicher &amp; schnell
+	<span>Online spenden bei terre des hommes Deutschland</span>
+	</a>
+</div>
    </div>
+   
   </div>
   <div class="ym-g40 ym-gr  contentwidget-g50">
     <div class="contentwidget-right">

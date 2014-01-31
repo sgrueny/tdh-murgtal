@@ -4,7 +4,7 @@
   padding-left: 10px;
   padding-top: 10px;
   font-size:14px;
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .contentwidget-2col h3{
@@ -15,54 +15,51 @@
 	margin-top: 10px;
 }
 
-.contentwidget-2col h4{
+.nolist{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nolist li{
+	margin: 0;
+}
+
+.contentwidget-2col .nolist .bank{
 	font-size:14px;
 	font-weight: bold;
 	color: #000;
 	margin-bottom:5px;
 }
 
-.contentwidget-2col table{
-  text-align: left;
-  table-layout: auto;
-  border-style: none;
-  width: 150px; 
-	border-collapse: collapse;
-  
-}
-
-.contentwidget-2col th,
-.contentwidget-2col td{
-	height: auto;
-	border:none;
-	padding: 0;
+.contentwidget-2col .nolist .bankname{
+	font-size:14px;
 	color: #000;
-
+	margin-bottom:15px;
 }
 
-.contentwidget-2col tr:hover th,
-.contentwidget-2col tr:hover td{
-  background:transparent;
- 
+.contentwidget-2col .nolist span:first-child{
+	display: inline-block;
+	width: 2.51337em;
+	font-weight: bold;
 }
 
 .contentwidget-right {
-padding:0;
-margin:0;
-}
-
-.contentwidget-2col tr:nth-child(2n) {
-    background:transparent;
+	padding:0;
+	margin:0;
 }
 
 @media only screen and (max-width: 720px) {
   .contentwidget-g50{
-    float: none;
-    width: auto;
+	float: none;
+	width: auto;
 	padding: 0;
 	margin:0;
-  
-  }
-  
+}
+
+.contentwidget-2col .contentwidget-right {
+	margin-top: 40px;
+}
+
 }
 

@@ -1,6 +1,16 @@
 /**
 This script requires jquery and jquery mobile
 */
+function viewport(){
+    var e = window;
+    var a = 'inner';
+    if (!('innerWidth' in window)){
+        a = 'client';
+        e = document.documentElement || document.body;
+    }
+    return { width : e[ a+'Width' ] , height : e[ a+'Height' ] }
+}
+
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -16,9 +26,10 @@ var isMobile = {
     },
     Windows: function() {
         return navigator.userAgent.match(/IEMobile/i);
-    },
+    }
+    ,
     any: function() {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()) ;
     }
 };
 
@@ -56,11 +67,19 @@ function awesomebox(selector) {
     self.scrollright = self.box.find('.scrollright');
     self.box.hide();
     this.changeCurrent = function (el){
+        var oldcur = self.currentEl;
         self.currentEl = el;
         self.currentcont.children().remove();
         self.currentcont.append(el.clone().children()[0]);
-        self.list.find('.active').removeClass('active');
-        el.addClass('active');
+        if(!navigator.userAgent.match(/MSIE/i)){
+            self.list.find('.active').removeClass('active');
+            el.addClass('active');
+        }
+        else{
+            if(oldcur)
+                oldcur.css({"opacity":".4"});
+            el.css({"opacity":"1"});
+        }
         if(isMobile.any()){
             var width = document.documentElement.clientWidth;
             var height = document.documentElement.clientHeight;
@@ -138,13 +157,14 @@ function awesomebox(selector) {
         var lis = self.list.find('li');
         var width = 0;
         jQuery.each(lis,function(n,e){
-            width += $(e).outerWidth();
+            //jQuery(e).width(jQuery(e).firstChild().width());
+            width += jQuery(e).outerWidth();
         });
         self.list.width(width)
         self.scrollright.css({'line-height':self.list.height()+"px"});
         self.scrollleft.css({'line-height':self.list.height()+"px"});
         
-
+        
     }
     this.scrollBy = function(vector){
         var newIndex = self.scrollindex +vector;

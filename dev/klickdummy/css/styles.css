@@ -4,7 +4,6 @@
 /* Der Aufbau des Layouts */
 @import url("tdh/layout.css");
 
-/* Vorschlag für die Typographie - aus YAML - -- wird überarbeitet */
 @import url("tdh/typography.css");
 
 @import url("tdh/navigation.css");
@@ -34,6 +33,8 @@
 @import url("tdh/contentwidget-bg.css");
 @import url("tdh/contentwidget-2col.css");
 @import url("tdh/contentwidget-2col-button.css");
+@import url("tdh/cta.css");
+@import url("tdh/cta-black.css");
 
 /*eventheader*/
 @import url("tdh/event.css");
