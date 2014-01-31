@@ -371,15 +371,15 @@ if (loc.indexOf("#") > -1) {
 	loc = loc.substring(0, loc.indexOf("#"));
 }
 
-$(".navigation a").each(function () {
-		var href = $(this).attr("href");
+$(".navigation li").each(function () {
+		var href = $(this).children("a").attr("href");
 		$(this).removeClass("active");
-		
 		if (href == loc) {
 			$(this).addClass("active");
 			
-			if($(this).parent().parent().parent().hasClass("submenu")) {
-				$(this).parent().parent().parent().parent().children("a").addClass("active");
+			if($(this).hasClass("submenu")) {
+				$(this).addClass("active");
+				window.alert("hi");
 			}
 		}
 	}

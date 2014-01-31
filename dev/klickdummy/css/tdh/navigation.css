@@ -4,7 +4,7 @@
 /* Globale Styles ----------------------------------*/
 
 /* Schriftart für den enthaltenen Text und Standardfarbe */
-nav.navigation{
+nav.navigation {
 	font-weight: bold;
 	color: #19171B;
 	margin-bottom: 90px;
@@ -73,10 +73,8 @@ nav.navigation > ul > li > .submenu > ul > li.archive option[selected] {
 	an sich der gleichen Position befinden															*/
 nav.navigation .submenu {
 	position: absolute;
-	visibility: hidden;
-	width: 100%;
-	top: 20px;
-	left: 0;
+	top: -36000px;
+	left: -36000px;
 }
 
 /*  Keine Einrückungen der ul-Liste, welche die zweite Navigationsebene darstellt. Beide Ebenen sollen auf
@@ -113,7 +111,8 @@ nav.navigation .submenu > ul > li > a {
 /* Untermenü sichtbar machen, falls entsprechender Menüeintrag der ersten Navigationsebene gewählt wurde */
 nav.navigation > ul > li.has-submenu.active > a + .submenu,
 nav.navigation > ul > li.has-submenu:hover > a + .submenu {
-	visibility: visible;
+	top: 20px;
+	left: 0px;
 }
 
 /* Visueller Feedback ----------------------------------*/
@@ -170,12 +169,10 @@ nav.navigation .submenu > ul > li:hover > a{
 		display: block;
 	}
 	nav.navigation .submenu {
-        position: relative;
-        max-height: 0px;
         margin: 0px;
 	}
     nav.navigation > ul > li.has-submenu.active > a + .submenu,
     nav.navigation > ul > li.has-submenu:hover > a + .submenu{
-        max-height: none;
+        position: relative;
     }
 }
