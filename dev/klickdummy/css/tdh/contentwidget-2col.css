@@ -21,6 +21,10 @@
 	padding: 0;
 }
 
+.nolist li{
+	margin: 0;
+}
+
 .contentwidget-2col .nolist .bank{
 	font-size:14px;
 	font-weight: bold;
