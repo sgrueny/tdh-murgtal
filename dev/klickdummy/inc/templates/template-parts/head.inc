@@ -29,7 +29,7 @@
 	<div class="ym-wrapper">
         <div class="ym-wbox">
 
-            <div class="ym-column">
+            <div class="ym-column ym-clearfix">
                 <!-- Die Inhaltsspalte -->
                 <main class="ym-col1">
                     <h1 class="ym-hideme" id="maincnt">Der Inhaltsbereich</h1>
