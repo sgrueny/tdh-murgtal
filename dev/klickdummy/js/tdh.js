@@ -25,6 +25,19 @@ $(document).ready(function() {
 		})($);
 
 		// Akkordeon
+		/*global $*/
+		// https://github.com/anvk/a11yAccordeon/blob/master/js/a11yAccordeon.js
+
+		/// This function would create an accordeon based on the markup and provided options
+		// params:
+		//  options which consist of:
+		//    parentSelector - selector for HTML element to which a11y accordeon markup and functionality will be applied
+		//    hiddenAreaSelector - HTML element which will be hidden/shown
+		//    headerSelector - jQuery selector for the header of each a11yAccordeonItem
+		//    visibleAreaClass - Class which will be applied to every uncollapsed accordeon element
+		//    speed - speed of collapsing animation
+		//    hiddenLinkDescription - some string which will be played by AT once user has a keyboard focus on Show/Hide link
+		//
 		var a11yAccordeon = function(options) {
 		  options = options || {};
 
@@ -255,6 +268,7 @@ $(document).ready(function() {
 			var topRow = element.siblings(options.headerSelector);
 			topRow.find(showHeaderLabelSelector).show();
 			topRow.find(hideHeaderLabelSelector).hide();
+			topRow.removeClass('active');
 
 			element.slideUp(speed, hideEffectStyle, function() {
 			  element.removeClass(visibleAreaClass);
@@ -274,8 +288,9 @@ $(document).ready(function() {
 			var topRow = element.siblings(options.headerSelector);
 			topRow.find(showHeaderLabelSelector).hide();
 			topRow.find(hideHeaderLabelSelector).show();
-
+			topRow.addClass('active');
 			element.addClass(visibleAreaClass);
+			
 			element.slideDown(speed, hideEffectStyle, function() {
 			  element.show();
 			});
@@ -345,7 +360,7 @@ $(document).ready(function() {
 		  headerSelector: ".topic",
 		  hiddenAreaSelector: ".level-2"
 		});
-
+		
 });
 /*modul tabelle-1*/
 $(".tooltip").each(function(){

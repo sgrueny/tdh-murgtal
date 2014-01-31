@@ -13,6 +13,10 @@
 .akkordeon header  {
     color: #AD1921;
 }
+.akkordeon li .topic.active {
+    color: black;
+    border-bottom: 0px solid #B1B3B3;
+}
 .akkordeon h3,
 .akkordeon h4
 {
@@ -46,10 +50,6 @@
 	padding: 0.8em 0.3em;
 	border-bottom: 1px solid #B1B3B3;
 	position: relative;
-}
-.akkordeon li.akkordeon-inner > .topic.active {
-    color: black;
-    border-bottom: 0px solid #B1B3B3;
 }
 .akkordeon ul {
     margin:0;
