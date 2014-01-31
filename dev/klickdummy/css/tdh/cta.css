@@ -5,9 +5,9 @@
 	font-size:14px;
 	padding:  0;
     border: 1px solid #b3b3b3;
-    -moz-box-shadow:    4px 3px  #ccc;
-	-webkit-box-shadow: 4px 3px  #ccc;
-	box-shadow:         4px 3px  #ccc;
+    -moz-box-shadow:    4px 3px  rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 4px 3px  rgba(0, 0, 0, 0.1);
+	box-shadow:         4px 3px rgba(0, 0, 0, 0.1);
 	font-weight:bold;
 	
     text-decoration: none;
@@ -37,7 +37,7 @@ color: #6F6F6F;
 
 .ym-col3 .cta{
 	position:absolute;
-	top:60px;
+	top:120px;
 	left:-10px;
 	
 }
@@ -52,4 +52,29 @@ top:0px;
   z-index:1;
   float:left;
 
+}
+.black{
+background-color:#000000;
+
+}
+
+.black a{
+color: #ffffff;
+}
+
+
+.ym-col3 .black{
+	position:absolute;
+	top:60px;
+	left:-10px;
+	
+}
+
+.ym-col3 .black:first-child{
+top:0px;
+}
+
+.cta-button{
+	width:100%;
+	margin-left:10px;
 }
