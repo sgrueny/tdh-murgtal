@@ -11,9 +11,7 @@
         'blindtext.inc',
         'contentwidget-bg.inc',
         'contentwidget-2col.inc',
-		'contentwidget-2col-button.inc',
 		
-		'cta.inc'
 		
 	);
 	$contentrightincludes = array(
