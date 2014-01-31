@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Über uns - Sponsoren";
     
-    $navigation = "sponsoren";
+    $navigation = "standard";
     
 	$pageheadline ="Sponsoren";
 	
@@ -13,7 +13,7 @@
         'contentwidget2.inc'
 	);
 	$sideincludes = array(
-		'leer.inc'
+		'ansprechpartner.inc'
 	);
     $widecontent = array(
     	'tabelle-1-Seite-3.inc'

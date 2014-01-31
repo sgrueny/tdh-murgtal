@@ -3,15 +3,16 @@
 
     $navigation = "standard";	
 	
+	$pageheadline ="Presse";
+	
 	$contentleftincludes = array(
-        'kontaktformular.inc'
+        'blindtext4.inc',
 	);
 	$contentrightincludes = array(
-        'leer.inc'
+        'contentwidget4.inc'
 	);
 	$sideincludes = array(
-		'ansprechpartner.inc',
-		'teammitglieder.inc'
+		'ansprechpartner.inc'
 	);
 
 	include 'inc/templates/template-2-1.inc';

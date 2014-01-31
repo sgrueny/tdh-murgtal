@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Über uns - Unsere Aktivitäten";
     
-    $navigation = "ueberuns";
+    $navigation = "standard";
     
 	$pageheadline ="Unsere Aktivitäten";
 	
@@ -13,7 +13,7 @@
         'contentwidget3.inc'
 	);
 	$sideincludes = array(
-		'leer.inc'
+		'ansprechpartner.inc'
 	);
 
 	include 'inc/templates/template-2-1.inc';

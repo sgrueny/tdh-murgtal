@@ -51,6 +51,7 @@
 	padding: 2px 6px;
 	margin-left: 10px;
 	cursor: pointer;
+	margin: 10px;
 }
 
 .caption input[type="radio"] 
@@ -199,6 +200,13 @@
 	border-color: #dddddd;
 }
 /*-------------Responsive-----------------*/
+@media only screen and (max-width: 755px) {
+	.caption span:nth-child(5),
+	.caption span:nth-child(6){
+		display:block;
+	}
+}
+
 @media only screen and (max-width: 620px) {
 	table.responsive {
 		border: none;
@@ -241,12 +249,13 @@
 		color: black;
 		display: block;
 	}
-	table.responsive caption span:nth-child(4),
-	table.responsive caption span:nth-child(5){
-		display:block;
+	
+	table.responsive tbody tr:nth-child(1){
+		border-top: solid  #B1B3B3 2px;
 	}
+
 	table.responsive tbody tr:hover th,
-  table.responsive tbody tr:hover td {
-    background: transparent;
-  }
+	table.responsive tbody tr:hover td {
+		background: transparent;
+	}
 }

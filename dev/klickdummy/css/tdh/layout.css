@@ -20,7 +20,6 @@
 
 .ym-column {
   display: block;
-  overflow: hidden;
   padding-right: 175px; /* column width */
   width: auto;
   background: #fff url("images/spaltenhintergrund-grau.gif") repeat-y right top;
@@ -38,6 +37,7 @@
   float: left;
   width: 175px; /* column width */
   margin: 0 -175px 0 0;
+	padding-top: 280px;
 }
 
 footer {
@@ -65,11 +65,11 @@ footer a {
 
 @media screen and (max-width: 600px) {
 	.ym-column {padding: 0;background-image: none;}
-	.ym-col1, .ym-col3 {
+	.ym-col1, .ym-col3, .ym-g66, .ym-g33 {
 		float: none;
 		width: auto;
 		padding: 10px;
-		margin: 0 0 10px 03;
+		margin: 0 0 10px 0;
 	}
 	.ym-col3 {
 		background-color: #ededed;

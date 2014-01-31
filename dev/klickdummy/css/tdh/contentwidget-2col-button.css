@@ -22,38 +22,20 @@
 	margin-bottom:5px;
 }
 
-.contentwidget-2col-button table{
-  text-align: left;
-  table-layout: auto;
-  border-style: none;
-  width: 150px; 
-	border-collapse: collapse;
-  
-}
 
-.contentwidget-2col-button th,
-.contentwidget-2col-button td{
-	height: auto;
-	border:none;
-	padding: 0;
+
+.contentwidget-2col-button li{
+	list-style-type:none;
 	color: #000;
 
 }
 
-.contentwidget-2col-button tr:hover th,
-.contentwidget-2col-button tr:hover td{
-  background:transparent;
- 
-}
 
 .contentwidget-right {
 padding:0;
 margin:0;
 }
 
-.contentwidget-2col-button tr:nth-child(2n) {
-    background:transparent;
-}
 
 @media only screen and (max-width: 720px) {
   .contentwidget-g50{

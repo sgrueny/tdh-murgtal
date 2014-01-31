@@ -1,11 +1,11 @@
 ﻿<!-- emmet code: div.akkordeon#akkordeon>ul.level-1>(li.akkordeon-inner>(div.topic+ul.level-2>li>div.description+(article>(header>time+a[href=#])+p>(a[href=#]))+(article>(header>time+a[href=#]))*5))*4 -->
-<div class="akkordeon">	
+<div class="a11yAccordeon akkordeon" id="accordeon2">	
 	<ul class="level-1">
 		<!--Parent #1-->
 		<li class="akkordeon-inner">
-			<div class='topic'><h3>Radbörse</h3></div>
+			<div class="topic"><h3>Radbörse</h3></div>
 			<ul class="level-2">
-				<li><div class='description'>Sie findet jährlich im Frühjahr im Radhaus Kastner in Kuppenheim statt. Als Tauschbörse rund ums Rad ist sie inzwischen ein fester Bestandteil unserer Aktivitäten in Kuppenheim. Sie wird von der Bevölkerung gerne genutzt, um gut gerüstet und sattelfest die ersten warmen Sonnenstrahlen während eines Radausflugs zu genießen.</div>
+				<li><div class="description">Sie findet jährlich im Frühjahr im Radhaus Kastner in Kuppenheim statt. Als Tauschbörse rund ums Rad ist sie inzwischen ein fester Bestandteil unserer Aktivitäten in Kuppenheim. Sie wird von der Bevölkerung gerne genutzt, um gut gerüstet und sattelfest die ersten warmen Sonnenstrahlen während eines Radausflugs zu genießen.</div>
 				<article>
 					<header>
 						<time datetime="2013">2013</time>
@@ -48,9 +48,9 @@
 		</li>
 		<!--Parent #2-->
 		<li class="akkordeon-inner">
-			<div class='topic'><h3>Konzerte</h3></div>
+			<div class="topic"><h3>Konzerte</h3></div>
 			<ul class="level-2">
-				<li><div class='description'>Unentdeckt, unerforscht, unergründlich: Schicksal des provisorischen Substituts zwischen nutzloser Platzhalterei und dem nie formulierten Anspruch auf Beachtung. Ein Schattendasein auf der unbekann...</div>
+				<li><div class="description">Unentdeckt, unerforscht, unergründlich: Schicksal des provisorischen Substituts zwischen nutzloser Platzhalterei und dem nie formulierten Anspruch auf Beachtung. Ein Schattendasein auf der unbekann...</div>
 				<article>
 					<header>
 						<time datetime="2013">2013</time>
@@ -93,9 +93,9 @@
 		</li>
 		<!--Parent #3-->
 		<li class="akkordeon-inner">
-			<div class='topic'><h3>Kinderfest</h3></div>
+			<div class="topic"><h3>Kinderfest</h3></div>
 			<ul class="level-2">
-				<li><div class='description'>Als eines Tages im Internet neben allen Highway-Junkies auch alle Chinesen vernetzt waren, kam Pab Li Shing aus Win Link Shou auf die Idee, dem Chaos ein Ende zu bereiten und für immer steinreich z...</div>
+				<li><div class="description">Als eines Tages im Internet neben allen Highway-Junkies auch alle Chinesen vernetzt waren, kam Pab Li Shing aus Win Link Shou auf die Idee, dem Chaos ein Ende zu bereiten und für immer steinreich z...</div>
 				<article>
 					<header>
 						<time datetime="2013">2013</time>
@@ -138,9 +138,9 @@
 		</li>
 		<!--Parent #4-->
 		<li class="akkordeon-inner">
-			<div class='topic'><h3>Basar</h3></div>
+			<div class="topic"><h3>Basar</h3></div>
 			<ul class="level-2">
-				<li><div class='description'>Schön, dass Sie neugierig reinschauen, obwohl hier ja eigentlich noch gar kein richtiger Text steht, sondern nur der sogenannte Blindtext. Der aber soll Ihnen diesmal mehr Spass machen als das "Eir...</div>
+				<li><div class="description">Schön, dass Sie neugierig reinschauen, obwohl hier ja eigentlich noch gar kein richtiger Text steht, sondern nur der sogenannte Blindtext. Der aber soll Ihnen diesmal mehr Spass machen als das "Eir...</div>
 				<article>
 					<header>
 						<time datetime="2013">2013</time>
