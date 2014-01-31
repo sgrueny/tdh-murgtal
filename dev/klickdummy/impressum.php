@@ -15,7 +15,8 @@
            ''
         );
         $sideincludes = array(
-           'leer.inc'
+           'leer.inc',
+		   'ansprechlink.inc'
         );
 
         include 'inc/templates/template-2-1.inc';
