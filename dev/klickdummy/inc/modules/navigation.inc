@@ -5,7 +5,7 @@
 		des entsprechenden Untermenäs. Das Untermenü enthält eine Liste der entsprechenden Links.
 	-->
   <ul>
-    <li class="active"><a  href="index.php">Start</a>
+    <li class=""><a  href="index.php">Start</a>
     </li>
     <li><a class="" href="veranstaltung.php">Veranstaltungen</a>
     </li>

@@ -62,16 +62,7 @@ if (loc.indexOf("#") > -1) {
 	loc = loc.substring(0, loc.indexOf("#"));
 }
 
-$(".navigation li").each(function () {
-		var href = $(this).children("a").attr("href");
-		$(this).removeClass("active");
-		if (href == loc) {
-			$(this).addClass("active");
-			
-			if($(this).hasClass("submenu")) {
-				$(this).addClass("active");
-				window.alert("hi");
-			}
-		}
-	}
-);
+var link = $(".navigation a[href='"+loc+"']"),
+li = link.parent();
+li.parents('.has-submenu').addClass("active");
+li.addClass("active");
