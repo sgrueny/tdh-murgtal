@@ -361,3 +361,26 @@ $(".tooltip").each(function(){
       that.find(".tooltipcnt").detach();
     });
 });
+
+
+/*modul navigation*/
+/* set currently viewed site as active */
+var loc = $(location).attr("href").split("/");
+loc = loc[loc.length - 1];
+if (loc.indexOf("#") > -1) {
+	loc = loc.substring(0, loc.indexOf("#"));
+}
+
+$(".navigation a").each(function () {
+		var href = $(this).attr("href");
+		$(this).removeClass("active");
+		
+		if (href == loc) {
+			$(this).addClass("active");
+			
+			if($(this).parent().parent().parent().hasClass("submenu")) {
+				$(this).parent().parent().parent().parent().children("a").addClass("active");
+			}
+		}
+	}
+);

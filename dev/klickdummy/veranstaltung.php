@@ -5,7 +5,6 @@
     
     $artikelincludes = array(
         'artikel1.inc',    
-        'artikel2.inc'
     );
     $sideincludes = array(
         'ansprechpartner.inc'
