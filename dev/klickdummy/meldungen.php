@@ -8,7 +8,7 @@
         'artikel2.inc'
     );
     $sideincludes = array(
-        'leer.inc'
+        'ansprechpartner.inc'
     );
     
     include 'inc/templates/template-artikel.inc';

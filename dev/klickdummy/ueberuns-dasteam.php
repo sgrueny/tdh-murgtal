@@ -10,7 +10,7 @@
         'tabelle-2.inc'
 	);
 	$sideincludes = array(
-		'leer.inc'
+		'ansprechpartner.inc'
 	);
 
 	include 'inc/templates/template-1-2.inc';
