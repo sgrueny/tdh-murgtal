@@ -245,14 +245,14 @@
 	table.responsive caption span:nth-child(5){
 		display:block;
 	}
-<<<<<<< HEAD
+	
 	table.responsive tbody tr:nth-child(1){
 		border-top: solid  #B1B3B3 2px;
 	}
-=======
+
 	table.responsive tbody tr:hover th,
-  table.responsive tbody tr:hover td {
-    background: transparent;
-  }
->>>>>>> abeb7e94dbec2f58d97dc78118c4aef4e66745c2
+	table.responsive tbody tr:hover td {
+		background: transparent;
+	}
+
 }
