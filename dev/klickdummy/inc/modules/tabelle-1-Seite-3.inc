@@ -1,4 +1,4 @@
-<form class="caption" action="">
+<form class="caption" action="/">
 		<h3>Sponsorenliste</h3>
 		<label for="alphabetic-list">Tabelle filtern nach Anfangsbuchstabe</label>
 		<select id="alphabetic-list">
@@ -40,7 +40,7 @@
 		</span>
 		<input type="submit" value="filtern">
 </form>
-<table summary="not existing" class="sponsoren-tab-1 responsive">
+<table class="sponsoren-tab-1 responsive">
 	<thead>
 		<tr>
 			<th>Firmenlogo</th>
