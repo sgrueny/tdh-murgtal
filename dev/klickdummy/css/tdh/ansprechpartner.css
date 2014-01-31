@@ -1,38 +1,35 @@
 .ansprechpartner {
 	padding: 10px 5px 10px 5px;
-	margin: 10px 0px;
+	margin: 0 0 10px 0;
 }
 
-.ansprechpartner article {
-	padding: 10px 5px 0 5px;
-}
-
-.ansprechpartner article span {
+.ansprechpartner-head span {
 	color: #000;
-	font-size: 0.8em;
+	font-size: 0.65em;
 	margin: 0 0 0 0;
 	font-weight: bold;
+	display: block;
 }
 
-.ansprechpartner article .ansprechpartner-h2 {
+.ansprechpartner-head {
 	color: #ad1921;
 	font-size: 1.2em;
 	font-weight: bold;
-	margin-top: 0.2em;
+	margin-top: 0.5em;
 }
 
-.ansprechpartner article .ansprechpartner-h3 {
+.ansprechpartner-headline-small {
 	color: #000;
 	font-size: 0.9em;
 	font-weight: bold;
 	margin-bottom: 0.5em;
 }
 
-.ansprechpartner article div span {
+.ansprechpartner-tel {
 	font-weight: normal;
 	font-size: 0.9em;
 }
 
-.flexible {
+.ansprechpartner .flexible {
 	margin-bottom: 0;
 }

@@ -13,7 +13,7 @@
         'contentwidget2.inc'
 	);
 	$sideincludes = array(
-		'leer.inc'
+		'ansprechpartner.inc'
 	);
     $widecontent = array(
     	'tabelle-1-Seite-2.inc'
