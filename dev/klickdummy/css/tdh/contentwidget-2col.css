@@ -22,37 +22,25 @@
 	margin-bottom:5px;
 }
 
-.contentwidget-2col table{
-  text-align: left;
-  table-layout: auto;
-  border-style: none;
-  width: 150px; 
-	border-collapse: collapse;
-  
-}
-
-.contentwidget-2col th,
-.contentwidget-2col td{
-	height: auto;
-	border:none;
-	padding: 0;
+.contentwidget-2col h5{
+	font-size:14px;
 	color: #000;
-
+	margin-bottom:15px;
 }
 
-.contentwidget-2col tr:hover th,
-.contentwidget-2col tr:hover td{
-  background:transparent;
- 
+.contentwidget-2col div span:first-child{
+	display: inline-block;
+	width: 2.51337em;
+	font-weight: bold;
+}
+
+.contentwidget-2col div{
+	margin-top: 5px;
 }
 
 .contentwidget-right {
 padding:0;
 margin:0;
-}
-
-.contentwidget-2col tr:nth-child(2n) {
-    background:transparent;
 }
 
 @media only screen and (max-width: 720px) {
