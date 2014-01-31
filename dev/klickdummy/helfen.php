@@ -17,7 +17,7 @@
         'contentwidget3.inc'
 	);
 	$sideincludes = array(
-		'leer.inc'
+		'ansprechpartner.inc'
 	);
 
 	include 'inc/templates/template-2-1.inc';
