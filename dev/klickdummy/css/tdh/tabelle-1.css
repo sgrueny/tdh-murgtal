@@ -199,6 +199,13 @@
 	border-color: #dddddd;
 }
 /*-------------Responsive-----------------*/
+@media only screen and (max-width: 755px) {
+	.caption span:nth-child(5),
+	.caption span:nth-child(6){
+		display:block;
+	}
+}
+
 @media only screen and (max-width: 620px) {
 	table.responsive {
 		border: none;
@@ -250,5 +257,4 @@
 	table.responsive tbody tr:hover td {
 		background: transparent;
 	}
-
 }
