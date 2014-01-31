@@ -7,6 +7,14 @@
 		in Haiti Bitte unterstützen Sie uns weiterhin mit Spenden. Ihre Spende - Stichwort: 
 		"Erdbeben Haiti". Alle Spenden reichen wir weiter an die Partnerorganisation tdh Lausanne, 
 		die vor Ort Hilfe leistet.</p>
+		
+		<div class="content-cta">
+	<a class=" ym-clearfix" href="#">
+		<img src="images/spenden-icon.gif" alt="" />
+		sicher &amp; schnell
+	<span>Online spenden bei terre des hommes Deutschland</span>
+	</a>
+</div>
    </div>
    
   </div>

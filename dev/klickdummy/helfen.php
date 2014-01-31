@@ -10,7 +10,9 @@
         'blindtext.inc',
         'blindtext.inc',
         'contentwidget-bg.inc',
-        'contentwidget-2col.inc',
+        'contentwidget-2col.inc'
+
+		
 		
 		
 	);
@@ -18,7 +20,10 @@
         'contentwidget3.inc'
 	);
 	$sideincludes = array(
+		'cta.inc',
+		'cta-black.inc',
 		'ansprechpartner.inc'
+		
 	);
 
 	include 'inc/templates/template-2-1.inc';
