@@ -1,3 +1,22 @@
+.akkordeon .akkordeon-inner .topic a{
+	color: #6F6F6F;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	font-size: 1.5em;
+	padding: 0.25em 0.5em;
+  text-decoration: none;
+}
+.akkordeon .akkordeon-inner .topic a:hover,
+.akkordeon .akkordeon-inner .topic a:focus,
+.akkordeon header  {
+    color: #AD1921;
+}
+.akkordeon li .topic.active {
+    color: black;
+    border-bottom: 0px solid #B1B3B3;
+}
 .akkordeon h3,
 .akkordeon h4
 {
@@ -31,28 +50,6 @@
 	padding: 0.8em 0.3em;
 	border-bottom: 1px solid #B1B3B3;
 	position: relative;
-}
-.akkordeon li.akkordeon-inner > .topic:after {
-	content: '►';
-	color: #6F6F6F;
-	position: absolute;
-	top: 0;
-	right: 0;
-	display: block;
-	font-size: 1.5em;
-	padding: 0.25em 0.5em;
-}
-.akkordeon li.akkordeon-inner > .topic:hover:after,
-.akkordeon li.akkordeon-inner > .topic:focus:after,
-.akkordeon header  {
-    color: #AD1921;
-}
-.akkordeon li.akkordeon-inner > .topic.active:after {
-    content: "▼";
-}
-.akkordeon li.akkordeon-inner > .topic.active {
-    color: black;
-    border-bottom: 0px solid #B1B3B3;
 }
 .akkordeon ul {
     margin:0;

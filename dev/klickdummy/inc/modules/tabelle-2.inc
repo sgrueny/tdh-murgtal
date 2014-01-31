@@ -1,6 +1,6 @@
 ﻿	<div class="tabelle-2">
 		<p>
-			Hier finden Sie eine Liste all unserer aktiven Mitarbeiter. </br>Mit der Karte können Sie feststellen, wer von uns wo aktiv und ansprechbar ist.
+			Hier finden Sie eine Liste all unserer aktiven Mitarbeiter. <br>Mit der Karte können Sie feststellen, wer von uns wo aktiv und ansprechbar ist.
 		</p>
 		<table id="tabelle-2" class="tablesorter">
 			<thead>

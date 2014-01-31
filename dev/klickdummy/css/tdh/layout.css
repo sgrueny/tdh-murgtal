@@ -20,7 +20,6 @@
 
 .ym-column {
   display: block;
-  overflow: hidden;
   padding-right: 175px; /* column width */
   width: auto;
   background: #fff url("images/spaltenhintergrund-grau.gif") repeat-y right top;
