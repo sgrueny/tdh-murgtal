@@ -15,27 +15,33 @@
 	margin-top: 10px;
 }
 
-.contentwidget-2col h4{
+.nolist{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nolist li{
+	margin: 0;
+}
+
+.contentwidget-2col .nolist .bank{
 	font-size:14px;
 	font-weight: bold;
 	color: #000;
 	margin-bottom:5px;
 }
 
-.contentwidget-2col h5{
+.contentwidget-2col .nolist .bankname{
 	font-size:14px;
 	color: #000;
 	margin-bottom:15px;
 }
 
-.contentwidget-2col div span:first-child{
+.contentwidget-2col .nolist span:first-child{
 	display: inline-block;
 	width: 2.51337em;
 	font-weight: bold;
-}
-
-.contentwidget-2col div{
-	margin-top: 5px;
 }
 
 .contentwidget-right {
