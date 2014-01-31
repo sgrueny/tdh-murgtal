@@ -1,5 +1,5 @@
 ﻿<!-- emmet code: div.akkordeon#akkordeon>ul.level-1>(li.akkordeon-inner>(div.topic+ul.level-2>li>div.description+(article>(header>time+a[href=#])+p>(a[href=#]))+(article>(header>time+a[href=#]))*5))*4 -->
-<div class="akkordeon">	
+<div class="a11yAccordeon akkordeon" id="accordeon2">	
 	<ul class="level-1">
 		<!--Parent #1-->
 		<li class="akkordeon-inner">
