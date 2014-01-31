@@ -8,7 +8,7 @@
 		"Erdbeben Haiti". Alle Spenden reichen wir weiter an die Partnerorganisation tdh Lausanne, 
 		die vor Ort Hilfe leistet.</p>
 		
-		<div class="content-cta">
+		<div class="cta cta-button">
 	<a class=" ym-clearfix" href="#">
 		<img src="images/spenden-icon.gif" alt="" />
 		sicher &amp; schnell
