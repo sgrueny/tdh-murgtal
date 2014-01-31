@@ -1,0 +1,41 @@
+.ansprechpartner {
+	padding: 10px 5px 10px 5px;
+	margin: 0 0 10px 0;
+}
+
+.ansprechpartner-head span {
+	color: #000;
+	font-size: 0.65em;
+	margin: 0 0 0 0;
+	font-weight: bold;
+	display: block;
+}
+
+.ansprechpartner-head {
+	color: #ad1921;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-top: 0.5em;
+}
+
+.ansprechpartner-headline-small {
+	color: #000;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.ansprechpartner-info {
+	display: block;
+	font-weight: normal;
+	font-size: 0.9em;
+	margin-top: 0.5em;
+}
+
+.ansprechpartner .flexible {
+	margin-bottom: 0;
+}
+
+.ansprechpartner .indent {
+	padding: 0 5px 0 5px;
+}
