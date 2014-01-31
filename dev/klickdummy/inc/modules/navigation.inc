@@ -7,7 +7,7 @@
   <ul>
     <li><a href="index.php">Start</a>
     </li>
-    <li><a href="#">Veranstaltungen</a>
+    <li><a href="veranstaltung.php">Veranstaltungen</a>
     </li>
     <li class="has-submenu"><!-- Marker, um bereits an dieser Stelle zu wissen, dass noch ein Submenu kommt, wichtig für JS -->
       <a href="#">Über Uns</a>
@@ -15,7 +15,7 @@
         <ul>
           <li><a href="ueberuns-dasteam.php">Das Team</a></li>
           <li><a href="#">Mitwirkende und Helfer</a></li>
-          <li><a class="active" href="ueberuns-sponsoren.php">Sponsoren</a></li>
+          <li><a href="ueberuns-sponsoren.php">Sponsoren</a></li>
           <li><a href="#">Über terre de hommes</a></li>
           <li><a href="ueberuns-aktivitaeten.php">Unsere Aktivitäten</a></li>
         </ul>
@@ -65,7 +65,7 @@
     </li>
     <li><a href="helfen.php">Helfen</a>
     </li>
-    <li><a href="#">Presse</a>
+    <li><a href="presse.php">Presse</a>
     </li>
     <li><a href="kontakt.php">Kontakt</a>
     </li>
