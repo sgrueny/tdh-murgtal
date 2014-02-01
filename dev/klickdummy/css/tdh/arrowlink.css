@@ -1,0 +1,49 @@
+.arrowlink{
+	width:100%;
+	background:#FFFFFF;
+}
+.arrowlink a{
+	display:block;
+	background:#FFFFFF;
+	float:left;
+}
+
+
+.arrowlink .nut{
+	width:0px;
+	height:0px;
+	border-left: 3px solid #FFFFFF;
+	border-top: 8px solid #FFFFFF;
+	border-bottom: 8px solid #FFFFFF;
+	border-right: 5px solid #ededed;	
+	float:left;
+}
+.arrowlink .rechtenut{
+	width:0px;
+	height:0px;
+	border-left: 5px solid #ededed;
+	border-top: 8px solid #FFFFFF;
+	border-bottom: 8px solid #FFFFFF;
+	border-right: 3px solid #FFFFFF;	
+	float:left;
+}
+
+
+.arrowlink .feder{
+	width: 0px;
+	height: 0px;
+	border-right: 8px solid #FFFFFF;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	float:left;
+		
+}
+.arrowlink .rechtefeder{
+	width: 0px;
+	height: 0px;
+	border-left: 8px solid #FFFFFF;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	float:left;
+		
+}
