@@ -15,8 +15,8 @@
         'blindtext3.inc'
         );
         $sideincludes = array(
-    		'cta.inc',
     		'cta-black.inc',
+    		'cta.inc',
     		'ansprechpartner.inc'
         );
 
