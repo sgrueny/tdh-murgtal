@@ -1,7 +1,7 @@
 ﻿<?php
     $pagetitle= "Das Team - terre des hommes Murgtal/Mittelbaden";
 	
-	$navigation = "standard";
+	$navigation = "dasteam";
 	
 	$contentleftincludes = array(
         'team-regionen.inc'

@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Kontakt mit terre des hommes Murgtal/Mittelbaden";
 
-    $navigation = "standard";	
+    $navigation = "presse";	
 	
 	$pageheadline ="Presse";
 	

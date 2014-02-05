@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Willkommen bei terre des hommes Murgtal/Mittelbaden";
     
-    $navigation = "standard";
+    $navigation = "helfen";
     
 	$pageheadline ="Helfen Sie mit!";
 	

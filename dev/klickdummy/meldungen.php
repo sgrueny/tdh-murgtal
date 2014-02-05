@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Willkommen bei terre des hommes Murgtal/Mittelbaden";
 
-    $navigation = "standard";
+    $navigation = "meldungen";
     
 	$topcontent = array(
 		'contentwidget-2col-button.inc'

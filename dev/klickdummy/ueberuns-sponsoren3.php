@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Über uns - Sponsoren";
     
-    $navigation = "standard";
+    $navigation = "sponsoren";
     
 	$pageheadline ="Sponsoren";
 	

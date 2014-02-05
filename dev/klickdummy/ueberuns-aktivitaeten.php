@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Über uns - Unsere Aktivitäten";
     
-    $navigation = "standard";
+    $navigation = "aktivitaeten";
     
 	$pageheadline ="Unsere Aktivitäten";
 	
