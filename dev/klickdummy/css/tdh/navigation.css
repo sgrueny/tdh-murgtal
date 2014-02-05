@@ -19,9 +19,7 @@
 /* Default-Styles für alle Listeneinträge */
 .navigation > ul li {
 	display: inline-block;
-    line-height: 20px;
 	margin: 0 0 15px 5px;
-	border-radius: 4px;
 	border: 2px solid transparent;
 }
 
@@ -127,6 +125,13 @@
 .special li.archive:hover {
 	border: 2px solid transparent !important;
 }
+
+/* Sonderfall: Archivnavigation */
+.archive-nav > ul li {margin-bottom: 2px;}
+.archive-nav > ul li a {padding: 4px 0;}
+.archive-nav > ul li.active {border-left: 0;border-right: 0 !important;}
+.archive-nav ul {margin-bottom: 5px;}
+
 /* Responsive Design ----------------------------------*/
 
 @media screen and (max-width: 1024px) {

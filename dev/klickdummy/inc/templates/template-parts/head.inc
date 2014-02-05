@@ -55,6 +55,9 @@
                             case "meldungen":
                                 include "inc/modules/navigation/navigation-meldungen.inc";
                                 break;
+                            case "archiv":
+                                include "inc/modules/navigation/navigation-meldungen-archiv.inc";
+                                break;
                             case "ueberuns":
                                 include "inc/modules/navigation/navigation-ueberuns.inc";
                                 break;
