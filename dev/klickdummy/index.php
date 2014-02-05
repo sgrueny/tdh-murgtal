@@ -15,7 +15,9 @@
         'blindtext3.inc'
         );
         $sideincludes = array(
-                'leer.inc'
+    		'cta.inc',
+    		'cta-black.inc',
+    		'ansprechpartner.inc'
         );
 
     $widecontent = array(

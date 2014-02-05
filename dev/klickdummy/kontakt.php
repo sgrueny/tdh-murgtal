@@ -10,6 +10,8 @@
         'leer.inc'
 	);
 	$sideincludes = array(
+		'cta.inc',
+		'cta-black.inc',
 		'ansprechpartner.inc',
 		'teammitglieder.inc'
 	);

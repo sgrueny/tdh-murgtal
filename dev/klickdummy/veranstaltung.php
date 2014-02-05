@@ -7,7 +7,9 @@
         'artikel1.inc',    
     );
     $sideincludes = array(
-        'ansprechpartner.inc'
+		'cta.inc',
+		'cta-black.inc',
+		'ansprechpartner.inc'
     );
     
     include 'inc/templates/template-artikel.inc';

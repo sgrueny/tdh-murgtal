@@ -10,6 +10,8 @@
         'tabelle-2.inc'
 	);
 	$sideincludes = array(
+		'cta.inc',
+		'cta-black.inc',
 		'ansprechpartner.inc'
 	);
 

@@ -13,6 +13,8 @@
         'contentwidget3.inc'
 	);
 	$sideincludes = array(
+		'cta.inc',
+		'cta-black.inc',
 		'ansprechpartner.inc'
 	);
 
