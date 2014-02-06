@@ -2,3 +2,15 @@
 
 /dev/klickdummy/css/styles.css.orig
 /dev/klickdummy/index.php.orig
+
+/dev/html/
+/node_modules/
+/dev/klickdummy/uebersicht.html
+/Gruntfile.js
+/package.json
+/validation-report.json
+/validation-status.json
+
+/----validation-report.json
+/---validation-status.json
+/validation-report copy.json

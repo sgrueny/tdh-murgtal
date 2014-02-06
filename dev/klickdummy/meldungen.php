@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Willkommen bei terre des hommes Murgtal/Mittelbaden";
 
-    $navigation = "standard";
+    $navigation = "meldungen";
     
 	$topcontent = array(
 		'contentwidget-2col-button.inc'
@@ -12,7 +12,9 @@
         'artikel2.inc'
     );
     $sideincludes = array(
-        'ansprechpartner.inc'
+		'cta.inc',
+		'cta-black.inc',
+		'ansprechpartner.inc'
     );
     
     include 'inc/templates/template-artikel.inc';

@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Willkommen bei terre des hommes Murgtal/Mittelbaden";
     
-    $navigation = "standard";
+    $navigation = "helfen";
     
 	$pageheadline ="Helfen Sie mit!";
 	
@@ -23,7 +23,6 @@
 		'cta.inc',
 		'cta-black.inc',
 		'ansprechpartner.inc'
-		
 	);
 
 	include 'inc/templates/template-2-1.inc';

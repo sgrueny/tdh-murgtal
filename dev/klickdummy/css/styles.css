@@ -34,7 +34,7 @@
 @import url("tdh/contentwidget-2col.css");
 @import url("tdh/contentwidget-2col-button.css");
 @import url("tdh/cta.css");
-@import url("tdh/cta-black.css");
+
 
 /*eventheader*/
 @import url("tdh/event.css");
@@ -45,4 +45,22 @@
 @import url("tdh/sidecontent.css");
 
 /*Impressum*/
-@import url("tdh/impressum.php");
+@import url("tdh/impressum.css");
+
+/* Archiv */
+@import url("tdh/archive.css");
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*arrowlink*/
+@import url("tdh/arrowlink.css");
