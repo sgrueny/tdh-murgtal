@@ -375,5 +375,55 @@ $(document).ready(function() {
 //		var link = $(".navigation a[href='"+loc+"']"),
 //		li = link.parent();
 //		li.parents('.has-submenu').addClass("active");
-//		li.addClass("active");		
+//		li.addClass("active");	
+
+		
+
+		/* article show more */
+		var articles = $(".expandable");
+
+		articles.each(function() {
+			var article = $(this);
+
+			if (article.children("p:hidden").length > 0) {
+				var p = article.children("p:visible").last();
+				var a = $("<a href='#'>Weiterlesen</a>");
+				$(a).click(function(e) {
+					showParagraphs(article);
+					e.preventDefault();
+				});
+				$(a).insertAfter(p);
+			}
+			
+		
+		});
 });
+
+
+function showParagraphs(article) {
+	article.children("a").remove();
+	article.children("p").css("display","block");
+	var p = article.children("p").last();
+	var a = $("<a href='#'>Zusammenklappen</a>");
+	$(a).click(function(e) {
+		hideParagraphs(article);
+		e.preventDefault();
+	});
+	$(a).insertAfter(p);
+}
+
+function hideParagraphs(article) {
+	article.children("a").remove();
+	article.children("p").css("display","none");
+	article.children("p:first-of-type").css("display","block");
+	article.children("p:nth-of-type(2)").css("display","block");
+	var p = article.children("p:visible").last();
+	var a = $("<a href='#'>Weiterlesen</a>");
+	$(a).click(function(e) {
+		showParagraphs(article);
+		e.preventDefault();
+	});
+	$(a).insertAfter(p);
+}
+
+
