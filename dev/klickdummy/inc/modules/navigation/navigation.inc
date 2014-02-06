@@ -3,7 +3,7 @@
 <nav role="navigation" class="navigation">
 	<!--Liste als Navigation, enthält pro Navigationselement einen Link mit anschliessender Liste
 		des entsprechenden Untermenäs. Das Untermenü enthält eine Liste der entsprechenden Links.
-	-->zzzzzz
+	-->
   <ul>
     <li class="active"><a href="index.php">Start</a></li>
     <li><a href="veranstaltung.php">Veranstaltungen</a></li>
