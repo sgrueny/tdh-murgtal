@@ -2,9 +2,9 @@
 <div class="a11yAccordeon akkordeon" id="accordeon2" role="tablist" multiselectable="true">	
 	<ul class="level-1">
 		<!--Parent #1-->
-		<li class="akkordeon-inner" aria-controls="panel1" role="tab">
+		<li class="akkordeon-inner" aria-controls="level-2" role="tab">
 			<div class="topic"><h3>Radbörse</h3></div>
-			<ul class="level-2" aria-labelledby="tab1" role="tabpanel">
+			<ul class="level-2" aria-labelledby="topic" role="akkordeon">
 				<li><div class="description">Sie findet jährlich im Frühjahr im Radhaus Kastner in Kuppenheim statt. Als Tauschbörse rund ums Rad ist sie inzwischen ein fester Bestandteil unserer Aktivitäten in Kuppenheim. Sie wird von der Bevölkerung gerne genutzt, um gut gerüstet und sattelfest die ersten warmen Sonnenstrahlen während eines Radausflugs zu genießen.</div>
 				<article>
 					<header>
@@ -47,9 +47,9 @@
 			</ul>	
 		</li>
 		<!--Parent #2-->
-		<li class="akkordeon-inner" aria-controls="panel2" role="tab">
+		<li class="akkordeon-inner" aria-controls="level-2" role="tab">
 			<div class="topic"><h3>Konzerte</h3></div>
-			<ul class="level-2" aria-labelledby="tab2" role="tabpanel">
+			<ul class="level-2" aria-labelledby="topic" role="akkordeon">
 				<li><div class="description">Unentdeckt, unerforscht, unergründlich: Schicksal des provisorischen Substituts zwischen nutzloser Platzhalterei und dem nie formulierten Anspruch auf Beachtung. Ein Schattendasein auf der unbekann...</div>
 				<article>
 					<header>
@@ -92,9 +92,9 @@
 			</ul>	
 		</li>
 		<!--Parent #3-->
-		<li class="akkordeon-inner" aria-controls="panel3" role="tab">
+		<li class="akkordeon-inner" aria-controls="level-2" role="tab">
 			<div class="topic"><h3>Kinderfest</h3></div>
-			<ul class="level-2" aria-labelledby="tab2" role="tabpanel">
+			<ul class="level-2" aria-labelledby="topic" role="akkordeon">
 				<li><div class="description">Als eines Tages im Internet neben allen Highway-Junkies auch alle Chinesen vernetzt waren, kam Pab Li Shing aus Win Link Shou auf die Idee, dem Chaos ein Ende zu bereiten und für immer steinreich z...</div>
 				<article>
 					<header>
@@ -137,9 +137,9 @@
 			</ul>	
 		</li>
 		<!--Parent #4-->
-		<li class="akkordeon-inner" aria-controls="panel4" role="tab">
+		<li class="akkordeon-inner" aria-controls="level-2" role="tab">
 			<div class="topic"><h3>Basar</h3></div>
-			<ul class="level-2" aria-labelledby="tab4" role="tabpanel">
+			<ul class="level-2" aria-labelledby="topic" role="akkordeon">
 				<li><div class="description">Schön, dass Sie neugierig reinschauen, obwohl hier ja eigentlich noch gar kein richtiger Text steht, sondern nur der sogenannte Blindtext. Der aber soll Ihnen diesmal mehr Spass machen als das "Eir...</div>
 				<article>
 					<header>
