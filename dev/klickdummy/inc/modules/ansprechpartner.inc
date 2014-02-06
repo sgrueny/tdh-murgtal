@@ -3,9 +3,4 @@
 	<h2 class="ansprechpartner-head indent"><span>Ihr Ansprechpartner für</span> Projekt Infos</h2>
 	<h3 class="ansprechpartner-headline-small indent">Wolfgang Deppisch</h3>
 	<span class="ansprechpartner-info indent">Tel. 07222 - 3 29 27</span>
-	<div class="arrowlink">
-
-	<div class="nut"></div><div class="feder"></div><a href="#">Alle Ansprechpartner</a><div class="rechtefeder"></div><div class="rechtenut"></div>
-
-	</div>
 </div>
