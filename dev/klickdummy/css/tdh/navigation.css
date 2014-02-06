@@ -127,6 +127,7 @@
 }
 
 /* Sonderfall: Archivnavigation */
+.archive-nav {margin-bottom: 30px;}
 .archive-nav > ul li {margin-bottom: 2px;}
 .archive-nav > ul li a {padding: 4px 0;}
 .archive-nav > ul li.active {border-left: 0;border-right: 0 !important;}

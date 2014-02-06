@@ -1,7 +1,7 @@
 <div class="navigation archive-nav">
     <ul class="years">    
-      <li class="active"><a href="#">2014</a></li>
-      <li><a href="#">2013</a></li>
+      <li><a href="#">2014</a></li>
+      <li class="active"><a href="#">2013</a></li>
       <li><a href="#">2012</a></li>
       <li><a href="#">2011</a></li>
       <li><a href="#">2010</a></li>
@@ -26,7 +26,7 @@
       <li><a href="#">August</a></li>
       <li><a href="#">September</a></li>
       <li><a href="#">Oktober</a></li>
-      <li><a href="#">November</a></li>
-      <li class="active"><a href="#">Dezember</a></li>
+      <li class="active"><a href="#">November</a></li>
+      <li><a href="#">Dezember</a></li>
     </ul>
 </div>
