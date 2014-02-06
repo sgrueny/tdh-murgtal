@@ -5,13 +5,20 @@
 .contactformular .ym-fbox{
 	margin-bottom:10px;
 }
-.contactformular .ym-fbox-select{
-	margin-bottom:30px;
+
+.contactformular .ym-form select {
+	float: right;
+	display: inline;
+	margin-bottom: 30px;
+	margin-right: 0px;
 }
 
 .contactformular .ym-form textarea {
 	resize:none;
 	font-family:arial;
+	display: inline;
+	float: right;
+	margin-right: 0px;
 }
 .contactformular h3{
 	color:#ad1921;
@@ -32,18 +39,13 @@
 	cursor:pointer;
 }
 
-/*.contactformular  .ym-form input,
-.contactformular .ym-form select {
-    width: 45%;
-}*/
-
 .contactformular  .ym-fbox label{
 	font-weight:bold;
 	padding-right:10px;
 	font-size:14px;
 	min-width:110px;
 }
-.contactformular .ym-fbox label p{
+.contactformular .ym-fbox .ym-label{
 	font-weight:normal;
 	font-size:0.9em;
 }
@@ -51,6 +53,7 @@
 .contactformular .isrequired input{
 	position:relative;
 	top:5px;
+	margin-right: 0px;
 }
 
 .contactformular .margin-select{
@@ -60,4 +63,19 @@
 .contactformular .margin-textarea{
 	margin-top:30px;
 	margin-bottom:0px;
+}
+
+@media screen and (max-width: 800px) {
+	.contactformular .ym-form select {
+		float: none;
+		margin-bottom: 5px;
+	}
+	
+	.contactformular .ym-form textarea {
+		float: none;
+	}
+	
+	.contactformular  .ym-fbox label, .contactformular .ym-fbox .ym-label {
+		width: 100%;
+	}
 }

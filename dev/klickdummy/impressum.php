@@ -15,7 +15,10 @@
            ''
         );
         $sideincludes = array(
-           'leer.inc'
+    		'cta.inc',
+    		'cta-black.inc',
+    		'ansprechpartner.inc',
+			'ansprechlink.inc'
         );
 
         include 'inc/templates/template-2-1.inc';

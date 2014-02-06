@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Kontakt mit terre des hommes Murgtal/Mittelbaden";
 
-    $navigation = "standard";	
+    $navigation = "kontakt";	
 	
 	$contentleftincludes = array(
         'kontaktformular.inc'
@@ -10,6 +10,8 @@
         'leer.inc'
 	);
 	$sideincludes = array(
+		'cta.inc',
+		'cta-black.inc',
 		'ansprechpartner.inc',
 		'teammitglieder.inc'
 	);

@@ -1,14 +1,15 @@
 <?php
     $pagetitle= "Willkommen bei terre des hommes Murgtal/Mittelbaden";
 
-    $navigation = "veranstaltungen";
+    $navigation = "archiv";
     
     $artikelincludes = array(
-        'artikel1.inc',    
+        'archiv-navigation.inc',    
+        'archiv-liste.inc'
     );
     $sideincludes = array(
-		'cta.inc',
 		'cta-black.inc',
+		'cta.inc',
 		'ansprechpartner.inc'
     );
     

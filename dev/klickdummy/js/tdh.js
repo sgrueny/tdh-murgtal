@@ -12,18 +12,6 @@ $(document).ready(function() {
 		// Tabellen sortieren
 		$(".tablesorter").tablesorter({sortList: [[0,0]],headers: {1: {sorter:false}}});
 
-		(function() {
-			var $nav_active;
-			$('nav.navigation > ul > li.has-submenu').hover(function() {
-				nav_active = $('nav.navigation > ul > li.active');
-				nav_active.removeClass('active');
-				$(this).addClass('hover');
-			}, function() {
-				$(this).removeClass('hover');
-				nav_active.addClass('active');
-			});
-		})($);
-
 		// Akkordeon
 		/*global $*/
 		// https://github.com/anvk/a11yAccordeon/blob/master/js/a11yAccordeon.js
@@ -360,42 +348,32 @@ $(document).ready(function() {
 		  headerSelector: ".topic",
 		  hiddenAreaSelector: ".level-2"
 		});
-		
+
+
+		/*modul tabelle-1*/
+		$(".tooltip").each(function(){
+		  var that = $(this);
+		  var thisUrl = that.attr("data-tooltip");
+		  var altText = that.attr("data-alttext");
+
+		  that.hover(
+		    function(){
+		      that.append('<img class="tooltipcnt" src="'+thisUrl+'" alt="'+altText+'">');    
+		    }, 
+		    function(){
+		      that.find(".tooltipcnt").detach();
+		    });
+		});
+
+		/*modul navigation*/
+		/* set currently viewed site as active */
+//		var loc = $(location).attr("href").split("/");
+//		loc = loc[loc.length - 1];
+//		if (loc.indexOf("#") > -1) {
+//			loc = loc.substring(0, loc.indexOf("#"));
+//		}
+//		var link = $(".navigation a[href='"+loc+"']"),
+//		li = link.parent();
+//		li.parents('.has-submenu').addClass("active");
+//		li.addClass("active");		
 });
-/*modul tabelle-1*/
-$(".tooltip").each(function(){
-  var that = $(this);
-  var thisUrl = that.attr("data-tooltip");
-  var altText = that.attr("data-alttext");
-  
-  that.hover(
-    function(){
-      that.append('<img class="tooltipcnt" src="'+thisUrl+'" alt="'+altText+'">');    
-    }, 
-    function(){
-      that.find(".tooltipcnt").detach();
-    });
-});
-
-
-/*modul navigation*/
-/* set currently viewed site as active */
-var loc = $(location).attr("href").split("/");
-loc = loc[loc.length - 1];
-if (loc.indexOf("#") > -1) {
-	loc = loc.substring(0, loc.indexOf("#"));
-}
-
-$(".navigation li").each(function () {
-		var href = $(this).children("a").attr("href");
-		$(this).removeClass("active");
-		if (href == loc) {
-			$(this).addClass("active");
-			
-			if($(this).hasClass("submenu")) {
-				$(this).addClass("active");
-				window.alert("hi");
-			}
-		}
-	}
-);

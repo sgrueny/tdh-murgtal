@@ -1,31 +1,32 @@
 .cta {
   position:relative;
-    display: inline-block;
-    text-align: center;
-	font-size:14px;
-	padding:  0;
-    border: 1px solid #b3b3b3;
-    -moz-box-shadow:    4px 3px  #ccc;
-	-webkit-box-shadow: 4px 3px  #ccc;
-	box-shadow:         4px 3px  #ccc;
+  display: inline-block;
+  text-align: center;
+	padding:  8px 0 8px 10px;
+  border: 1px solid #b3b3b3;
 	font-weight:bold;
-	
-    text-decoration: none;
+  text-decoration: none;
+	background-color:#fff;
+	width:110%;
+}
 
-	 background-color:#ffffff;
-width:110%;
+.cta:hover,
+.cta:focus {
+	background-color: #efefef;
+}
 
-
+.cta.black:hover,
+.cta.black:focus {
+	background-color: #333;
 }
 
 .cta a:hover,
 .cta a:focus {
-
     text-decoration: none;
 }
 
 .cta a{
-color: #6F6F6F;
+	color: #6F6F6F;
 }
 
 .cta span{
@@ -35,21 +36,46 @@ color: #6F6F6F;
 	
 }
 
-.ym-col3 .cta{
-	position:absolute;
-	top:60px;
-	left:-10px;
-	
-}
-
-.ym-col3 .cta:first-child{
-top:0px;
-}
-
 .cta img{
-  position: relative;
+  position: absolute;
   left: -15px;
+	top: 3px;
   z-index:1;
   float:left;
 
+}
+.black{
+	background-color:#000;
+}
+
+.black a{
+	color: #fff;
+}
+
+.black img {
+	top: 1px;
+}
+
+.cta-button{
+	width:100%;
+	margin-left:10px;
+}
+
+.ym-col3 .cta {
+	position:absolute;
+	top:120px;
+	left:-10px;
+}
+
+.ym-col3 .cta.black {
+	top:5px;
+}
+
+@media screen and (max-width: 600px) {
+	.ym-col3 .cta {
+		position: static;
+		margin-left: 3%;
+		margin-bottom: 20px;
+		width: 95%;
+	}
 }
