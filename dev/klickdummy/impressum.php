@@ -11,8 +11,7 @@
            'impressum-datenschutzhinweis.inc'
         );
         $contentrightincludes = array(
-           'impressum-ansprechpartner.inc',
-           ''
+           'impressum-ansprechpartner.inc'
         );
         $sideincludes = array(
     		'cta.inc',

@@ -23,8 +23,8 @@
 }
 
 .sponsors ul li{
-    display: table-cell;
-    width: 20%;
+    display: inline-block;
+    width: 19%;
     margin: 0;
 }
 
@@ -39,7 +39,7 @@
  
    .sponsors ul li{
         display: inline-block;
-        width: 50%;
+        width: 49%;
     }
 
 }

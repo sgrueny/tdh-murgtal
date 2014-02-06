@@ -1,7 +1,7 @@
 <div class="event">
 	<div class="ym-grid">
 	<div class="ym-g50 ym-gl">
-	<table class="cleantable responsive" >
+	<table class="cleantable" >
 		<tr><th>Wann</th><td>26.06.2011, ab 18:30</td></tr>
 		<tr><th>Wo</th><td>Reithalle Rastatt<br>
 							Am Schlossplatz 9<br>

@@ -21,14 +21,16 @@
   <div class="ym-g40 ym-gr  contentwidget-g50">
     <div class="contentwidget-right">
         <ul>
-            <li><strong>Spendenkonto</strong>	120 790</li>
-            <li>Sparkasse Baden-Baden / Gaggenau</li>
-            <li>BLZ 662 500 30</li>
+            <li><strong>Spendenkonto</strong></li>
+			<li>Sparkasse Baden-Baden / Gaggenau</li>
+			<li>IBAN: DE40662500300000120790</li>
+            <li>BIC: SOLADES1BAD</li>
         </ul>
         <ul>
-            <li><strong>Spendenkonto</strong>	102 748 00</li>
+            <li><strong>Spendenkonto</strong></li>
             <li>VoBa Baden-Baden / Rastatt</li>
-            <li>BLZ 662 900 00</li>
+			<li>IBAN: DE64662900000010274800</li>
+            <li>BIC: VBRADE6KXXX</li>
         </ul>
     </div> 
   </div>

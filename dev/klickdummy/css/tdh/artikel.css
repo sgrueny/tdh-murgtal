@@ -1,0 +1,12 @@
+.expandable {
+	margin-bottom: 1.5em;
+}
+
+.expandable p{
+	display: none;
+}
+
+.expandable p:first-of-type, .expandable p:nth-of-type(2){
+	display: block;
+}
+
