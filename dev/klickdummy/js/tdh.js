@@ -9,10 +9,10 @@ var firstAvailCol;if(typeof(matrix[rowIndex])=="undefined"){matrix[rowIndex]=[];
 
 $(document).ready(function() {
 	
-		// Tabellen sortieren
+		// =============== Tabellen sortieren
 		$(".tablesorter").tablesorter({sortList: [[0,0]],headers: {1: {sorter:false}}});
 
-		// Akkordeon
+		// =============== Akkordeon
 		/*global $*/
 		// https://github.com/anvk/a11yAccordeon/blob/master/js/a11yAccordeon.js
 
@@ -76,24 +76,6 @@ $(document).ready(function() {
 
 			var headers = accordeonItems.find(headerSelector);
 			accordeonHideAreas = accordeonItems.find(hiddenAreaSelector);
-
-			// check that our initialization is proper
-			if (!headers.length) {
-			  console.log('a11yAccordeon - no headers were found');
-			  return;
-			} else if (!accordeonItems.length) {
-			  console.log('a11yAccordeon - no accordeonItems were found. There are no rows in accordeon to create it');
-			  return;
-			} else if (!visibleAreaClass) {
-			  console.log('a11yAccordeon - no visibleAreaClass was specified. This class is used to determine what is collapsed and what is not');
-			  return;
-			} else if (!parentDiv.length) {
-			  console.log('a11yAccordeon - no element(s) with parentSelector was found');
-			  return;
-			} else if (!accordeonHideAreas.length) {
-			  console.log('a11yAccordeon - no element(s) with hiddenAreaSelector was found');
-			  return;
-			}
 
 			// store component's DOM element
 			that.el = parentDiv;
