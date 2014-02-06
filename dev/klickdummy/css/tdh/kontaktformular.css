@@ -12,6 +12,9 @@
 .contactformular .ym-form textarea {
 	resize:none;
 	font-family:arial;
+	display: inline;
+	float: right;
+	margin-right: 0px;
 }
 .contactformular h3{
 	color:#ad1921;
@@ -32,18 +35,13 @@
 	cursor:pointer;
 }
 
-/*.contactformular  .ym-form input,
-.contactformular .ym-form select {
-    width: 45%;
-}*/
-
 .contactformular  .ym-fbox label{
 	font-weight:bold;
 	padding-right:10px;
 	font-size:14px;
 	min-width:110px;
 }
-.contactformular .ym-fbox label p{
+.contactformular .ym-fbox .ym-label{
 	font-weight:normal;
 	font-size:0.9em;
 }
