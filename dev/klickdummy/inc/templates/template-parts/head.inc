@@ -12,7 +12,9 @@
 
   	<link rel="icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/styles.css">
-
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+	<script type="text/javascript" src="js/awesomebox.js"></script>
 	<!--[if IE 8]>
     	<script src="js/html5shiv-printshiv.js" type="text/javascript"></script>
 	<![endif]-->

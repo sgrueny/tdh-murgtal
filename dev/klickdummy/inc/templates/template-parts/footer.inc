@@ -32,5 +32,25 @@
     <!-- /.ym-wrapper -->
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/tdh.js" type="text/javascript"></script>  
+<div id="awesomeboxframe" class="awesomebox">
+    <div class="innerframe">
+        <header>
+            <a  class="close" href="#">schließen</a>
+            <h2 class="category">content</h2>
+            <h3 class="title">Dummy</h3>
+        </header>
+        <div class="currentitem"></div>
+        <div class="listcontainer">
+            <a href="#" class="scrollleft">    &#10094; </a>
+            <a href="#" class="scrollright">    &#10095; </a>
+            <div class="scrollbox">            
+                <ul class="itemlist">
+                    <li class="listitem"></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
 </body>
 </html>
