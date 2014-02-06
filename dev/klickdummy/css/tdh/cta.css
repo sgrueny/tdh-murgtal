@@ -2,13 +2,22 @@
   position:relative;
   display: inline-block;
   text-align: center;
-	font-size:14px;
-	padding:  0;
+	padding:  8px 0 8px 10px;
   border: 1px solid #b3b3b3;
 	font-weight:bold;
   text-decoration: none;
 	background-color:#fff;
 	width:110%;
+}
+
+.cta:hover,
+.cta:focus {
+	background-color: #efefef;
+}
+
+.cta.black:hover,
+.cta.black:focus {
+	background-color: #333;
 }
 
 .cta a:hover,
@@ -28,18 +37,23 @@
 }
 
 .cta img{
-  position: relative;
+  position: absolute;
   left: -15px;
+	top: 3px;
   z-index:1;
   float:left;
 
 }
 .black{
-	background-color:#000000;
+	background-color:#000;
 }
 
 .black a{
-	color: #ffffff;
+	color: #fff;
+}
+
+.black img {
+	top: 1px;
 }
 
 .cta-button{
