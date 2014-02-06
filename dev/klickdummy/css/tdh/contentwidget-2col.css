@@ -1,27 +1,41 @@
 .contentwidget-2col{
   background-color: #C9E9F7;
-  font-size: 14px;
-  margin-bottom: 10px;
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size:14px;
+  padding-bottom: 20px;
 }
 
 .contentwidget-2col h3{
+	font-size:14px;
+	font-weight: bold;
+	color: #000;
 	margin-bottom: 25px;
 	margin-top: 10px;
 }
 
-.contentwidget-2col .nolist li{
+.nolist{
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nolist li{
 	margin: 0;
 }
 
 .contentwidget-2col .nolist .bank{
+	font-size:14px;
 	font-weight: bold;
-	margin-bottom: 5px;
+	color: #000;
+	margin-bottom:5px;
 }
 
 .contentwidget-2col .nolist .bankname{
-	margin-bottom: 15px;
+	font-size:14px;
+	color: #000;
+	margin-bottom:15px;
 }
 
 .contentwidget-2col .nolist span:first-child{
@@ -30,15 +44,22 @@
 	font-weight: bold;
 }
 
-@media only screen and (max-width: 900px) {
-    .contentwidget-2col .contentwidget-g50{
-	    float: none;
-	    width: auto;
-	    padding: 0;
-	    margin: 0;
-    }
-
-    .contentwidget-2col .contentwidget-right {
-	    margin-top: 40px;
-    }
+.contentwidget-right {
+	padding:0;
+	margin:0;
 }
+
+@media only screen and (max-width: 720px) {
+  .contentwidget-g50{
+	float: none;
+	width: auto;
+	padding: 0;
+	margin:0;
+}
+
+.contentwidget-2col .contentwidget-right {
+	margin-top: 40px;
+}
+
+}
+
