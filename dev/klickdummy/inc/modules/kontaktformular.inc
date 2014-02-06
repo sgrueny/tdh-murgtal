@@ -5,7 +5,7 @@
 		<div class="ym-fbox margin-select">
 			<label for="request">Was ist Ihr Anliegen?</label>
 			
-			<select name="request" id="request" class = "contact-request">
+			<select name="request" id="request">
 				<option value="op1">Allgemeines</option>
 				<option value="op2">Besonderes</option>
 				<option value="op3">Spezielles</option>
