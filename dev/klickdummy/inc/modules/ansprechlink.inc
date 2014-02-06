@@ -1,5 +1,5 @@
-<div class="arrowlink">
+	<div class="arrowlink">
 
-	<div class="nut"></div><div class="pfeilrechts"></div><a href="#">Alle Ansprechpartner</a><div class="nutrechts"></div><div class="pfeillinks"></div>
+	<div class="nut"></div><div class="feder"></div><a href="#">Alle Ansprechpartner</a><div class="rechtefeder"></div><div class="rechtenut"></div>
 
-</div>
+	</div>

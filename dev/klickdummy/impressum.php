@@ -11,13 +11,13 @@
            'impressum-datenschutzhinweis.inc'
         );
         $contentrightincludes = array(
-           'impressum-ansprechpartner.inc',
-           ''
+           'impressum-ansprechpartner.inc'
         );
         $sideincludes = array(
     		'cta.inc',
     		'cta-black.inc',
-    		'ansprechpartner.inc'
+    		'ansprechpartner.inc',
+			'ansprechlink.inc'
         );
 
         include 'inc/templates/template-2-1.inc';

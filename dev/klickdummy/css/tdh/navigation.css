@@ -137,18 +137,35 @@
 
 @media screen and (max-width: 1024px) {
 	.navigation {
+		max-width: 650px;
+		margin-bottom: 120px;
+	}
+	.navigation .submenu {
+		
+		margin-top: 60px;
+	}
+	.archive-nav {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.navigation {
 		max-width: 480px;
-		margin-bottom: 200px;
+		margin-bottom: 120px;
 	}
 	.navigation .submenu {
 		max-width: 480px;
 		margin-top: 80px;
 	}
+	.archive-nav {
+		margin-bottom: 20px;
+	}
 }
 
 @media screen and (max-width: 480px) {
 	.navigation {
-		margin-bottom: 10px;
+		margin-bottom:20px;
     }
 	.navigation li {
 		display: block;
