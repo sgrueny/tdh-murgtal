@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Über uns - Unsere Aktivitäten";
     
-    $navigation = "standard";
+    $navigation = "aktivitaeten";
     
 	$pageheadline ="Unsere Aktivitäten";
 	
@@ -13,6 +13,8 @@
         'contentwidget3.inc'
 	);
 	$sideincludes = array(
+		'cta.inc',
+		'cta-black.inc',
 		'ansprechpartner.inc'
 	);
 

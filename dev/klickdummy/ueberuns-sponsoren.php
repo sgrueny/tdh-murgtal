@@ -1,7 +1,7 @@
 <?php
     $pagetitle= "Über uns - Sponsoren";
     
-    $navigation = "standard";
+    $navigation = "sponsoren";
     
 	$pageheadline ="Sponsoren";
 	
@@ -13,6 +13,8 @@
         'contentwidget2.inc'
 	);
 	$sideincludes = array(
+		'cta.inc',
+		'cta-black.inc',
 		'ansprechpartner.inc'
 	);
     $widecontent = array(
