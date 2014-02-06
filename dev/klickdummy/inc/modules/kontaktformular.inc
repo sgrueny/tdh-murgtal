@@ -26,6 +26,9 @@
 			<p class="ym-label">Hinterlassen Sie hier auch Ihre Adresse oder Telefonnummer, wenn Sie möchten, dass wir telephonisch oder schriftlich mit Ihnen in Kontakt treten.</p>
 			
 		</div>
+<div class="ym-fbox isrequired">
+Mit * markierte Felder sind Pflichfelder.
+		</div>
 		<div class="ym-fbox-footer">	
 			<button type="submit" class="ym-success" id="submit">Nachricht senden</button>
 		</div>
